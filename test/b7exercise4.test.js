@@ -3,7 +3,7 @@ var assert                      = require('chai').assert,
 
 
 describe("#test1", function(){
-    it ('BankAccount should be a function', function(){
+    it ('Universe should be a function', function(){
         assert.typeOf(Universe,  'function')
     })
 })
