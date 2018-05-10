@@ -1,4 +1,5 @@
 var checkAge = (m, d) =>{
+    //hmmm
 	if(m > 12 || d > 31 || m < 1 || d < 1) return "Error invalid data provided"
     if (new Date(`${m}/${d}/${2018}`).toDateString() == new Date().toDateString())return "happy birhtday!"
     
