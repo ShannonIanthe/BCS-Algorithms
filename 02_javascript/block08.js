@@ -159,8 +159,8 @@ EXERCISE 6
     // for by    :  'amount' and 'name'
 
 
-    //if the page is not g=found it should return the following message: '404 page not found'
-    //if I try adding the same account twice it soulnd return 'Account {ACCOUNT NAME} already present in db'
+    //if the page is not found it should return the following message: '404 page not found'
+    //if I try adding the same account twice it should return 'Account {ACCOUNT NAME} already present in db'
 
 
 
