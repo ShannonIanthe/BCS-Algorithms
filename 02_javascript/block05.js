@@ -19,7 +19,7 @@ EXERCISE 1
     //calc(10,2,'*')
     //20
 
-***Your solution goes after this line***
+
 
 
 
@@ -38,7 +38,7 @@ EXERCISE 2
     //calc (2,"+")  //2
     //calc (3,"-")  //3
 
-***Your solution goes after this line***
+
 
 
 
@@ -50,7 +50,7 @@ EXERCISE 2
 // it will loop through the array  and returns a new array where the elements are NOT of the type of passed
 // and have a length of at list minLength
 
-***Your solution goes after this line***
+
 
 
 
@@ -77,7 +77,7 @@ EXERCISE 4
     //tellAge(4,9,2018)
     //you are 2 days old
 
-***Your solution goes after this line***
+
 
 
 
@@ -105,7 +105,7 @@ EXERCISE 5
     //checkAge(25,2,1982)
     //your birthday is passed for this year
 
-***Your solution goes after this line***
+
 
 
 
@@ -145,7 +145,7 @@ EXERCISE 6
         //80
     //dinamicConverter('convert', ['euro',100], 'hmmm'),
         //"invalid data provided!"
-***Your solution goes after this line***
+
 
 
 EXERCISE 7
@@ -157,7 +157,7 @@ EXERCISE 7
     stringChop('BarcelonaCodeSchool',2); //#=> ["Ba", "rc", "el", "on", "aC", "od", "eS", "ch", "oo", "l"] 
     stringChop('BarcelonaCodeSchool',3); //#=> ["Bar", "cel", "ona", "Cod", "eSc", "hoo", "l"]
 
-***Your solution goes after this line***
+
 
 
 
@@ -177,7 +177,7 @@ strCut('Antonello', 2,8)
 
 
 
-***Your solution goes after this line***
+
 
 
 

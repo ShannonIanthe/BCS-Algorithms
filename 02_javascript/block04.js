@@ -11,7 +11,7 @@ EXERCISE 0
     
     //your function should be take one argument and return true if is not one of the falsy above and false if it is
 
-***Your solution goes after this line***
+
 
 
 
@@ -23,7 +23,7 @@ EXERCISE 1
     // it checks who is older and retuns a sentence saying "{{name}} age {{age}} is older than {{name2}} age {{age2}} "
     // should they be of the same age it should return "they are of the same age".
 
-***Your solution goes after this line***
+
 
 
 
@@ -43,7 +43,7 @@ EXERCISE 2
      //should return 1
 
 
-***Your solution goes after this line***
+
 
 
 
@@ -64,7 +64,7 @@ EXERCISE 3
     // returns 1
 
 
-***Your solution goes after this line***
+
 
 
 
@@ -80,7 +80,7 @@ EXERCISE 4
     var str = 'hello, how are you today? I am not bad and you?'
     //1 comma ,  2 question marks
 
-***Your solution goes after this line***
+
 
 
 
@@ -107,7 +107,7 @@ EXERCISE 5
     // G 
     // there are 4 capitals in this phrase
 
-***Your solution goes after this line***
+
 
 
 
@@ -122,7 +122,7 @@ EXERCISE 6
     // if the argument passed is already a number then it should be ignored, if all arguments are numbers then the function should return instead the following message:
     //no need for conversion
 
-***Your solution goes after this line***
+
 
 
 EXERCISE 7
@@ -138,7 +138,7 @@ EXERCISE 7
     //once done you should return a string as below:
     `{how many booleans goes here} booleans were found {your booleans go here}`
 
-***Your solution goes after this line***
+
 
 
 
@@ -164,7 +164,7 @@ EXERCISE 8
     
     
 
-***Your solution goes after this line***
+
 
 
 
@@ -187,7 +187,7 @@ EXERCISE 9
     //expected output :
     //[10, 44, 55, 66, 77, 54]
 
-***Your solution goes after this line***
+
 
 
 EXERCISE 10: Guess My Number game
@@ -217,7 +217,7 @@ Help
 ----------
 
 
-***Your solution goes after this line***
+
 
 
 

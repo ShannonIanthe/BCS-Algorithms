@@ -18,7 +18,7 @@ EXERCISE 1 matchThemUp
     4) do you enjoy riding a bike ? 
     5) do you like mainstream music the most ? 
 
-***Your solution goes after this line***
+
 
 
 
@@ -48,7 +48,7 @@ EXERCISE 2
     ]
 
 
-***Your solution goes after this line***
+
 
 
 
@@ -64,7 +64,7 @@ EXERCISE 3
     tally([2,3,4,5,5,5,5,5,5,5,6,7,,6,7,6,7,5,4,3,4,5,5,6])
     //{2: 1, 3: 2, 4: 3, 5: 10, 6: 4, 7: 3}
 
-***Your solution goes after this line***
+
 
 
 
@@ -88,7 +88,7 @@ EXERCISE 4
     tally([2,3,4,5,5,5,5,5,5,5,6,7,6,7,6,7,5,4,3,4,5,5,6], 'obj')
     //{2: 1, 3: 2, 4: 3, 5: 10, 6: 4, 7: 3}
 
-***Your solution goes after this line***
+
 
 
 
@@ -119,7 +119,7 @@ EXERCISE 5
     sorter([11111,9,10,12,3,321],'whatever')
     //wrong order provided whatever please provide us with ascending or descending order instructions
  
-***Your solution goes after this line***
+
 
 
 
@@ -166,7 +166,7 @@ EXERCISE 6
 
 
 */
-***Your solution goes after this line***
+
 
 
 challenge

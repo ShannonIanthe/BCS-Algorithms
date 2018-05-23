@@ -49,7 +49,7 @@ EXERCISE 2
 // "You will receive {AMOUNT} usd for your 2 {COINS_NAME}"
 // Please make sure that when adding the new currency the message capitalize the coin name.
 // Please make sure that in the final message
-***Your solution goes after this line***
+
 
 
 
@@ -69,7 +69,7 @@ EXERCISE 4
     account.deposit(1)
     account.balance() // 8 
 
-***Your solution goes after this line***
+
 
 
 
@@ -103,7 +103,6 @@ EXERCISE 5
     Universe.Energy.total() // 10 
         > Notes: Initially make your universe contain 0 matter and energy. Destroying a negative amount of energy of matter is equal to creating a positive amount of each and viceversa for creating matter or energy.
 
-***Your solution goes after this line***
 
 
 
@@ -112,7 +111,8 @@ EXERCISE 5
 
 
 
-***Your solution goes after this line***
+
+
 
 
 
@@ -134,7 +134,7 @@ shuffle(arr)
 (4) ["three", "two", "four", "one"]
 
 
-***Your solution goes after this line***
+
 
 
 

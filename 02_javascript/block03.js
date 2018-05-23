@@ -4,7 +4,7 @@ EXERCISE 1
 // inside the function create a forLoop that prints out the numbers from 1 to 10.
 // them return i
 
-***Your solution goes after this line***
+
 
 
 EXERCISE 2
@@ -13,7 +13,7 @@ EXERCISE 2
 // inside the function create a forLoop that prints out the numbers from 10 to 1.
 // them return i
 
-***Your solution goes after this line***
+
 
 
 
@@ -36,7 +36,7 @@ EXERCISE 3
         return count
     }
 
-***Your solution goes after this line***
+
 
 
 
@@ -51,7 +51,7 @@ EXERCISE 4
     //inside the function declare a variable called count, and increment it by one for each iteration then return count.
 
 
-***Your solution goes after this line***
+
 
 
 
@@ -66,7 +66,7 @@ EXERCISE 5
 
     // you can reffer to the example in EXERCISE 3 for the simpe if statement if you wish.
 
-***Your solution goes after this line***
+
 
 
 
@@ -76,7 +76,7 @@ EXERCISE 6
    //sum([10,10])
    //returns 20
 
-***Your solution goes after this line***
+
 
 
 
@@ -90,7 +90,7 @@ EXERCISE 7
    //sum([10,10])
    //returns 100
 
-***Your solution goes after this line***
+
 
 
 
@@ -105,7 +105,7 @@ EXERCISE 8
 
     // returns  [4, 6, 130, 44]
 
-***Your solution goes after this line***
+
 
 
 
@@ -118,7 +118,7 @@ EXERCISE 9
     //then return count
     
 
-***Your solution goes after this line***
+
 
 
 
@@ -134,7 +134,7 @@ EXERCISE 10
     //false
     //true
 
-***Your solution goes after this line***
+
 
 
 
@@ -152,7 +152,7 @@ EXERCISE 11
     
     // expected output           antonello likes playing games
 
-***Your solution goes after this line***
+
 
 
 
@@ -170,7 +170,7 @@ EXERCISE 12
     //expected output
     //I love deep fried potatoes with mayo and with a nice pint of cold beer
 
-***Your solution goes after this line***
+
 
 
 
@@ -189,7 +189,7 @@ EXERCISE 13
     //Antonello Sanna
     //expected output => Antonello S.
 
-***Your solution goes after this line***
+
 
 
 
@@ -228,7 +228,7 @@ EXERCISE 14
     //expected output
     //you spent an average of 310 per day in you trip to Japan
  
-***Your solution goes after this line***
+
 
 
 

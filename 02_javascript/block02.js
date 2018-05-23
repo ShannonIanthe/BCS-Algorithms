@@ -6,7 +6,7 @@ EXERCISE 1:
     var index = 2; 
     // assigner (arr, 2)  should return ['car']
 
-***Your solution goes after this line***
+
 
 
 
@@ -21,7 +21,7 @@ EXERCISE 2:
     //GOOD: return String(myNewArray)
     var arr = ['milk','cheese','car','lime']
     //example takeAll(arr) returns ["lime", "car", "cheese", "milk"]
-***Your solution goes after this line***
+
 
 
 
@@ -53,7 +53,7 @@ EXERCISE 3:
     //["banana", "apple", "playstation"]
     //["tv", "dvd-player", "orange"]
 
-***Your solution goes after this line***
+
 
 
 
@@ -75,7 +75,7 @@ EXERCISE 4:
     
     //expected output:arr = ['cheese','salame','water','pizza']
 
-***Your solution goes after this line***
+
 
 
 
@@ -94,7 +94,7 @@ EXERCISE 5:
     //===================example===================
     // return String(arr)
 
-***Your solution goes after this line***
+
 
 
 
@@ -111,7 +111,7 @@ EXERCISE 6:
     //===================example===================
     // return String(arr)
 
-***Your solution goes after this line***
+
 
 
 
@@ -131,7 +131,7 @@ EXERCISE 7:
     //===================example===================
     // return String(arr)
 
-***Your solution goes after this line***
+
 
 
 
@@ -150,7 +150,7 @@ EXERCISE 8:
             //Once again please stringify the array before returning it.
     //===================example===================
     // return String(arr)
-***Your solution goes after this line***
+
 
 
 
@@ -166,7 +166,7 @@ EXERCISE 9:
     //Once again please stringify the array before returning it.
     //===================example===================
     // return String(arr)
-***Your solution goes after this line***
+
 
 
 
@@ -179,7 +179,7 @@ EXERCISE 10:
     //create a function calld findPosition which takes two arguments, an arrat and an element and it return the index of the given element.
     var arr = ['glass','car','watch','sofa','macbook']
 
-***Your solution goes after this line***
+
 
 
 
@@ -199,7 +199,7 @@ EXERCISE 11:
     //true
     //false
 
-***Your solution goes after this line***
+
 
 
 
@@ -217,7 +217,7 @@ EXERCISE 12:
     //false
     //true
 
-***Your solution goes after this line***
+
 
 
 
@@ -230,7 +230,7 @@ EXERCISE 13:
     var str = 'I,Really,Like,Pizza'
 
 
-***Your solution goes after this line***
+
 
 
 
@@ -247,7 +247,7 @@ EXERCISE 14
     true
     true
 
-***Your solution goes after this line***
+
 
 
 

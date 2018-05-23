@@ -6,7 +6,7 @@ EXERCISE 1
     }
     //FIX THE ABOVE CODE SO THAT IT DOESN'T THROW AN ERROR!
 
-***Your solution goes after this line***
+
 
 EXERCISE 2
     // write a function called addToObj which takes two arguments.
@@ -18,7 +18,7 @@ EXERCISE 2
     //expected output
     // { name :  bourne }
 
-***Your solution goes after this line***
+
 
 
 
@@ -40,7 +40,7 @@ EXERCISE 3
     //expected output 
     //{a: 1, b: 2, c: 3}  
 
-***Your solution goes after this line***
+
 
 
 
@@ -63,7 +63,7 @@ EXERCISE 4
     //addToList(movies)
     //returns ['{title:matrix, id:0}','{title:the dark knight, id:1}','{title:a beautiful mind, id:2}','{title:american pie, id:3}']
 
-***Your solution goes after this line***
+
 
 
 
@@ -71,7 +71,7 @@ EXERCISE 4
 
 
 EXERCISE 5
-***Your solution goes after this line***
+
 
 
 EXERCISE 6
@@ -83,7 +83,7 @@ EXERCISE 6
     var newObje = swap(obj) 
     newObje // {1: 'a', 2: 'b'} 
 
-***Your solution goes after this line***
+
 
 exercise 6
 
@@ -137,7 +137,7 @@ EXERCISE 8
     newObje // {b: 2} 
     obj // {a: 1, b: 2}
 
-***Your solution goes after this line***
+
 
 
 
@@ -154,7 +154,7 @@ EXERCISE 9
     sumAll({}) // 0 
     sumAll() // 0 
 
-***Your solution goes after this line***
+
 
 
 
@@ -182,7 +182,7 @@ EXERCISE 10
     model("add", {id: 1, age: 32, address: "Muntaner 262, Barcelona"})
     DB // [{id: 1, age: 32}] => Address was not added because not allowed by the schema 
 
-***Your solution goes after this line***
+
 
 
 
@@ -203,7 +203,7 @@ EXERCISE 12
     model("add", {id: 1, name: "Joe", age: "32", address: "Muntaner 262, Barcelona", married: "to Mary"})
     DB // [{id: 1, name: "Joe"}] => married and age not added because of the wrong type (why?)
 
-***Your solution goes after this line***
+
 
 
 
@@ -237,7 +237,7 @@ EXERCISE 12
             {name: "NoBody", married: false},
             {name: "43", married: true, age: 20}] => married and name set to default even wrong type */
 
-***Your solution goes after this line***
+
 
 
 
@@ -262,7 +262,7 @@ EXERCISE 13
     
     bankAccount.balance() // -2
 
-***Your solution goes after this line***
+
 
 
 
@@ -303,7 +303,7 @@ EXERCISE 14
     var newObje = splice(obj, 0, 0)
     // newObje => {}
 
-***Your solution goes after this line***
+
 
 
 
@@ -318,7 +318,7 @@ EXERCISE 15
     obj = {a: 1, b: 20, c: 3, d: 4, e: 1, f: 4}
     sort(obj) // {0: 1, 1: 1, 2: 3, 3: 4, 4: 4, 5: 20}
 
-***Your solution goes after this line***
+
 
 
 
@@ -343,7 +343,7 @@ EXERCISE 15
     Note: should the second or the third argument be missing the function should console.log the folllowing message:"missing argument here!".
 
 
-***Your solution goes after this line***
+
 
 
 

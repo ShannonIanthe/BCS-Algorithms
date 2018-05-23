@@ -1,4 +1,4 @@
-
+// Please write your solution in the corresponding folder/file to make them available for the testing
 
 //IN ORDER TO TEST YOUR SOLUTIONS YOU SHOULD RUN THE FOLLOWING COMAND IN THE TERMINAL
 //npm run test-single -- test/'NAME_OF_THE_TEST_FILE_YOU_ARE_TESTING'
@@ -14,7 +14,7 @@ EXERCISE 1:
     //then create another variable called apple2 and give to it a value of 15.
     //and finally sum the together and return their sum.
 
-***Your solution goes after this line***
+
 
 
 
@@ -30,7 +30,7 @@ EXERCISE 2:
     
     // then console.log c
 
-***Your solution goes after this line***
+
 
 
 
@@ -50,7 +50,7 @@ EXERCISE 3:
     
     //Output the age!
 
-***Your solution goes after this line***
+
 
 
 
@@ -69,7 +69,7 @@ EXERCISE 4:
     
     //Output the result!
 
-***Your solution goes after this line***
+
 
 
 
@@ -110,7 +110,7 @@ EXERCISE 5:
     
     //should console.log false, false, true, true
 
-***Your solution goes after this line***
+
 
 
 
@@ -135,7 +135,7 @@ EXERCISE 6:
     //num7 =>  0 
     
 
-***Your solution goes after this line***
+
 
 
 
@@ -150,7 +150,7 @@ EXERCISE 7:
     //3,  123 , 545 , 34 , 64 , 6634 , 876
 
 
-***Your solution goes after this line***
+
 
 
 
@@ -162,7 +162,7 @@ EXERCISE 8:
     // store the age in a variable called age and then return true if you are old enough to drive a scooter and false if you are not
 
 
-***Your solution goes after this line***
+
 
 
 
@@ -179,7 +179,7 @@ EXERCISE 9:
     
 
 
-***Your solution goes after this line***
+
 
 
 
@@ -194,7 +194,7 @@ EXERCISE 10:
     // you have lived for *'DAYS'* days already!
 
 
-***Your solution goes after this line***
+
 
 
 
@@ -209,7 +209,7 @@ EXERCISE 11:
         //- Now store a fahrenheit temperature into a variable.
         //- Convert it to celsius and output "NN°F is NN°C."
 
-***Your solution goes after this line***
+
 
 
 
