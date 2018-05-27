@@ -1,4 +1,5 @@
-//exercise1
+Exercise1
+
 //write a function called moviesDB which we use to create a movie database.
 //this function should take 3 arguments an array(the actual db), a genre, and an object (the movie)
 // it should check if the genre exists and if it doesn't it should add it on.
@@ -54,7 +55,7 @@ EXERCISE 2
 
 
 
-EXERCISE 4
+EXERCISE 3
 
     // Create a constructor function called bankAccount, which has 3 methods:
     // withdraw which takes away from the accounc balance, 
@@ -76,7 +77,7 @@ EXERCISE 4
 
 
 
-EXERCISE 5
+EXERCISE 4
 
 
     Implement a representation of the universe where matter and energy is conserved. To do so implement one object called Universe that contains two objects within: Matter and Energy. If matter is destroyed; that is say we call Universe.Matter.destroy(5), then the amount of energy in the universe needs to be increased so that if we call Universe.Energy.total() we should obtain a total value of energy that has increased +5 compared to the energy value previous to calling Universe.Matter.destroy(5). Of course the total amount of Matter obtained by calling Universe.Matter.total()has been reduced by 5 compared to the initial value.
@@ -118,7 +119,7 @@ EXERCISE 5
 
 
 
-EXERCISE 7
+EXERCISE 5
 
 Without Googling how to shuffle elements inside an array in javascript  create a function called shuffle and inplement in it your own algorithm to shuffle the elements inside of the given array.
 
