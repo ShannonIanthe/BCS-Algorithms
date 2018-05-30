@@ -143,7 +143,7 @@ EXERCISE 10
 
 
 EXERCISE 11
-    // wrtie a function called lowerCaseLetters which takesa sring as argument.
+    // wrtie a function called lowerCaseLetters which takes a sring as argument.
     //It will contain some upper case letters and some numbers, 
     //then create a new variable which needs to contain all the letters of the original string but all have to be lowercase.
     //once done return the 
