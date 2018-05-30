@@ -158,8 +158,8 @@ EXERCISE 7:
 
 EXERCISE 8:
 
-    //knowing that the minimum age for driving a 50cc scooter is 15 ask yourself how old you are with a prompt
-    // store the age in a variable called age and then return true if you are old enough to drive a scooter and false if you are not
+    //knowing that the minimum age for driving a 50cc scooter is 15 defina a variable called age.
+    //  and then return true if you are old enough to drive a scooter and false if you are not
 
 
 
@@ -170,9 +170,8 @@ EXERCISE 8:
 
 EXERCISE 9:
 
-    //using prompt :
-    //get the name of the user
-    //get the year of birth of the user
+    //define the name of the user
+    //define the year of birth of the user
     //return his name and current age in a sentence like in the example:
     //                                                                 ******EXAMPLE******
     //Hello Jason you are 34 years old
@@ -187,7 +186,7 @@ EXERCISE 9:
 
 EXERCISE 10:
 
-    //get the user year of birth
+    //define the user year of birth
     //assign the current year to a variable.
     //then return the following message, replacing the word *'DAYS'* with the actual value
     
@@ -205,9 +204,9 @@ EXERCISE 11:
     //It's hot out! Let's make a converter based on the steps here:
     http://www.mathsisfun.com/temperature-conversion.html
         //- Store a celsius temperature into a variable.
-        //- Convert it to fahrenheit and output "NN°C is NN°F".
+        //- Convert it to fahrenheit and the result.
         //- Now store a fahrenheit temperature into a variable.
-        //- Convert it to celsius and output "NN°F is NN°C."
+        //- Convert it to celsius and output the result.
 
 
 
