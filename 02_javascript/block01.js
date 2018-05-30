@@ -145,7 +145,7 @@ EXERCISE 6:
 EXERCISE 7:
 
     //tell which number is even
-    //assign each of the below number to a variable, then using the module operator check which of them is even and which is odd, and console.log true if is even and false if is odd
+    //assign each of the below number to a variable, then using the module operator check which of them is even and which is odd, and return true if is even and false if is odd
     
     //3,  123 , 545 , 34 , 64 , 6634 , 876
 
