@@ -72,10 +72,10 @@ EXERCISE 4:
 
 
 
-
-
-
-
+// =============================================================
+    // DO NOT USE THE TESTING PLATFORM FOR THE EXERCISES 5,6,7
+// =============================================================
+// =============================================================
 EXERCISE 5:
 
     //Declare the following variables with the following values:
