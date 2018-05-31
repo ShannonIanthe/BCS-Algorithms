@@ -208,7 +208,7 @@ EXERCISE 11:
 
 EXERCISE 12:
 
-    //now do the same exercise using the method includes only this time you should console.log false if the color is there and true if it's not!
+    //now do the same exercise using the method includes only this time you should return false if the color is there and true if it's not!
     var arr = ['green','red','black','blue','brown','yellow','purple']
     //green, red, pink,
     
