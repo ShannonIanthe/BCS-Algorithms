@@ -9,7 +9,7 @@ EXERCISE 1
 
 EXERCISE 2
 // create a function called firstLoopReverse
-// outisde the function declare a variable called i and give it a value of 11
+// outisde the function declare a variable called i and give it a value of 10
 // inside the function create a forLoop that prints out the numbers from 10 to 1.
 // them return i
 
