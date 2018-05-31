@@ -53,15 +53,15 @@ EXERCISE 2
 EXERCISE 3
 
     //write a function called check_types it takes an array as argument, it loops through it and checks the typeof each element
-    // it needs to find out how many different types there are.
-    //it should at the end return the result.
+    // it needs to find out how many different data types there are.
+    //it should at the end return the number of  data types.
    
     //example
-    //check_types([12,12, 12, [], {}])
-    // returns 2
+    //check_types([12,12, 12, [], [] ])
+    // returns 2 because we have 2 data types (numbers and arrays)
 
-    //check_types([12,45,66,88}])
-    // returns 1
+    //check_types([12,45,66,88])
+    // returns 1 because we have only one data type (number)
 
 
 
