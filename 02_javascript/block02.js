@@ -1,6 +1,6 @@
 EXERCISE 1:
-    //write a funtion called assigner which takes 2 arguments, an array and an index.
-    // it then takes from the array the value at the index passed as argumen and assign it as the only value to an array called arr2.
+    //write a function called assigner which takes 2 arguments, an array and an index.
+    // it then takes from the array the value at the index passed as argument and assign it as the only value to an array called arr2.
     //Then return arr2.
     var arr   = ['milk','cheese','car','lime'];
     var index = 2; 
@@ -14,7 +14,7 @@ EXERCISE 1:
 
 
 EXERCISE 2:
-    //write a function called takeAll which takes an array as argument, it then returns a new array which has all values of he orignal array but in reverse order.
+    //write a function called takeAll which takes an array as argument, it then returns a new array which has all values of the orignal array but in reverse order.
     //Please convert your array to a string before returning it.
     //=========================Example=========================
     //BAD:  return myNewArray
@@ -159,7 +159,7 @@ EXERCISE 8:
 
 EXERCISE 9:
     //create a function called concatenator which takes an array as argument
-    // and then using Array.concat it returns a new array which s a clone of the origiinal array.
+    // and then using Array.concat it returns a new array which is a clone of the origiinal array.
 
     var arr = ['Breaking bad','WestWorld','Psych','Games of Thrones','Gotham','Spartacus','Dexter','Office']
 
@@ -176,7 +176,7 @@ EXERCISE 9:
 
 
 EXERCISE 10:
-    //create a function calld findPosition which takes two arguments, an arrat and an element and it return the index of the given element.
+    //create a function calld findPosition which takes two arguments, an array and an element and it return the index of the given element.
     var arr = ['glass','car','watch','sofa','macbook']
 
 
