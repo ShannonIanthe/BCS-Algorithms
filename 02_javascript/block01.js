@@ -27,8 +27,6 @@ EXERCISE 2:
     //assign 10 to a and 24 to b
     
     //return the total of the multiplication of a and b
-    
-    // then console.log c
 
 
 
