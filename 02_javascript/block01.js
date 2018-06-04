@@ -63,7 +63,6 @@ EXERCISE 4:
     //store your estimated end age in a variable
     //store how many teas you drink per day on average
     //calculate how many you will need until the end!
-    //then console.log the following sentence replacing NUM with the actual number of Tea-bags you are going to need...
     
     //Output the result!
 
@@ -156,8 +155,8 @@ EXERCISE 7:
 
 EXERCISE 8:
 
-    //knowing that the minimum age for driving a 50cc scooter is 15 defina a variable called age.
-    //  and then return true if you are old enough to drive a scooter and false if you are not
+    //knowing that the minimum age for driving a 50cc scooter is 15 define a variable called age
+    // and then return true if you are old enough to drive a scooter and false if you are not
 
 
 
@@ -171,8 +170,8 @@ EXERCISE 9:
     //define the name of the user
     //define the year of birth of the user
     //return his name and current age in a sentence like in the example:
-    //                                                                 ******EXAMPLE******
-    //Hello Jason you are 34 years old
+    // ******EXAMPLE******
+    //Hello Jason, you are 34 years old
     
 
 
@@ -188,7 +187,7 @@ EXERCISE 10:
     //assign the current year to a variable.
     //then return the following message, replacing the word *'DAYS'* with the actual value
     
-    // you have lived for *'DAYS'* days already!
+    // You have lived for *'DAYS'* days already!
 
 
 
@@ -201,10 +200,11 @@ EXERCISE 11:
 
     //It's hot out! Let's make a converter based on the steps here:
     http://www.mathsisfun.com/temperature-conversion.html
-        //- Store a celsius temperature into a variable.
-        //- Convert it to fahrenheit and the result.
-        //- Now store a fahrenheit temperature into a variable.
-        //- Convert it to celsius and output the result.
+
+    // Store a celsius temperature into a variable.
+    // Convert it to fahrenheit and outpu the result.
+    // Now store a fahrenheit temperature into a variable.
+    // Convert it to celsius and output the result.
 
 
 
