@@ -1,6 +1,6 @@
 EXERCISE 1:
     //write a function called assigner which takes 2 arguments, an array and an index.
-    // it then takes from the array the value at the index passed as argument and assign it as the only value to an array called arr2.
+    // it then takes from the array the value of the index passed as argument and assigns it as the only value to an array called arr2.
     //Then return arr2.
     var arr   = ['milk','cheese','car','lime'];
     var index = 2; 
@@ -14,7 +14,7 @@ EXERCISE 1:
 
 
 EXERCISE 2:
-    //write a function called takeAll which takes an array as argument, it then returns a new array which has all values of the orignal array but in reverse order.
+    //write a function called takeAll which takes an array as argument, it then returns a new array which has all values of the original array but in reverse order.
     //Please convert your array to a string before returning it.
     //=========================Example=========================
     //BAD:  return myNewArray
@@ -34,13 +34,13 @@ EXERCISE 3:
     // return both arrays inside another array (as a string) see example below:
     //EXAMPLE
     //========GOOD=========
-    //function swap(arr, arr2,pos){
-       // ...your code gors here
+    //function swap(arr, arr2, pos){
+       // ...your code goes here
         //return String([arr, arr2])
     //}
     //=========BAD=========
         //function swap(arr, arr2,pos){
-       // ...your code gors here
+       // ...your code goes here
         //return arr, arr2
     //}
     var arr  =  ['banana','apple','orange'], 
