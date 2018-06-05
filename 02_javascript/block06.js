@@ -53,9 +53,9 @@ EXERCISE 4
 // Write a function called addToList that takes one argument, an array of movie titles
 // then create a new empty array called movieList.
 // Loop through the array of movie titles and push them inside the movieList array as objects.
-// this object will have two key/value pairs with titles and ids: 
-// id of the element in the array should be the index
-// then title which will be the title of the movie would be the corresponding value in the object.
+// each object will have two key/value pairs with titles and ids: 
+// movie title from the array becomes the value of 'title' key in the object
+// index of the element in the array should be the value for the id key in the object
 // Then return movieList.
 
 var movies = ['matrix','the dark knight','a beautiful mind','american pie']
