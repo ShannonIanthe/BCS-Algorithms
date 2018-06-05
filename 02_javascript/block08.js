@@ -1,22 +1,22 @@
 EXERCISE 1 matchThemUp
 
-    create a function called matchThemUp, this function will take two arguments, 
-    the name of a male and that of a female.
-    it will ask both the below questions and if they have at least 50% of answers in 
-    common it will alert "we have a match" otherwise it will alert "no match found!"
+    // create a function called matchThemUp, this function will take two arguments, 
+    // the name of a male and that of a female.
+    // it will ask both the below questions and if they have at least 50% of answers in 
+    // common it will alert "we have a match" otherwise it will alert "no match found!"
     
-    - all questions must be answered with yes or no.
-    - you should use prompt to ask questions unless you feal like building a UI.
-    - you should end every question with the name of the person you are asking 
-    the question to.
-    example:
-    "do you like going to the movies Mike?"
-    questions:
-    1) do you like pets ? 
-    2) do you like beer ? 
-    3) do you like reading books ?
-    4) do you enjoy riding a bike ? 
-    5) do you like mainstream music the most ? 
+    // - all questions must be answered with yes or no.
+    // - you should use prompt to ask questions unless you feel like building a UI.
+    // - you should end every question with the name of the person you are asking 
+    // the question to.
+    // example:
+    // "do you like going to the movies Mike?"
+    // questions:
+    // 1) do you like pets ? 
+    // 2) do you like beer ? 
+    // 3) do you like reading books ?
+    // 4) do you enjoy riding a bike ? 
+    // 5) do you like mainstream music the most ? 
 
 
 
@@ -31,10 +31,11 @@ EXERCISE 1 matchThemUp
 
 EXERCISE 2
 
-    Write a function called recursive that loops (using recursion) through an array of objects(name : age).
-    it should take each pair and push them to an empty array as nested arrays. 
+    // Write a function called recursive that loops (using recursion) through an array of objects(name : age).
+    // it should take each pair and push them to an empty array as nested arrays. 
 
-    Example
+    // Example:
+
     var arr =[{name:'mike', age:22},{name:'robert', age:12},{name:'roger', age:44},{name:'peter', age:28},{name:'Ralph', age:67}] 
     var arr2 = []
     recursive(...your arguments)
@@ -58,9 +59,11 @@ EXERCISE 2
 
 EXERCISE 3
 
-    Write a function called tally to select all the unique elements of an array and count how many times the element has been repeated.
-    Then you create an object with 2 elements for each number the first is the number and the second is how mnay time it was repeated.
-    Example
+    // Write a function called tally to select all the unique elements of an array and count how many times the element has been repeated.
+    // Then you create an object with 2 elements for each number the first is the number and the second is how many time it was repeated.
+
+    // Example:
+
     tally([2,3,4,5,5,5,5,5,5,5,6,7,,6,7,6,7,5,4,3,4,5,5,6])
     //{2: 1, 3: 2, 4: 3, 5: 10, 6: 4, 7: 3}
 
@@ -73,10 +76,11 @@ EXERCISE 3
 
 EXERCISE 4
 
-    extend tally so that now it can take two arguments, if the second argument is missing it will default to obj, if the second item is anything but arr it will default to obj.
-    if the second argument is arr then instead of returning an object with the number as key and how many times it was in the array as values you should return arrays where the first elements is the number and the second is how many times it was in the array.
+    // extend tally so that now it can take two arguments, if the second argument is missing it will default to obj, if the second item is anything but arr it will default to obj.
+    // if the second argument is arr then instead of returning an object with the number as key and how many times it was in the array as values you should return arrays where the first elements is the number and the second is how many times it was in the array.
     
-    example:
+    // Example:
+
     tally([2,3,4,5,5,5,5,5,5,5,6,7,6,7,6,7,5,4,3,4,5,5,6], 'arr')
     //[2, 1]
     //[3, 2]
@@ -97,19 +101,20 @@ EXERCISE 4
 
 EXERCISE 5
 
-    //write your own sorting function to sort an array of numbers.
-    //this function can take up to 2 arguments
-    //the first is the array that ou wish to sort
-    //the second is the order of sorting
-    //if the second argument is not passed it should default to 'ascending'
-    //if the second argument is passed and is 'descending then it should sort the array in descending order'
-    //if the second argument is passed but is not ascending nor descending it should return an error message alerting the user that he/she passed the wrong data.
+    // write your own sorting function to sort an array of numbers.
+    // this function can take up to 2 arguments
+    // the first is the array that you wish to sort
+    // the second is the order of sorting
+    // if the second argument is not passed it should default to 'ascending'
+    // if the second argument is passed and is 'descending then it should sort the array in descending order'
+    // if the second argument is passed but is not ascending nor descending it should return an error message alerting the user that he/she passed the wrong data.
     
-    //You can't use any built-in methods apart from console.log , alert and document.write
+    // You can't use any built-in methods apart from console.log, alert and document.write
     // try splitting this task into smaller inner functions to avoid repetition and a 
-    //gigantic unreadable if statements.
+    // gigantic unreadable if statements.
     // 
-    //example
+    // Example:
+
     sorter([11111,9,10,12,3,321])
     //(6) [3, 9, 10, 12, 321, 11111]
     sorter([11111,9,10,12,3,321],'ascending')
@@ -165,17 +170,17 @@ EXERCISE 6
 
 
 
-*/
 
 
 
-challenge
 
-    Create a calculator with a graphical interface similar to that shown on the picture 
-    below,(or better...).
-    This calculator needs to work with the basic operations (add, subtract, multiply and divide). Also add a clear button to clear the display on click. For the layout you may consider using the bootstrap grid system
+Challenge
+
+// Create a calculator with a graphical interface similar to that shown on the picture 
+// below,(or better...).
+// This calculator needs to work with the basic operations (add, subtract, multiply and divide). Also add a clear button to clear the display on click. For the layout you may consider using the bootstrap grid system
     
-https://d2mxuefqeaa7sj.cloudfront.net/s_2DBAB7755F46B144CA2C8E6AE35D3FCDF36D0DB9BBEEEBF1654201DF0011FFDB_1509884234526_image.png
+// https://d2mxuefqeaa7sj.cloudfront.net/s_2DBAB7755F46B144CA2C8E6AE35D3FCDF36D0DB9BBEEEBF1654201DF0011FFDB_1509884234526_image.png
 
 ***Your solution goes to UI_Calculator folder***
 
