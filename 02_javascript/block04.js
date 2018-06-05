@@ -1,15 +1,15 @@
 EXERCISE 0
 
 //=======================EXERCISE0======================================//
-//create a function called isTrue
-//Take the following variables and make sure they are NOT:
-//undefined
-//an empty string
-//false
-//null
-//0
+// create a function called isTrue
+// it should check if the data passed into it is NOT:
+// undefined
+// an empty string
+// false
+// null
+// 0
 
-//your function should be take one argument and return true if is not one of the falsy above and false if it is
+// your function should take one argument and return true if it is not one of the falsy above and false if it is
 
 
 
@@ -19,8 +19,8 @@ EXERCISE 0
 
 
 EXERCISE 1
-//write a function called check_who_is_older, it takes 4 arguments (name, age, name2, age2)
-// it checks who is older and retuns a sentence saying "{{name}} age {{age}} is older than {{name2}} age {{age2}} "
+// write a function called check_who_is_older, it takes 4 arguments (name, age, name2, age2)
+// it checks who is older and returns a sentence saying "{{name}} age {{age}} is older than {{name2}} age {{age2}} "
 // should they be of the same age it should return "they are of the same age".
 
 
@@ -32,15 +32,15 @@ EXERCISE 1
 
 EXERCISE 2
 
-//write a function  called is_an_even_number that takes an array as argument, 
-//it loops through it and check if the elements are numbers (or a string that can be converted to a number) 
-//and if they are even.
-// you should also keep track of the even numbers by increasing the value of a variable called couunt, which you should return at the end of the function.
-//array 
+// write a function  called is_an_even_number that takes an array as argument, 
+// it loops through it and checks if the elements are numbers (or a string that can be converted to a number) 
+// and if they are even.
+// you should also keep track of the even numbers by increasing the value of a variable called count, which you should return at the end of the function.
+// array 
 var arr = [1,5,9,33,65,122,66,['banana']]
-//should return 2
+// should return 2
 var arr = ["100", 33, "Hello"]
- //should return 1
+// should return 1
 
 
 
@@ -52,15 +52,15 @@ var arr = ["100", 33, "Hello"]
 
 EXERCISE 3
 
-//write a function called check_types it takes an array as argument, it loops through it and checks the typeof each element
+// write a function called check_types it takes an array as argument, it loops through it and checks the typeof each element
 // it needs to find out how many different data types there are.
-//it should at the end return the number of  data types.
+// it should at the end return the number of data types.
 
-//example
-//check_types([12,12, 12, [], [] ])
+// example
+// check_types([12,12, 12, [], [] ])
 // returns 2 because we have 2 data types (numbers and arrays)
 
-//check_types([12,45,66,88])
+// check_types([12,45,66,88])
 // returns 1 because we have only one data type (number)
 
 
@@ -73,12 +73,12 @@ EXERCISE 3
 
 EXERCISE 4
 
-// Create a function called checker that loops that goes through a string and checks how many occurrencies of commas and question marks there are in it.
-// it then returns a string with the numbers of commas and questionmarks
-// please make sure to use the appropriate form, so if for instance there are more than one commas /question marks you should use there is while if there is only one you should use there are.
-//example :
+// Create a function called checker that loops through a string and checks how many occurrences of commas and question marks there are in it.
+// it then returns a string with the numbers of commas and question marks
+// please make sure to use the appropriate form, so if for instance there are more than one commas / question marks you should use 'there is' while if there is only one you should use 'there are'.
+// example :
 var str = 'hello, how are you today? I am not bad and you?'
-//1 comma ,  2 question marks
+// 1 comma, 2 question marks
 
 
 
@@ -95,8 +95,8 @@ var str = 'hello, how are you today? I am not bad and you?'
 
 
 EXERCISE 5
-//write a function called howManyCaps which counts the capitals in the word, 
-//it then returns a sentence saying how which letters are capital and how many capitals there are in total.
+// write a function called howManyCaps which counts the capitals in the word, 
+// it then returns a sentence saying how which letters are capital and how many capitals there are in total.
 
 var str = 'Antonello Sanna Likes videoGames'
 
@@ -134,12 +134,12 @@ numberConverter([1,2,3,'4','5', {}, 33])
 
 
 EXERCISE 7
-//write a function called boolanChecker, it takes two arguments, one array and one maxCapacity
-//create an empty array called bool
-//create a variable called maxCapacity
-//and assign to it a value of 5
+// write a function called boolanChecker, it takes two arguments, one array and one maxCapacity which is a number
+// create an empty array called bool
+// create a variable called maxCapacity
+// and assign to it a value of 5
 // loop through the provided array and every time you find a boolean push it to our bool array until you reach the maxCapacity:
-//if the maxCapacity argument is missing it should default to unlimited;
+// if the maxCapacity argument is missing it should default to unlimited;
 
 var arr  = ['mike','john',true, false,12,true,false, false,true,false,true,false]
 
@@ -155,20 +155,17 @@ var arr  = ['mike','john',true, false,12,true,false, false,true,false,true,false
 
 EXERCISE 8
 // create a function called uniqueElements which takes an array as argument.
-//you need one array with the unique numbers so loop through and get rid of duplicates.
-//(also these who were double before removing the duplicates)
-//you should return a string containing 
-//one array only with the removed duplicated
-//the original array should be left untouched..
+// you need one array with the unique elements so loop through and get rid of duplicates.
+// (also these who were double before removing the duplicates)
+// you should return a string containing 
+// one array only with the unique elements, without duplicates
+// the original array should be left untouched..
 
-//var arr = 
-        //[
-                //'mike','jason','peter','robert','mike','jason','jenny','jane'
-        //]
+// var originalArray = ['mike','jason','peter','robert','mike','jason','jenny','jane']
 
-//example
-// return oldarray ['mike','jason','peter','robert','mike','jason','jenny','jane'], 
-// newarray [mike, 'jason','peter','robert','mike','jenny','jane']
+// example return:
+// old array: ['mike','jason','peter','robert','mike','jason','jenny','jane']
+// new array: ['mike','jason','peter','robert','jenny','jane']
 
 
 
