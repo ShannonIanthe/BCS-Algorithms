@@ -202,7 +202,7 @@ EXERCISE 11:
 http://www.mathsisfun.com/temperature-conversion.html
 
 // Store a celsius temperature into a variable.
-// Convert it to fahrenheit and outpu the result.
+// Convert it to fahrenheit and output the result.
 // Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output the result.
 
