@@ -187,7 +187,7 @@ EXERCISE 10:
 //assign the current year to a variable.
 //then return the following message, replacing the word *'DAYS'* with the actual value
 
-// You have lived for *'DAYS'* days already!
+// you have lived for *'DAYS'* days already!
 
 
 

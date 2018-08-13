@@ -39,21 +39,21 @@ describe("#test6", function(){
 })
 describe("#test7", function(){
     it (`toCelsius should be 102`, function(){
-        assert.equal(toCelsius(c, 39),102)
+        assert.equal(toCelsius(39),102)
     })
 })
 describe("#test8", function(){
     it (`toFahr should be 39`, function(){
-        assert.equal(toFahr(f, 102),39)
+        assert.equal(toFahr(102),39)
     })
 })
 describe("#test9", function(){
     it (`toCelsius should be 68`, function(){
-        assert.equal(toCelsius(c, 20),68)
+        assert.equal(toCelsius(20),68)
     })
 })
 describe("#test10", function(){
     it (`toFahr should be 57`, function(){
-        assert.equal(toFahr(f, 134),57)
+        assert.equal(toFahr(134),57)
     })
 })

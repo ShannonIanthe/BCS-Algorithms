@@ -1,15 +1,13 @@
-var toCelsius = function (c, celsius){
+var toCelsius = function (celsius){
     return 
 }
-var toFahr = function (f, fahrenheit){
+var toFahr = function (fahrenheit){
     return 
 }
 
 module.exports = {
     celsius, 
     fahrenheit, 
-    c,
-    f,
     toCelsius, 
     toFahr,
 }
