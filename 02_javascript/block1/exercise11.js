@@ -1,7 +1,7 @@
-var toCelsius = function (celsius){
+var toCelsius = function (fahrenheit){
     return 
 }
-var toFahr = function (fahrenheit){
+var toFahr = function (celsius){
     return 
 }
 
