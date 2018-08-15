@@ -1,4 +1,5 @@
-
+    ex0 https://www.codewars.com/kata/the-feast-of-many-beasts/train/javascript
+    
     ex1 https://www.codewars.com/kata/holiday-viii-duty-free/train/javascript
     
     ex2 https://www.codewars.com/kata/sum-of-positive/train/javascript
