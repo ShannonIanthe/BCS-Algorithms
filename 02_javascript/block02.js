@@ -12,6 +12,8 @@ var index = 2;
 
 
 
+// !! Exercises 2-9 should return stringified output, i.e:
+return String(your_code_goes_here)
 
 EXERCISE 2:
 //write a function called takeAll which takes an array as argument, it then returns a new array which has all values of the original array but in reverse order.

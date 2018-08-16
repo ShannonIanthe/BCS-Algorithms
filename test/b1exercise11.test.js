@@ -17,43 +17,43 @@ describe("#test2", function(){
         assert.typeOf(celsius, 'number')
     })
 })
+// describe("#test3", function(){
+//     it ('f should be a string', function(){
+//         assert.typeOf(f, 'string')
+//     })
+// })
+// describe("#test4", function(){
+//     it ('c should be a string', function(){
+//         assert.typeOf(c, 'string')
+//     })
+// })
 describe("#test3", function(){
-    it ('f should be a string', function(){
-        assert.typeOf(f, 'string')
-    })
-})
-describe("#test4", function(){
-    it ('c should be a string', function(){
-        assert.typeOf(c, 'string')
-    })
-})
-describe("#test5", function(){
     it ('toCelsius should be a function', function(){
         assert.typeOf(toCelsius, 'function')
     })
 })
-describe("#test6", function(){
+describe("#test4", function(){
     it ('toFahr should be a function', function(){
         assert.typeOf(toFahr, 'function')
     })
 })
+describe("#test5", function(){
+    it (`toCelsius should be 39`, function(){
+        assert.equal(toCelsius(102),39)
+    })
+})
+describe("#test6", function(){
+    it (`toFahr should be 102`, function(){
+        assert.equal(toFahr(39),102)
+    })
+})
 describe("#test7", function(){
-    it (`toCelsius should be 102`, function(){
-        assert.equal(toCelsius(39),102)
+    it (`toCelsius should be 20`, function(){
+        assert.equal(toCelsius(68),20)
     })
 })
 describe("#test8", function(){
-    it (`toFahr should be 39`, function(){
-        assert.equal(toFahr(102),39)
-    })
-})
-describe("#test9", function(){
-    it (`toCelsius should be 68`, function(){
-        assert.equal(toCelsius(20),68)
-    })
-})
-describe("#test10", function(){
-    it (`toFahr should be 57`, function(){
-        assert.equal(toFahr(134),57)
+    it (`toFahr should be 135`, function(){
+        assert.equal(toFahr(57),135)
     })
 })

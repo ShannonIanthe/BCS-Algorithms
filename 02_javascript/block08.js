@@ -139,7 +139,7 @@ EXERCISE 5
 
 
 EXERCISE 6
-    //Create a server function called Server which allows us to create banck accounts at will, we should be able to add them, deleting them,
+    //Create a server function called Server which allows us to create bank accounts at will, we should be able to add them, deleting them,
     // updating them (name and amount), withdraw and deposit, as well as sorting them by name and amount.
     // it should also make sure that an account with the same name cannot be added more than once.
     //all operation to delete, update, withdraw and deposit should be done using a numeric id which you are in charge to generate and make sure is unique.
