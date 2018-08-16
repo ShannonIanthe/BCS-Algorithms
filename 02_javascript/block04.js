@@ -101,11 +101,8 @@ EXERCISE 5
 var str = 'Antonello Sanna Likes videoGames'
 
 //expected output
-// A
-// S 
-// L 
-// G 
-// there are 4 capitals in this phrase
+
+// There are 4 capitals and these are A,S,L,G"
 
 
 
