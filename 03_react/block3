@@ -22,5 +22,3 @@ Exercise 3 extra challenge
     and input 2 should collect the data for the lastname.
     to make thigs easier you may use refs in the input fileds.
     when the button (also a separate component) is clicked then you should alert the data collectd by the two inputs.
-
-***Your solution goes to the ex06 folder***
