@@ -16,4 +16,6 @@
     
     ex 8 https://www.codewars.com/kata/5a54e796b3bfa8932c0000ed/solutions/javascript
     
+    ex 9 https://www.codewars.com/kata/sort-and-star/train/javascript
+    
     
