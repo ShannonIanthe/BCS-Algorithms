@@ -12,3 +12,4 @@ ex6 https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
 
 ex7 https://www.codewars.com/kata/opposite-number/train/javascript
 
+ex 8 https://www.codewars.com/kata/maximum-gap-array-series-number-4/train/javascript
