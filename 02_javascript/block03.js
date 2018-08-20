@@ -15,7 +15,17 @@ EXERCISE 2
 
 
 
+[-10,-9,-8,3]
 
+function indexEqualsValue(a) {
+
+    for (var i = a[0]; i < a.length; i++){
+        if(a[i] === i){
+            return a[i];
+        }
+    }
+  return -1
+}
 
 
 
@@ -45,7 +55,7 @@ function isEven(){
 
 EXERCISE 4
 // declare the following array
-var array = ['one','two','three','four']
+var arr = ['one','two','three','four']
 // create a function called looper which takes the array as argument
 // inside it write a forEach loop which console.log each element and each index for every iteration.
 //inside the function declare a variable called count, and increment it by one for each iteration then return count.
