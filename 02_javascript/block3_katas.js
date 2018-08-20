@@ -14,4 +14,6 @@
     
     ex7 https://www.codewars.com/kata/unfinished-loop-bug-fixing-number-1/train/javascript
     
+    ex 8 https://www.codewars.com/kata/5a54e796b3bfa8932c0000ed/solutions/javascript
+    
     
