@@ -8,7 +8,7 @@ describe("#test1", function(){
     })
 })
 describe("#test2", function(){
-    it ('tally should be robert, 22,roger,44', function(){
+    it ('recursive should be robert, 22,roger,44', function(){
         var a = []
         var arr = recursive([{name:'robert', age:22},{name:'robert', age:12},{name:'roger', age:44},{name:'peter', age:98},{name:'Ralph', age:67}],0,a)
         assert.equal(a[0][0], 'robert')
