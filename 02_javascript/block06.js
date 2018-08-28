@@ -255,7 +255,7 @@ DB /* [
 EXERCISE 13
 
 // Write  an object called bankAccount, and 3 functions: withdraw, deposit and balance. 
-// They keep track of the amount added and removed from a bank account when called bankAccount function.
+// They keep track of the amount added and removed from a bank account when called bankAccount function and keep it in the bankAccount.total.
 // The balance function takes no argument and withdraw and deposit
 // only take one argument.
 
