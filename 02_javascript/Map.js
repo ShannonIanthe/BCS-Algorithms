@@ -32,5 +32,16 @@ objToMap({name:'Mike', age:22, height:'170cm', sibilings:'3'}, {name:undefined, 
 mostTimes([2, 90,90, 4,8,23,23])
 //Map(5) {2 => 1, 90 => 2, 4 => 1, 8 => 1, 23 => 2}
 
+// =========== EXERCISE 4 =============
 
+// Create a function called howManyGifts, this function  will take  a Map as first parameter and a budget as second.//#endregion
+// Your task is to but the max numbers of gifts withing the budget, and then retunr a new Map with the total spent and the gifts purchased.//#endregion
 
+gifts
+// Map(4) {"ps4" => 300, "game" => 50, "razor" => 190, "speaker" => 58}
+
+howManyGifts(100, gifts);
+//Map(1) {"game" => 50}
+
+howManyGifts(400, gifts);
+//Map(2) {"ps4" => 300, "game" => 50}
