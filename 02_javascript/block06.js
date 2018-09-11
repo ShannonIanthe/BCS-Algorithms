@@ -185,10 +185,10 @@ schema = ["id", "name", "age"]
     // the action should be "add" or no changes should be done.
 var DB = []
 
-model("add", {id: 1, name: "Joe", age: 32, address: "Muntaner 262, Barcelona"})
+model("add", {id: 1, name: "Joe", age: 32, address: "Muntaner 262, Barcelona"}, schema)
 DB // [{id: 1, name: "Joe", age: 32}] => Address was not added because not allowed by the schema 
 
-model("add", {id: 1, age: 32, address: "Muntaner 262, Barcelona"})
+model("add", {id: 1, age: 32, address: "Muntaner 262, Barcelona"}, schema)
 DB // [{id: 1, age: 32}] => Address was not added because not allowed by the schema 
 
 
