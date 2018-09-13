@@ -1,4 +1,8 @@
 MOVIES DB
+
+[Movies DB no DB exercise explained](https://youtu.be/g7aVDPCi0Kc)
+
+
 Create a movie DB that stores our movies and divides them by genre.
 You should be able to create a CRUD (Create, Read, Update, Delete) app for adding genres as well as movies. 
 all movies should have at least a title and a year of release and both should be editable.
