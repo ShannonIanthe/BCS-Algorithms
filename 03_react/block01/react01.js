@@ -12,7 +12,7 @@ Exercise 1
 
 Exercise 2
 
-Using React clone the shop page of the below website:
+Using React clone the shop page of the below website:(only static clone no functionality required :))
 
 https://www.chalkd.co.nz/collections/all
 
