@@ -75,44 +75,12 @@ EXERCISE 4:
 // =============================================================
 EXERCISE 5:
 
-//Declare the following variables with the following values:
-
-//a => 10
-//b => 22
-
-//c => 43
-//d => 54
-
-//e => 65
-//f => 34
-
-//
-//g => 10
-//h => 10
-
-//then compare them in pairs using the JavaScript Arithmetic Operators
-//https://www.w3schools.com/jsref/jsref_operators.asp
-//and make sure that the result of your comparison is the following:
-//false, false, true, true
-
-
-//example
-
-//console.log(10 > 5) 
-//this will return true
-
-//compare  (a,b) (c,d), (e,f), (g,h)
-
-
-
-//should console.log false, false, true, true
-
-
-
-
-
-
-
+//Define a function called compare which takes 2 arguments, and returns true if the first is bigger than the second and false if is not.
+// example 
+//compare(10, 34)
+// false
+// compare(100, 34)
+// true
 
 EXERCISE 6:
 
