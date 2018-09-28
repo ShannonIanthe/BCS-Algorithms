@@ -1,6 +1,6 @@
 EXERCISE 1:
-//write a function called assigner which takes 2 arguments, an array and an index.
-// it then takes from the array the value of the index passed as argument and assigns it as the only value to an array called arr2.
+//write a funtion called assigner which takes 2 arguments, an array and an index.
+// it then takes one element from the provided array at the given index and place it in a new array then returns it.
 //Then return arr2.
 var arr   = ['milk','cheese','car','lime'];
 var index = 2; 
