@@ -84,27 +84,15 @@ EXERCISE 5:
 
 EXERCISE 6:
 
-//using 'strict equality' check, compare the following variables and console.log true if the are NOT the same and false if they are
+//Define a function called compare which takes 2 arguments, and returns true if the first is equal to the second and false if is not (strict equality).
 
-
-//num  =>  10 
-//num1 => "10"
-
-//num2 =>  33 
-//num3 =>  44 
-
-//num4 =>  21 
-//num5 =>  21 
-
-//num6 =>  0  
-//num7 =>  0 
-
-
-
-
-
-
-
+// example 
+//compare(10, 34)
+// false
+// compare(100, 100)
+// true
+// compare(100, '100')
+// false
 
 
 EXERCISE 7:
