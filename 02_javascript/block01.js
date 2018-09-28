@@ -141,10 +141,14 @@ EXERCISE 6:
 
 EXERCISE 7:
 
-//tell which number is even
-//assign each of the below number to a variable, then using the module operator check which of them is even and which is odd, and return true if is even and false if is odd
+// create two varibale a assign it a value of 3.
+// create a function called isEven which takes 1 arg: a,  and return true if the argument passed is even and false if is odd.
 
-//3,  123 , 545 , 34 , 64 , 6634 , 876
+// example call 
+// isEven(7)
+// false
+// isEven(2)
+// true
 
 
 
