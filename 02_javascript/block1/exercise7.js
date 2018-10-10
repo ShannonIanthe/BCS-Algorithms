@@ -1,5 +1,4 @@
-arr = [ a, b , c , d , e , f , g ];
-    var isEven = function (arr){
+    var isEven = function (arg){
         return 
     }
 
