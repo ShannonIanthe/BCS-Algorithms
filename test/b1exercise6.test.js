@@ -9,11 +9,6 @@ describe("#test2", function(){
 })
 describe("#test3", function(){
     it ('compare should be 1', function(){
-        assert.equal(compare(10,30), false)
-    })
-})
-describe("#test4", function(){
-    it ('compare should be 0', function(){
         assert.equal(compare(10,10),true)
     })
 })
