@@ -1,5 +1,4 @@
-var arr = [a,b,c,d,e,f,g,h]
-var compare = function (arr){
+var compare = function (a,b){
         return count
 }
 
