@@ -3,6 +3,5 @@
     }
 
     module.exports = {
-        isEven,
-        arr
+        isEven
     }
