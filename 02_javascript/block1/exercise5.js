@@ -1,5 +1,5 @@
-var compare = function (a,b){
-        return count
+var compare = function(a, b) {
+
 }
 
 module.exports = {

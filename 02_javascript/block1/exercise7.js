@@ -1,7 +1,5 @@
-    var isEven = function (arg){
-        return 
-    }
+var isEven = function(arg) {}
 
-    module.exports = {
-        isEven
-    }
+module.exports = {
+    isEven
+}
