@@ -1,9 +1,5 @@
-arr = [ a, b , c , d , e , f , g ];
-    var isEven = function (arr){
-        return 
-    }
+var isEven = function(arg) {}
 
-    module.exports = {
-        isEven,
-        arr
-    }
+module.exports = {
+    isEven
+}

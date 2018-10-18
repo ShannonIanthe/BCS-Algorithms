@@ -75,76 +75,36 @@ EXERCISE 4:
 // =============================================================
 EXERCISE 5:
 
-//Declare the following variables with the following values:
-
-//a => 10
-//b => 22
-
-//c => 43
-//d => 54
-
-//e => 65
-//f => 34
-
-//
-//g => 10
-//h => 10
-
-//then compare them in pairs using the JavaScript Arithmetic Operators
-//https://www.w3schools.com/jsref/jsref_operators.asp
-//and make sure that the result of your comparison is the following:
-//false, false, true, true
-
-
-//example
-
-//console.log(10 > 5) 
-//this will return true
-
-//compare  (a,b) (c,d), (e,f), (g,h)
-
-
-
-//should console.log false, false, true, true
-
-
-
-
-
-
-
+//Define a function called compare which takes 2 arguments, and returns true if the first is bigger than the second and false if is not.
+// example 
+//compare(10, 34)
+// false
+// compare(100, 34)
+// true
 
 EXERCISE 6:
 
-//using 'strict equality' check, compare the following variables and console.log true if the are NOT the same and false if they are
+//Define a function called compare which takes 2 arguments, and returns true if the first is equal to the second and false if is not (strict equality).
 
-
-//num  =>  10 
-//num1 => "10"
-
-//num2 =>  33 
-//num3 =>  44 
-
-//num4 =>  21 
-//num5 =>  21 
-
-//num6 =>  0  
-//num7 =>  0 
-
-
-
-
-
-
-
+// example 
+//compare(10, 34)
+// false
+// compare(100, 100)
+// true
+// compare(100, '100')
+// false
 
 
 EXERCISE 7:
 
-//tell which number is even
-//assign each of the below number to a variable, then using the module operator check which of them is even and which is odd, and return true if is even and false if is odd
+// create one varibale a, and assign it a value of 3.
+// create a function called isEven which takes 1 arg: a,  and return true if the argument passed is even and false if is odd.
 
-//3,  123 , 545 , 34 , 64 , 6634 , 876
+// example call 
+// isEven(7)
+// false
+// isEven(2)
+// true
 
 
 

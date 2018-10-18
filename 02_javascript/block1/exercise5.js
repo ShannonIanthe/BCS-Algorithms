@@ -1,8 +1,7 @@
-var arr = [a,b,c,d,e,f,g,h]
-var compare = function (arr){
-        return count
+var compare = function(a, b) {
+
 }
 
 module.exports = {
-    compare, arr
+    compare
 }
