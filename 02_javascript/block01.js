@@ -1,12 +1,23 @@
 // Please write your solution in the corresponding folder/file to make them available for the testing
 
-//IN ORDER TO TEST YOUR SOLUTIONS YOU SHOULD RUN THE FOLLOWING COMAND IN THE TERMINAL
+//IN ORDER TO TEST YOUR SOLUTIONS YOU SHOULD RUN THE FOLLOWING COMAND IN THE TERMINAL:
+
+// First time just once:
+// npm install
+// This will install needed npm packages for testing
+
+// To test an exercise:
+
 //npm run test-single -- test/'NAME_OF_THE_TEST_FILE_YOU_ARE_TESTING'
 
-example :
-if you are doing exercise 1 of block 1 it should be 
+// example :
+// if you are doing exercise 1 of block 1 it should be 
 
 //npm run test-single -- test/b1exercise1.test.js
+
+// Then simply change the block/exercises numbers, like for Block 02 Exercise 3 run this:
+
+//npm run test-single -- test/b2exercise3.test.js
 
 EXERCISE 1:
 
