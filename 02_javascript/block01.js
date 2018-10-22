@@ -78,12 +78,6 @@ EXERCISE 4:
 //Output the result!
 
 
-
-
-// =============================================================
-// DO NOT USE THE TESTING PLATFORM FOR THE EXERCISES 5,6,7
-// =============================================================
-// =============================================================
 EXERCISE 5:
 
 //Define a function called compare which takes 2 arguments, and returns true if the first is bigger than the second and false if is not.
