@@ -15,19 +15,6 @@ EXERCISE 2
 
 
 
-[-10,-9,-8,3]
-
-function indexEqualsValue(a) {
-
-    for (var i = a[0]; i < a.length; i++){
-        if(a[i] === i){
-            return a[i];
-        }
-    }
-  return -1
-}
-
-
 
 
 EXERCISE 3
