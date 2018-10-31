@@ -18,4 +18,6 @@
     
     ex 9 https://www.codewars.com/kata/sort-and-star/train/javascript
     
+    ex 10 https://www.codewars.com/kata/thinkful-string-drills-repeater/train/javascript
+    
     
