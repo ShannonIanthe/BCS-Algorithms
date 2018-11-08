@@ -13,10 +13,10 @@ EXERCISE 2
 
 //Example:
 
-addToObj('name', 'jason')
+addToObj('jason', 'bourne')
 
 //expected output
-// { name :  bourne }
+// { jason :  bourne }
 
 
 
