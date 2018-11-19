@@ -105,11 +105,11 @@ EXERCISE 5
     API:
 | URL (String)                    | Return (String)                                  | Comments                                                 |
 | ------------------------------- | ------------------------------------------------ | -------------------------------------------------------- |
-| /account/new/:accountID/:amount | account nr :accountID created with :amount euros | POST; it must be unique no matter the number of calls    |
-| /:accountID/withdraw/:amount    | :amount euros taken from account nr :accountID   | POST; if :accountID not found return "Account not found" |
-| /:accountID/deposit/:amount     | :amount euros added to account nr :accountID     | POST; if :accountID not found return "Account not found" |
+| /account/new/:accountID/:amount | account nr :accountID created with :amount euros | GET; it must be unique no matter the number of calls    |
+| /:accountID/withdraw/:amount    | :amount euros taken from account nr :accountID   | GET; if :accountID not found return "Account not found" |
+| /:accountID/deposit/:amount     | :amount euros added to account nr :accountID     | GET; if :accountID not found return "Account not found" |
 | /:accountID/balance             | The balance of account nr :accountID is ## euros | GET; if :accountID not found return "Account not found"  |
-| /:accountID/delete              | Account nr :accountID deleted                    | POST; if :accountID not found return "Account not found" |
+| /:accountID/delete              | Account nr :accountID deleted                    | GET; if :accountID not found return "Account not found" |
 | /*                              | 404 resource not found                           | What to do in case we match anything else                |
 
 ***Your solution goes to ex05 folder***
