@@ -15,7 +15,7 @@ API:
 | POST   | /genre/add          | Add a  new genre                   |
 | POST   | /genre/delete       | Remove genre                       |
 | POST   | /genre/update       | Update genre                       |
-| GET    | /genres             | Display all genres                 |
+| GET    | /genre/genres             | Display all genres                 |
 | GET    | /genre/movies       | display the genres with all movies |
 | POST   | /genre/movie/add    | Add movie                          |
 | POST   | /genre/movie/delete | Delete movie                       |
