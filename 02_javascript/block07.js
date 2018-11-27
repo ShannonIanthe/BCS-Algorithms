@@ -61,6 +61,8 @@ EXERCISE 3
     // withdraw which takes away from the account balance, 
     // deposit which adds to it,
     // and balance which returns the balance.
+    // all of these three are functions, using amount to increase/decrease or display the balance
+    // all of them are inside your BankAccount class
     // the function should work with or without an initial amount.
 
     // Example
