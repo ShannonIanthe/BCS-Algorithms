@@ -220,7 +220,7 @@ var arr = [
 
 
 //expected output
-//you spent an average of 310 per day in you trip to Japan
+//310
 
 
 
