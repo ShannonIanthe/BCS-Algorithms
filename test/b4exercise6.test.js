@@ -20,7 +20,7 @@ describe("#test2", function(){
     })
 })
 describe("#test3", function(){
-    it ("numberConverter should be 4 were converted to numbers  ,22,44,88 2 couldn't be converted", function(){
+    it ("numberConverter should be 3 were converted to numbers  ,22,44,88 2 couldn't be converted", function(){
         assert.equal(numberConverter([{},"22",()=>{},44,"44","88"]),
         "3 were converted to numbers  22,44,88 2 couldn't be converted")
     })
