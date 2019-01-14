@@ -13,10 +13,10 @@ EXERCISE 2
 
 //Example:
 
-addToObj('name', 'jason')
+addToObj('jason', 'bourne')
 
 //expected output
-// { name :  bourne }
+// { jason :  bourne }
 
 
 
@@ -324,10 +324,10 @@ var newObje = splice(obj, 0, 0)
 
 EXERCISE 15
 //Write a function called sort that sorts the values of an object, which should all be numbers, 
-//from the smallest to the biggest. The function will return a new object of which the keys are the indexes going from 0 to n; where n is the number of properties of the object minus 1.
+//You should sort the object numericaly in ascending order.
 Example
-obj = {a: 1, b: 20, c: 3, d: 4, e: 1, f: 4}
-sort(obj) // {0: 1, 1: 1, 2: 3, 3: 4, 4: 4, 5: 20}
+sort({a: 1, b: 20, c: 3, d: 4, e: 1, f: 4})
+// {a: 1, e: 1, c: 3, d: 4, f: 4, b:20}
 
 
 

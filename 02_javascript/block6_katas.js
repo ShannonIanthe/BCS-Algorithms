@@ -13,3 +13,5 @@ ex 5 https://www.codewars.com/kata/tidy-number-special-numbers-series-number-9/t
 ex 6 https://www.codewars.com/kata/maximum-triplet-sum-array-series-number-7/train/javascript
 
 ex 7 https://www.codewars.com/kata/multiples-of-3-or-5/train/javascript
+
+ex 8 https://www.codewars.com/kata/alphabet-war/train/javascript
