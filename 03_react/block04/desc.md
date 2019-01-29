@@ -45,7 +45,7 @@ Exercise 4
     Component will unmount in 2
     Component will unmount in 1
     Component will unmount in 0
-    When it reaches 0 the component should unmount itself. Use setInterval.
+    When it reaches 0 it should alert('The component will unmount now!'). Use setInterval.
 
 
 ***Your solution goes to the ex04 folder***
