@@ -50,6 +50,7 @@ Exercise 4
     Component will unmount in 1
     Component will unmount in 0
     When it reaches 0 it should alert('The component will unmount now!'). 
+    then the component should no longer be displayed!(it should disappear)
     
     Use setInterval.
 
