@@ -40,7 +40,7 @@ Exercise 3
 
 Exercise 4
 
-    Create a component called Counter that starts from zero and once it reaches 3 it will display a series of messages:
+    Create a component called Counter that displays a number and a button and starts from zero. With every click on the button it increases by 1. Once it reaches 3, it will display a series of messages:
     Component will unmount in 3
     Component will unmount in 2
     Component will unmount in 1
