@@ -17,9 +17,10 @@ API:
 | POST   | /genre/update       | Update genre                       |
 | GET    | /genre/genres             | Display all genres                 |
 | GET    | /genre/movies       | display the genres with all movies |
-| POST   | /genre/movie/add    | Add movie                          |
-| POST   | /genre/movie/delete | Delete movie                       |
-| POST   | /genre/movie/update | Update title and/or year           |
+| GET    | /genre/:genre       | display one genre with all its movies |
+| POST   | /movie/add          | Add movie                          |
+| POST   | /movie/delete       | Delete movie                       |
+| POST   | /movie/update       | Update title and/or year           |
 
 
 ***Your solution goes to the current folder***
