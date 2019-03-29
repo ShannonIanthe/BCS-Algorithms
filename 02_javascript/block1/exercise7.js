@@ -1,4 +1,6 @@
-var isEven = function(arg) {}
+var isEven = function(arg) {
+	return
+}
 
 module.exports = {
     isEven

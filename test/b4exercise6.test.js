@@ -7,9 +7,9 @@ describe("#test0", function(){
     })
 })
 describe("#test1", function(){
-    it ("numberConverter should be 2 were converted to numbers  12,55 1 couldn't be converted", function(){
+    it ("numberConverter should be 2 were converted to numbers: 12,55; 1 couldn't be converted", function(){
         assert.equal(numberConverter(["12", "55","hello"]),
-        "2 were converted to numbers  12,55 1 couldn't be converted")
+        "2 were converted to numbers: 12,55; 1 couldn't be converted")
     })
 })
 
@@ -20,8 +20,8 @@ describe("#test2", function(){
     })
 })
 describe("#test3", function(){
-    it ("numberConverter should be 3 were converted to numbers  ,22,44,88 2 couldn't be converted", function(){
+    it ("numberConverter should be 3 were converted to numbers: 22, 44, 88; 2 couldn't be converted", function(){
         assert.equal(numberConverter([{},"22",()=>{},44,"44","88"]),
-        "3 were converted to numbers  22,44,88 2 couldn't be converted")
+        "3 were converted to numbers: 22,44,88; 2 couldn't be converted")
     })
 })

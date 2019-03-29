@@ -1,6 +1,5 @@
 var compare = function(a, b) {
-	if(a>b) return true
-		return false
+	return
 }
 
 module.exports = {

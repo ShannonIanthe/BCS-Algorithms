@@ -1,4 +1,6 @@
-var compare = function(a, b) {}
+var compare = function(a, b) {
+	return
+}
 
 module.exports = {
     compare

@@ -125,7 +125,7 @@ EXERCISE 6
 // example:
 numberConverter([1,2,3,'4','5', {}, 33])
 // should return:
-"2 were converted to numbers  4,5 1 couldn't be converted"
+"2 were converted to numbers: 4,5; 1 couldn't be converted"
 
 
 
