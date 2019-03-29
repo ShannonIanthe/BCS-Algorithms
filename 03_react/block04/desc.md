@@ -1,6 +1,7 @@
 Exercise 1 
 
-    Create a component called Counter that will only update if the number of click's is odd. you are going to need a button, and a text that displays the counter increasing when the number of clicks is odd
+    Create a component called Counter that will only update if the number of click's is odd. 
+    You are going to need a button, and a text that displays the counter increasing when the number of clicks is odd
     
     
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B129F1F5CCCDE7FA1BDACCD2F4F756ABC4E298094B0A789416A13B24C0A2AC85_1505311683294_image.png)
@@ -40,12 +41,18 @@ Exercise 3
 
 Exercise 4
 
-    Create a component called Counter that starts from zero and once it reaches 3 it will display a series of messages:
+    Create a component called Counter that displays a number and a button and starts from zero. 
+    With every click on the button it increases by 1. 
+    Once it reaches 3, it will display a series of messages:
+    
     Component will unmount in 3
     Component will unmount in 2
     Component will unmount in 1
     Component will unmount in 0
-    When it reaches 0 the component should unmount itself. Use setInterval.
+    When it reaches 0 it should alert('The component will unmount now!'). 
+    Then the component should no longer be displayed!(it should disappear)
+    
+    Use setInterval.
 
 
 ***Your solution goes to the ex04 folder***
