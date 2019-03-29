@@ -1,5 +1,6 @@
+var a = 10, b = 24;
 function multy (a, b){
-    return 
+    return a * b
 }
 module.exports = {
     a, b, multy

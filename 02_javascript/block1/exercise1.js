@@ -1,7 +1,7 @@
-var apple = 5 , apple2 = 15;
+var apple = 5, apple2 = 10;
 function total (apple, apple2){
-
-    return total;
+	var sum = apple+apple2
+    return sum;
 }
 module.exports = {
     apple, apple2, total
