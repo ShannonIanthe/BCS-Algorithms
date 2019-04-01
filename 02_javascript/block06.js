@@ -92,6 +92,12 @@ EXERCISE 6
 // You cannot use the ES6 method findIndex for this exercise!
 // it should return the index of the found element or -1 if is not there.
 
+// to pass the test your function should take 3 arguments: array of objects, name of the key and content of the value to search for, so if they match it returns the index of the object containing this matching key:value pair
+
+// example: 
+getIndex([{name:'Antonello', location:'Barcelona'}, {email: 'george@barcelonacodeschool.com', name:'George'}, {name:'Golda', coder: true}], 'name', 'Antonello')
+// should return 0, since it would be the index of the object containing provided key:value pair
+
 
 EXERCISE 7
 
