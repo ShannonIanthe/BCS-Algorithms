@@ -91,7 +91,7 @@ EXERCISE 3
 EXERCISE 4
 
 
-    // Implement a representation of the universe where matter and energy is conserved. To do so implement one object called Universe that contains two objects within: Matter and Energy. If matter is destroyed; that is say we call Universe.Matter.destroy(5), then the amount of energy in the universe needs to be increased so that if we call Universe.Energy.total() we should obtain a total value of energy that has increased +5 compared to the energy value previous to calling Universe.Matter.destroy(5). Of course the total amount of Matter obtained by calling Universe.Matter.total()has been reduced by 5 compared to the initial value.
+    // Implement a representation of the universe where matter and energy is conserved. To do so implement one object called Universe that contains two objects within: matter and energy. If matter is destroyed; that is say we call Universe.matter.destroy(5), then the amount of energy in the universe needs to be increased so that if we call Universe.energy.total() we should obtain a total value of energy that has increased +5 compared to the energy value previous to calling Universe.matter.destroy(5). Of course the total amount of matter obtained by calling Universe.matter.total()has been reduced by 5 compared to the initial value.
     //     - Implement this objects using context
     //     - The matter and energy objects are defined within an object called Universe
     //     - No other variable should be defined out of the Universe object
@@ -111,9 +111,12 @@ EXERCISE 4
     Universe.matter.destroy(5) // 0 
     Universe.eatter.total // -5 
     Universe.energy.total // 5 
-    Universe.Energy.destroy(-5) // 0 
+    Universe.energy.destroy(-5) // 0 
     Universe.matter.total // -10 
     Universe.energy.total // 10 
+    Universe.energy.create(5) // 0 
+    Universe.matter.total // -15 
+    Universe.energy.total // 15 
 
     // Notes: Initially make your universe contain 0 matter and energy. Destroying a negative amount of energy of matter is equal to creating a positive amount of each and vice versa for creating matter or energy.
 
