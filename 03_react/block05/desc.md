@@ -1,7 +1,7 @@
 # Exercise 1
 
-Create an input field for the user to create  a password, and a button to submit it.
-You need to make sure that the password will be at least 8 characters long and that it will contain at least one uppercase character.
+Create an input field for the user to create  a password.
+You need to make sure that the password will be at least 8 characters long and that it will contain at least one uppercase character. Use `onChange` to check the password as the user is typing it.
 
 Requirements
 
