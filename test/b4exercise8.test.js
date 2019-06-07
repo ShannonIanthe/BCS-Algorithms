@@ -9,18 +9,18 @@ describe("#test0", function(){
 describe("#test1", function(){
     it ("uniqueElements should be old array mike,jason,peter,robert,mike,jason,jenny,jane new array mike,jason,peter,robert,jenny,jane", function(){
         assert.equal(uniqueElements(['mike','jason','peter','robert','mike','jason','jenny','jane']),
-        "old array mike,jason,peter,robert,mike,jason,jenny,jane \n new array mike,jason,peter,robert,jenny,jane")
+        "old array mike,jason,peter,robert,mike,jason,jenny,jane, new array mike,jason,peter,robert,jenny,jane")
     })
 })
 describe("#test2", function(){
     it ("uniqueElements should be old array mike,jason,peter,robert,mike,jason,jenny,jane new array mike,jason,peter,robert,jenny,jane", function(){
         assert.equal(uniqueElements([3,5,5,5,56]),
-        "old array 3,5,5,5,56 \n new array 3,5,56")
+        "old array 3,5,5,5,56, new array 3,5,56")
     })
 })
 describe("#test3", function(){
-    it ("uniqueElements should be old array a,b,b,44,55,4,4 \n new array a,b,44,55,4", function(){
+    it ("uniqueElements should be old array a,b,b,44,55,4,4, new array a,b,44,55,4", function(){
         assert.equal(uniqueElements(["a","b","b",44,55,4,4]),
-        "old array a,b,b,44,55,4,4 \n new array a,b,44,55,4")
+        "old array a,b,b,44,55,4,4, new array a,b,44,55,4")
     })
 })
