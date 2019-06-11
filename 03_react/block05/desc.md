@@ -1,12 +1,11 @@
-# Exercise 1
+## Exercise 1
 
-Create an input field for the user to create  a password, and a button to submit it.
-
-You need to make sure that the password will be at least 8 characters long and that it will contain at least one uppercase character.
+Create a form that contains an input and button.
+We are going to use the input to insert a category name and eventually display all related products.
 
 **Requirements**
 
-- All your conditions must be inside the render function
-- You should use both, `if` statement outside the return and the ternary operator inside it.
-- there should be two separate messages: an `h1` that informs the user if the length requirements has been met and an `h2` that checks if there is at least one upper case character.
-
+- The list of products will be an array of objects , you can use one from the previous exercises.
+- Initially you should display the list of all products.
+- If there are no products in this category a NotFound component will show a message.
+- By typing 'all' in the input we should be able to see the entire list of products again.

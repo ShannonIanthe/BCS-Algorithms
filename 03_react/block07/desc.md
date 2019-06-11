@@ -1,21 +1,27 @@
-# Exercise 1
+## Exercise 1
 
-Create a form that gets the username from an input, and it displays one of the following message/background-color depending on the user input.
+Create a form that gets an email , a password and a repeat password.
+You should also create a message box that will change depending on the user input.
 
-**if the username has less than 8 characters:**
-
-- background : red
-- message:”the username must be at least of 8 characters
-
-**if the username doesn’t contain upper case and lower case**
+**if the email doesn't contain any @ or more than one @**
 
 - background : red
-- message:”the username must contain both upper and lower case characters.
+- message: please , provide a valid email format.
+
+**if the password has less than 8 characters**
+
+- background : red
+- message: password must be at least of 8 characters.
+
+**if the password doesn't match the second password**
+
+- background : red
+- message: passwords must match.
 
 **otherwise**:
 
 - background : green
-- message: welcome back USERNAME
+- message: sucessfully registered
 
 ## Requirements:
 

@@ -1,87 +1,51 @@
-Exercise 1 
+## Exercise 1 
 
     Create a component called Counter that will only update if the number of click's is odd. 
     You are going to need a button, and a text that displays the counter increasing when the number of clicks is odd
-    
     
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B129F1F5CCCDE7FA1BDACCD2F4F756ABC4E298094B0A789416A13B24C0A2AC85_1505311683294_image.png)
 
 ***Your solution goes to the ex01 folder***
 
+## Exercise 2
+    
+    Create a euro to dollar ( and viceversa ) conversor it needs to take the input from one component and then render the converted value from a child component, is up to you which component does the conversion...
 
-
-
-
-
-
-Exercise 2
-
-    Exercise 2
-    create a counter that once its after 10 it will reset to 0. so it will only display numbers from 0 to 9...
+    
+    - Use an external API to get real exchanges rates, you can use this one : https://exchangeratesapi.io/
+    - Use js fetch to get the data from the API : https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 
 ***Your solution goes to the ex02 folder***
 
+## Exercise 3
 
-
-
-
-
-Exercise 3
-
-    Create a fahrenheit to celsius converter React app, it needs to take the input from one component and then render the temperature in celcius and fahrenheit from a child component, is up to you which component does the conversion...
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_B129F1F5CCCDE7FA1BDACCD2F4F756ABC4E298094B0A789416A13B24C0A2AC85_1505311723874_image.png)
-
-***Your solution goes to the ex03 folder***
-
-
-
-
-
-
-
-Exercise 4
-
-    Create a component called Counter that displays a number and a button and starts from zero. 
-    With every click on the button it increases by 1. 
-    Once it reaches 3, it will display a series of messages:
+    Create a form that gets email and password and another for an alert initially not visible. When submit it should check in an array of users if the email exists and if so , if the password it's correct. If email and password are correct you should display a positive message with a green background otherwise negative message and red background but in both cases a serie of messages
     
-    Component will unmount in 3
-    Component will unmount in 2
-    Component will unmount in 1
-    Component will unmount in 0
-    When it reaches 0 it should alert('The component will unmount now!'). 
-    Then the component should no longer be displayed!(it should disappear)
+    This message will desappear in 3
+    This message will desappear in 2
+    This message will desappear in 1
+    This message will desappear in 0
+    
+    and make the alert component invisible again.
     
     Use setInterval.
 
 
-***Your solution goes to the ex04 folder***
+***Your solution goes to the ex03 folder***
 
+## Exercise 4
 
+Create a cart component that will display a list of products. For the products you can use the same array from the products page but with
+a new key value pair for the quantity.
 
-
-
-
-Exercise 5
-
-Budget-tracker with React.js
-
-Create an app that keeps track of income and expenses
-this is in essence a calculator that keeps adding or subtracting from the initial amount
-for simplicity's sake you can have just one input and use the + sign for income and the - sign for expenses
 Requirements:
 
-- the income should be blue or green and the expenses should be red
-- once the balance is 500 or less the total should be displayed in red
-- there should be an inital message explaining to the user that he should use + sign for income and - sign for expenses
-- this message needs to time out and disappear in a few seconds
+- you have to use React Hooks for this exercise
+- you should display the total price of the products
+- you should be able to change the product's quantity
+- you should display a free shipping green message once the total get 500 otherwise a not free shipping red message
 
-
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_B129F1F5CCCDE7FA1BDACCD2F4F756ABC4E298094B0A789416A13B24C0A2AC85_1511276217680_image.png)
-
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_B129F1F5CCCDE7FA1BDACCD2F4F756ABC4E298094B0A789416A13B24C0A2AC85_1511276229620_image.png)
-
-***Your solution goes to the ex05 folder***
+***Your solution goes to the ex04 folder***
 
 
 
