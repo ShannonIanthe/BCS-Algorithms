@@ -9,7 +9,8 @@
 
 ## Exercise 2
     
-    Create a euro to dollar ( and viceversa ) conversor it needs to take the input from one component and then render the converted value from a child component, is up to you which component does the conversion...
+    Create a euro to dollar ( and viceversa ) conversor it needs to take the input from one component and then render the converted value from a child component, 
+    is up to you which component does the conversion...
 
     
     - Use an external API to get real exchanges rates, you can use this one : https://exchangeratesapi.io/
