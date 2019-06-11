@@ -1,10 +1,8 @@
 ## Exercise 1
 
     Create 2 React components, one of them will be the parent component and the other will be the child component.
-
-    The parent component will render the child component passing a prop to it (this will be your name that you first assign to the parent component using the keyword this).
-
-    The child component needs to return the following message: Hello 'the name you passed as a prop' i am a child component!
+    The parent component will render the child component passing a prop to it (this will be your name that you first assign to the parent component using the 
+    keyword this). The child component needs to return the following message: Hello 'the name you passed as a prop' i am a child component!
 
 ## Exercise 2
 
