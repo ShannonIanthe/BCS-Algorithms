@@ -131,10 +131,8 @@ numberConverter([1,2,3,'4','5', {}, 33])
 
 
 EXERCISE 7
-// write a function called boolanChecker, it takes two arguments, one array and one maxCapacity which is a number
-// create an empty array called bool
-// create a variable called maxCapacity
-// and assign to it a value of 5
+// write a function called booleanChecker, it takes two arguments, one array and one maxCapacity which is a number
+// create an empty array called bool inside your function
 // loop through the provided array and every time you find a boolean push it to our bool array until you reach the maxCapacity:
 // if the maxCapacity argument is missing it should default to unlimited;
 
