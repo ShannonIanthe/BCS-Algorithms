@@ -49,7 +49,7 @@ Create a brand new React application with 'React create App'. This app needs to 
    ]
    ```
 
-Use this page as an example : https://www.chalkd.co.nz/collections/all
+Use this page as an example: https://www.chalkd.co.nz/collections/all but don't repeat their layout mistakes such as overlapping elements, etc. 
 
 
 
