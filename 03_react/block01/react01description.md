@@ -16,7 +16,7 @@
    - Use an external component to display each single item.
    - The product component should at display : product_name , price , image , on sale
    - For the products structure you can use the follow one : 
-
+  ```jsx
    const products = [
                       {
                         product    : 'flash t-shirt',
@@ -43,6 +43,7 @@
                         onSale     :  false
                       }
    ]
+   ```
 
    Use this as an example : https://www.chalkd.co.nz/collections/all
 
