@@ -17,11 +17,11 @@
 	then in List you should map through the array and for each iteration you should pass each number to Item in which you render it.
 
 
-## Exercise 4;
+## Exercise 4
 
     Refactor the previous exercise , this time using only functional components.
 
-## Exercise 5;
+## Exercise 5
 
 	Refactor the eCommerce clone you did in the previous block to use props.
 	You should now use the Main, List and Item pattern with the list of products.
@@ -29,14 +29,3 @@
 	Loop in List and for each iteration render the product in Item. 
 
     - Optional with props or useContext
-
-
-
-
-
-
-
-
-
-
-
