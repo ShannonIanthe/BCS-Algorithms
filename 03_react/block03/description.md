@@ -1,6 +1,7 @@
 ## Exercise 1
 
-    Write a class based component, with an input that takes the data from the user, the data is then displayed (rendered) as an h1 in the page, if no text is provided it should display a text saying "no text provided!" (You should use the onChange event ) 
+    Write a class based component, with an input that takes the data from the user, the data is then displayed (rendered) as an h1 in the page, 
+    if no text is provided it should display a text saying "no text provided!" (You should use the onChange event ) 
 
 ## Exercise 2
 
