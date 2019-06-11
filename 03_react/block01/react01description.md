@@ -1,22 +1,26 @@
 ## Exercise 1
 
-    Create a brand new React application with 'React create App' 
-    this app needs to display a list of categories from an array,
-    the categories are 't-shirts' , 'hats' , 'shorts' , 'shirts',
-    'pants', 'shoes', in order to display them you will need to use Array.map
+Create a brand new React application with 'React create App'. This app needs to display a list of product categories from an array. The categories are 't-shirts', 'hats', 'shorts', 'shirts', 'pants', 'shoes'. In order to display them you will need to use Array.map
 
 ***Your solution goes to the ex01 folder***
 
 ## Exercise 2 
 
-   - Create a static page that display a list of products.
-   - Include an header and a footer in it with not functionality.
-   - Display the products divided in two categories : all products , best sellers. 
-   - Use an array of objects as a products collection , imported from an external file. 
-   - Use an external component to display each single item.
-   - The product component should at display : product_name , price , image , on sale
-   - For the products structure you can use the follow one : 
+- Create a static page that display a list of products.
 
+- Include a header and a footer in it with no functionality.
+
+- Display the products divided in two categories: all products, best sellers. 
+
+- Use an array of objects as a products collection imported from an external file. 
+
+- Use an external component to display each single item.
+
+- The product component should display: product_name, price, image, 'on sale' label.
+
+- For the products structure you can use the follow one:
+
+  ```jsx
    const products = [
                       {
                         product    : 'flash t-shirt',
@@ -43,8 +47,9 @@
                         onSale     :  false
                       }
    ]
+   ```
 
-   Use this as an example : https://www.chalkd.co.nz/collections/all
+Use this page as an example: https://www.chalkd.co.nz/collections/all but don't repeat their layout mistakes such as overlapping elements, etc. 
 
 
 
