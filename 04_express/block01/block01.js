@@ -29,10 +29,6 @@ EXERCISE 1
 
 
 
-
-
-
-
 EXERCISE 2
 
     Extend the previous exercise and add the possibility to add a new language.
@@ -48,11 +44,6 @@ EXERCISE 2
 
 
 
-
-
-
-
-
 EXERCISE 3
 
     Extend the previous exercise and add the possibility to remove a language. In fact let's make the app start with no language saved in memory..
@@ -65,11 +56,6 @@ EXERCISE 3
         > /DE Hello World in DE not found
 
 ***Your solution goes to ex03 folder***
-
-
-
-
-
 
 
 
@@ -90,25 +76,21 @@ EXERCISE 4
 
 
 
-
-
-
-
-
 EXERCISE 5
 
-    Write a bank account app. The server needs to be able to create accounts and for a single account we should be able to deposit, withdraw, get the balance and delete the account.
+    Write a bank account app. The server needs to be able to create accounts and for a single account we should be able to deposit, 
+    withdraw, get the balance and delete the account.
     If no account ID is passed nothing should be created/deposited/withdrawn
     Working app example: https://bcs-bank-app.herokuapp.com
 
     
     API:
-| URL (String)                    | Return (String)                                  | Comments                                                 |
-| ------------------------------- | ------------------------------------------------ | -------------------------------------------------------- |
+| URL (String)                    | Return (String)                                  | Comments                                                |
+| ------------------------------- | ------------------------------------------------ | --------------------------------------------------------|
 | /account/new/:accountID/:amount | account nr :accountID created with :amount euros | GET; it must be unique no matter the number of calls    |
 | /:accountID/withdraw/:amount    | :amount euros taken from account nr :accountID   | GET; if :accountID not found return "Account not found" |
 | /:accountID/deposit/:amount     | :amount euros added to account nr :accountID     | GET; if :accountID not found return "Account not found" |
-| /:accountID/balance             | The balance of account nr :accountID is ## euros | GET; if :accountID not found return "Account not found"  |
+| /:accountID/balance             | The balance of account nr :accountID is ## euros | GET; if :accountID not found return "Account not found" |
 | /:accountID/delete              | Account nr :accountID deleted                    | GET; if :accountID not found return "Account not found" |
 | /*                              | 404 resource not found                           | What to do in case we match anything else                |
 
