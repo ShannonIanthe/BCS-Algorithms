@@ -46,7 +46,7 @@ EXERCISE 2
 
 EXERCISE 3
 
-    Extend the previous exercise and add the possibility to remove a language. In fact let's make the app start with no language saved in memory..
+    Extend the previous exercise and add the possibility to remove a language. In fact let's make the app start with no language saved in memory
     Example of usage:
         > URL Message
         > /DE Hello World in DE not found
