@@ -89,7 +89,7 @@ EXERCISE 5
 
 // Write a function called  checkAge that checks how many days there are between now and the next birthday.
     // if the date of birth is today it should return 
-        // happy birthday! 
+        // Happy birthday! 
     // if the date of birth is passed it should return
         // Sorry your birthday is passed for this year
     // if the day provided is out of range (31) or the month is out of the 12 it should return:
