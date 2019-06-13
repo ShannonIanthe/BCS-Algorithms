@@ -1,4 +1,5 @@
 EXERCISE
+```
 //=====>   /categories/add      POST            // add new category to DB
 //=====>   /categories/remove   POST            // remove category from DB
 //=====>   /categories/update   POST            // update category
@@ -10,5 +11,6 @@ EXERCISE
 //=====>   /products            GET             // get all products
 //=====>   /products/:product   GET             // get one product by title or id 
 //=====>   /products/:category  GET             // get all products that belongs to a specific category
+```
 
 ***Your solution goes to the current folder***
