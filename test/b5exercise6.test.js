@@ -45,7 +45,7 @@ describe("#test7", function(){
 })
 describe("#test8", function(){
     it (`dinamicConverter should be 1`, function(){
-        assert.equal(dinamicConverter('add', ['yen',.3]), 1)
+        assert.equal(dinamicConverter('add', ['yen',0.3]), 1)
     })
 })
 describe("#test9", function(){
@@ -58,12 +58,12 @@ describe("#test10", function(){
         assert.equal(dinamicConverter('add', ['thb',0.032]), 1)
     })
 })
-describe("#test9", function(){
+describe("#test11", function(){
     it (`dinamicConverter should be 3750`, function(){
         assert.equal(dinamicConverter('convert', ['euro',100], 'thb'), 3750)
     })
 })
-describe("#test10", function(){
+describe("#test12", function(){
     it (`dinamicConverter should be "invalid data provided!"`, function(){
         assert.equal(dinamicConverter('convert', ['euro',100], 'hmmm'), "invalid data provided!")
     })

@@ -99,15 +99,16 @@ EXERCISE 5
 // for the sake of simplicity let's assume that all months have 30 days.
 // Examples:
 // Please bare in mind that these examples are not up to date (literally)...
+// The output should be "There is / there are ## month / months and ## day / days until your birthday"
 
 checkAge(2,8,1982)
-//your birthday will be in 6 days
+// There are 6 days until your birthday
 
 checkAge(2,9,1982)
-//your birthday will be in 1 months and 6 days
+// There is 1 month and 6 days until your birthday
 
 checkAge(25,2,1982)
-//your birthday is passed for this year
+// Sorry your birthday is passed for this year
 
 
 
