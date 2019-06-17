@@ -12,9 +12,7 @@ Create a brand new React application with 'React create App'. This app needs to 
 
 - Display the products divided in two categories: all products, best sellers. 
 
-- Use an array of objects as a products collection imported from an external file. 
-
-- Use an external component to display each single item.
+- Use an array of objects as a products collection imported from an external file.
 
 - The product component should display: product_name, price, image, 'on sale' label.
 
