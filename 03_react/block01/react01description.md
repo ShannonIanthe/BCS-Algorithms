@@ -14,9 +14,7 @@ Create a brand new React application with 'React create App'. This app needs to 
 
 - Use an array of objects as a products collection imported from an external file. 
 
-- Use an external component to display each single item.
-
-- The product component should display: product_name, price, image, 'on sale' label.
+- Every product should display: product_name, price, image, 'on sale' label (if any).
 
 - For the products structure you can use the follow one:
 
