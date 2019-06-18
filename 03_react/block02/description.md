@@ -15,7 +15,7 @@ Create 2 children components – one to display the firstnames and one to displa
 
 ## Exercise 3 
 
-Create 3 components, Main, List, and Item.
+Create 3 class components, Main, List, and Item.
 
 In Main declare an array of categories; you should pass this array as it is to List, 
 then in List you should map through the array and for each iteration you should pass each element of the array to Item in which you render it.
