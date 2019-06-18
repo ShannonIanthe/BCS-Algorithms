@@ -28,10 +28,10 @@ Refactor the previous exercise, this time using only functional components.
 
 Refactor the eCommerce clone you did in the previous block to use props.
 
-You should now use the Main, List and Item pattern with the list of products.
+You should now use the Main/List/Item pattern which will be App/ProductsList/SingleProduct components for the lists of products. 
 
-Declare the list of products in Main and pass it to List.
+Declare the list of products in App and pass it to ProductsList.
 
-Loop in List and for each iteration render the product in Item. 
+Loop in ProductsList and for each iteration render the product in SingleProduct. 
 
 > Optional with props or `useContext`
