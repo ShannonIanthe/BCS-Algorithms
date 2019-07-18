@@ -2,7 +2,7 @@
 
 Write a class component, with an input that takes the data from the user, the data is then displayed (rendered) as an `h1` in the page.
 
-If no text is provided it should display a text saying "no text provided!" 
+If no text is provided it should display a text saying "no data provided!" 
 
 > You should use the `onChange` event
 
