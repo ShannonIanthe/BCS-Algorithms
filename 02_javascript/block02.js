@@ -1,5 +1,5 @@
 EXERCISE 1:
-//write a funtion called assigner which takes 2 arguments, an array and an index.
+//write a function called assigner which takes 2 arguments, an array and an index.
 // it then takes one element from the provided array at the given index and place it in a new array then returns it.
 //Then return arr2.
 var arr   = ['milk','cheese','car','lime'];
