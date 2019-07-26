@@ -8,17 +8,17 @@ describe("#test1", function(){
         assert.typeOf(looper, 'function')
     })
 })
-describe("#test1", function(){
+describe("#test2", function(){
     it ('arr should be a array', function(){
         assert.typeOf(arr, 'array')
     })
 })
-describe("#test2", function(){
+describe("#test3", function(){
     it ('i should be an 4', function(){
         assert.equal(looper([2,4,8,7]), 4)
     })
 })
-describe("#test3", function(){
+describe("#test4", function(){
     it ('i should be an four', function(){
         assert.equal(arr[looper([2,4,8,7])-1], 'four')
     })

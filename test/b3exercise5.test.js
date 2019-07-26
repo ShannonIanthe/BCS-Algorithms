@@ -11,12 +11,12 @@ describe("#test2", function(){
         assert.equal(isString([3,55,66,"hello"]).length, 1)
     })
 })
-describe("#test2", function(){
+describe("#test3", function(){
     it ('i should be an 3', function(){
         assert.equal(isString([3,55,66,"hello","beer",12,{},[],()=>{},"[]"]).length, 3)
     })
 })
-describe("#test2", function(){
+describe("#test4", function(){
     it ('i should be an 3', function(){
         assert.equal(isString(["","","",15]).length, 3)
     })
