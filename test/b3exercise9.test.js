@@ -16,12 +16,12 @@ describe("#test3", function(){
         assert.equal(twoArrays([1,5,80], [10,5,80]), 2)
     })
 })
-describe("#test2", function(){
+describe("#test4", function(){
     it ('count should be 0', function(){
         assert.equal(twoArrays([3,5], [1, 4,5]), 0)
     })
 })
-describe("#test2", function(){
+describe("#test5", function(){
     it ('count should be 0', function(){
         assert.equal(twoArrays([3,5], ['3','5']), 0)
     })
