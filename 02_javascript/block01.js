@@ -1,12 +1,13 @@
 // Please write your solution in the corresponding folder/file to make them available for the testing
 
-//IN ORDER TO TEST YOUR SOLUTIONS YOU SHOULD RUN THE FOLLOWING COMAND IN THE TERMINAL:
+//IN ORDER TO TEST YOUR SOLUTIONS YOU SHOULD RUN THE FOLLOWING COMMANDS IN THE TERMINAL:
 
-// First time just once:
+// First time just once from the folder with the exercises you cloned, ie BCS_JS_BOOTCAMP_FILES_TDD:
+
 // npm install
 // This will install needed npm packages for testing
 
-// To test an exercise:
+// To test an exercise also from the folder with the exercises:
 
 //npm run test-single -- test/'NAME_OF_THE_TEST_FILE_YOU_ARE_TESTING'
 
