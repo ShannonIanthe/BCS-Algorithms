@@ -14,11 +14,11 @@ describe("#test2", function(){
 })
 describe("#test3", function(){
     it ('pusher should be ["Antonello", "George","Ting"]', function(){
-        assert.equal(pusher(["Antonello", "George","Ting"]),  ["Antonello", "George","Ting"])
+        assert.deepEqual(pusher(["Antonello", "George","Ting"]),  ["Antonello", "George","Ting"])
     })
 })
 describe("#test4", function(){
     it ('pusher should be ["one", "two","three"]', function(){
-        assert.equal(pusher(["one", "two","three"]),  ["one", "two","three"])
+        assert.deepEequal(pusher(["one", "two","three"]),  ["one", "two","three"])
     })
 })

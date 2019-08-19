@@ -123,14 +123,14 @@ var arr =[1,2,3,4,5,6,7,8,9,0,3,4,523,44,3454]
 EXERCISE 7:
 // write a function called pusher.
 // it takes one argument - an array.
-//using push take all elements from the array  and push them to a new variable called arr2
+//using push take all elements from the array  and push them to a new variable called arr2 avoiding having nested arrays
 //then return  arr2
 
 var arr = ["one","two","three","four"]
 //expected output  ["one","two","three","four"]
-//Once again please stringify the array before returning it.
+//Do Not Stringify this one!
 //===================example===================
-// return String(arr)
+// return (arr2)
 
 
 
