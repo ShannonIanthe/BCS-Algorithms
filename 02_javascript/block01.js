@@ -103,7 +103,6 @@ EXERCISE 6:
 
 EXERCISE 7:
 
-// create one varibale a, and assign it a value of 3.
 // create a function called isEven which takes 1 arg: a,  and return true if the argument passed is even and false if is odd.
 
 // example call 
