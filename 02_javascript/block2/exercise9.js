@@ -1,6 +1,4 @@
 
-
 module.exports = {
-    concatenator,
-    arr
+    concatenator
 }

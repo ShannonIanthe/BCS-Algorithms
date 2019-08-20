@@ -1,4 +1,2 @@
 
-module.exports ={
-    arr, arr2,pos, swap
-}
+module.exports ={ swap }

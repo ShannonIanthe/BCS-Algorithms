@@ -1,4 +1,2 @@
 
-module.exports = {
-    arr, pusher
-}
+module.exports = { pusher };

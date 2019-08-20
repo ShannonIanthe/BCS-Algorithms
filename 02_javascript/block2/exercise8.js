@@ -1,4 +1,4 @@
 
 module.exports = {
-    arr, take_and_push
+    take_and_push
 }

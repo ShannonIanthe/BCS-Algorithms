@@ -1,5 +1,4 @@
 
-
 module.exports = {
-    arr, position, splicer
+    splicer
 }
