@@ -18,13 +18,14 @@ EXERCISE 2:
 
 
 EXERCISE 3:
-// create a function called swap which takes two arrays as the first two arguments and a position as the third
+// create a function called swap which takes two arrays as the first two arguments and a position which is index as the third
 // It then returns the two arrays swapping the value at the position passed as argument.
 // return both arrays inside another array see example below:
 //=========================Example=========================
    var arr  =  ['banana','apple','orange']
    var arr2 =  ['tv','dvd-player','playstation']
    var pos  =  2;
+   swap(arr, arr2, pos)
 // expected output =====> [ ["banana", "apple", "playstation"] , ["tv", "dvd-player", "orange"] ]
 
 
@@ -41,11 +42,11 @@ EXERCISE 4:
 
 
 EXERCISE 5:
-
 // write a function called removeFirstAndLast
 // it takes an array as an argument and returns an array of which the first and last elements have been removed.
 //=========================Example=========================
    var arr = ['car','soap','banana','tv','toothbrush']
+   removeFirstAndLast(arr)
 // expected output =====> ['soap','banana','tv']
 
 
@@ -54,6 +55,7 @@ EXERCISE 6:
 // it takes an array as an argument and returns an array of which the all elements have be removed.
 //=========================Example=========================
 var arr =[1,2,3,4,5,6,7,8,9,0,3,4,523,44,3454]
+removeAll(arr)
 // expected output =====> []
 
 
@@ -65,6 +67,7 @@ EXERCISE 7:
 // then return arr2
 //=========================Example=========================
 var arr = ["one","two","three","four"]
+pusher(arr)
 // expected output =====> ["one","two","three","four"]
 
 
@@ -75,7 +78,8 @@ EXERCISE 8:
 // then return the new array.
 //=========================Example=========================
 var arr  = ['Breaking bad','WestWorld','Psych','Games of Thrones','Gotham','Spartacus','Dexter','Office']
-take_and_push(arr,2,4) // expected output =====> ["Psych","Gotham"]
+take_and_push(arr, 2, 4) 
+// expected output =====> ["Psych","Gotham"]
 
 
 EXERCISE 9:
@@ -83,6 +87,7 @@ EXERCISE 9:
 // and then using Array.concat it returns a new array which is a clone of the original array.
 //=========================Example=========================
 var arr = ['Breaking bad','WestWorld','Psych','Games of Thrones','Gotham','Spartacus','Dexter','Office']
+concatenator(arr)
 // expected output =====> ['Breaking bad','WestWorld','Psych','Games of Thrones','Gotham','Spartacus','Dexter','Office']
 
 

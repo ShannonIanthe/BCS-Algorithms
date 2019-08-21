@@ -8,17 +8,17 @@ var takeAll      = require('../02_javascript/block2/exercise2').takeAll
 //         assert.typeOf(arr, 'array')
 //     })
 // })
-describe("#test2", function(){
+describe("#test1", function(){
     it ('takeAll should be a function', function(){
         assert.typeOf(takeAll, 'function')
     })
 })
-describe("#test3", function(){
+describe("#test2", function(){
     it ('takeAll output should be an array', function(){
         assert.typeOf(takeAll(['milk','cheese','car','lime']), 'array')
     })
 })
-describe("#test4", function(){
+describe("#test3", function(){
     it ('arr2 should be ["lime", "car", "cheese", "milk"]', function(){
         assert.deepEqual(takeAll(['milk','cheese','car','lime']),["lime", "car", "cheese", "milk"])
     })

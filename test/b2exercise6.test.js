@@ -13,7 +13,7 @@ describe("#test1", function(){
     })
 })
 
-describe("#test3", function(){
+describe("#test2", function(){
     it ('removeAll should be []', function(){
         assert.deepEqual(removeAll([1,2,3,4,5,6,7,8,9,10]),  [])
     })
