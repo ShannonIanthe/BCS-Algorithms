@@ -94,8 +94,6 @@ EXERCISE 7
 EXERCISE 8
 // write a function called timesTwo which takes an array as an argument.
 // inside it use the forEach loop and push the numbers of the array to a new array and multiply them by two on the way!
-// then return the new array (stringified)
-// ex return String(arr)
 
 // example
 timesTwo([2,3,65,22])
