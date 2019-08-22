@@ -27,10 +27,10 @@ Create a form that gets email and password and a component with an alert initial
 
 If email and password are correct you should display a positive message with a green background otherwise negative message and red background but in both cases a series of messages:
 
-    This message will desappear in 3
-    This message will desappear in 2
-    This message will desappear in 1
-    This message will desappear in 0
+    This message will disappear in 3
+    This message will disappear in 2
+    This message will disappear in 1
+    This message will disappear in 0
 
 and make the alert component invisible again i.e. unmount it.
 
@@ -45,7 +45,7 @@ Create a cart component that will display a list of products in cart. For the pr
 
 Requirements:
 
-- you have to use React Hooks for this exercise
+- you can use React Hooks or class components for this exercise
 - you should display the total cost of the products
 - you should be able to change the product's quantity
 - you should display a free shipping green message once the total gets to 500€ or more, otherwise not eligible for a free shipping red message.

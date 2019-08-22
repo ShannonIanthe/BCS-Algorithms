@@ -8,7 +8,7 @@ If no text is provided it should display a text saying "no data provided!"
 
 ## Exercise 2
 
-Refactor the previous exercise, this time using a functional component and the `useState` hook.
+Refactor the previous exercise, this time using a functional component and the `useState` hook. Take a look at `useState` in the "Hooks" block of React part. 
 
 ## Exercise 3
 

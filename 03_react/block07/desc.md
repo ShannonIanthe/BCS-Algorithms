@@ -12,7 +12,7 @@ You should also create a message box that will change depending on the user inpu
 **if the password has less than 8 characters**
 
 - background : red
-- message: Password must ahve at least 8 characters.
+- message: Password must have at least 8 characters.
 
 **if the password doesn't match the second password**
 
