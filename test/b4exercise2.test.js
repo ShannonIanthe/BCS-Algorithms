@@ -8,7 +8,7 @@ describe("#test0", function(){
 })
 describe("#test1", function(){
     it ('is_an_even_number should be 2', function(){
-        assert.equal(is_an_even_number([1,5,9,33,65,122,66,['banana']]),2)
+        assert.equal(is_an_even_number([1,5,9,33,65,[],'',122,66,['banana']]),2)
     })
 })
 describe("#test2", function(){
