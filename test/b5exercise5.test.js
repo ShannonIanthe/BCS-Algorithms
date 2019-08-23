@@ -1,6 +1,6 @@
 var assert                    = require('chai').assert
 var checkAge                  = require('../02_javascript/block5/exercise5').checkAge
-var checkAgeTest              = require('../02_javascript/block5/testExercises/checkAgeTest').checkAgeTest
+var checkAgeTest              = require('./test/checkAgeTest').checkAgeTest
 
 describe("#test0", function(){
     it ('checkAge should be a function', function(){
@@ -14,9 +14,9 @@ describe("#test1", function(){
     })
 })
 describe("#test2", function(){
-    it (`checkAge should be ${checkAgeTest(5,11)}`, function(){
-        assert.equal(checkAge(5,11),
-        checkAgeTest(5, 11))
+    it (`checkAge should be ${checkAgeTest(11,11)}`, function(){
+        assert.equal(checkAge(11,11),
+        checkAgeTest(11, 11))
     })
 })
 describe("#test3", function(){
@@ -26,15 +26,15 @@ describe("#test3", function(){
     })
 })
 describe("#test4", function(){
-    it (`checkAge should be  ${checkAgeTest(4, 21)}`, function(){
-        assert.equal(checkAge(4, 21),
-        checkAgeTest(4, 21))
+    it (`checkAge should be  ${checkAgeTest(12, 21)}`, function(){
+        assert.equal(checkAge(12, 21),
+        checkAgeTest(12, 21))
     })
 })
 describe("#test5", function(){
-    it (`checkAge should be  ${checkAgeTest(8,11)}`, function(){
-        assert.equal(checkAge(8,11),
-        checkAgeTest(8,11))
+    it (`checkAge should be  ${checkAgeTest(2,11)}`, function(){
+        assert.equal(checkAge(2,11),
+        checkAgeTest(2,11))
     })
 })
 describe("#test6", function(){

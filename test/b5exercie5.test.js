@@ -1,6 +1,6 @@
 var assert                     = require('chai').assert
 var checkAge                   = require('../02_javascript/block5/exercise5').checkAge
-var checkAgeTest               = require('../02_javascript/block5/testExercises/checkAgeTest').checkAgeTest
+var checkAgeTest               = require('./test/checkAgeTest').checkAgeTest
 
 describe("#test0", function(){
     it ('checkAge should be a function', function(){
