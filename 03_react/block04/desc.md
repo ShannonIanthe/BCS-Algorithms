@@ -26,7 +26,7 @@ fetch(`http://www.apilayer.net/api/live?access_key=${your_api_key_here}`)
 .then( response => console.log(response))
 .catch( error => console.log(error))
 ```
-In case of errors about CORS , check this link : https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en
+> In case of errors about CORS , check this link : https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en
 
 ***Your solution goes to the ex02 folder***
 
