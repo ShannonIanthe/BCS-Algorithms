@@ -77,17 +77,12 @@ EXERCISE 3
 EXERCISE 4
 
     // extend tally so that now it can take two arguments, if the second argument is missing it will default to obj, if the second item is anything but arr it will default to obj.
-    // if the second argument is arr then instead of returning an object with the number as key and how many times it was in the array as values you should return arrays where the first elements is the number and the second is how many times it was in the array.
+    // if the second argument is 'arr' then instead of returning an object with the number as key and how many times it was in the array as values you should return arrays where the first elements is the number and the second is how many times it was in the array.
     
     // Example:
 
     tally([2,3,4,5,5,5,5,5,5,5,6,7,6,7,6,7,5,4,3,4,5,5,6], 'arr')
-    //[2, 1]
-    //[3, 2]
-    //[4, 3]
-    //[5, 10]
-    //[6, 4]
-    //[7, 3]
+    // [["2", 1],["3", 2],["4", 3],["5", 10],["6", 4],["7", 3]]
     //====================//
     tally([2,3,4,5,5,5,5,5,5,5,6,7,6,7,6,7,5,4,3,4,5,5,6], 'obj')
     //{2: 1, 3: 2, 4: 3, 5: 10, 6: 4, 7: 3}
