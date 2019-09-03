@@ -116,6 +116,10 @@ EXERCISE 6
 
 // write a function called numberConverter which takes an array as an argument 
 // then it loops through the array and checks if each element can be converted to a number 
+// pay attention that empty arrays and empty strings are implicitly converted to 0, so you should 
+// exclude them from conversion, they should be treated as unconvertible.
+// any numbers inside strings or if they are a single item of the array should be converted
+
 // if they can be converted it converts them and keeps track of how many can't be converted 
 // and it returns a string which outputs the result, as shown below.
 // "[...numbers] were converted while NUMBER_OF_UNCONVERTABLE couldn't be converted"
@@ -125,8 +129,9 @@ EXERCISE 6
 
 // example:
 numberConverter([1,2,3,'4','5', {}, 33])
+
 // should return:
-"2 were converted to numbers: 4,5; 1 couldn't be converted"
+"2 were converted to numbers: 4,5, 1 couldn't be converted"
 
 
 
