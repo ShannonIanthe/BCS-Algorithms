@@ -4,6 +4,8 @@ Create a brand new React application with 'React create App'. This app needs to 
 
 ***Your solution goes to the ex01 folder***
 
+
+
 ## Exercise 2 
 
 - Create a static page that display a list of products.
