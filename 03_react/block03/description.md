@@ -6,7 +6,7 @@ If no text is provided it should display a text saying "no data provided!"
 
 > You should use the `onChange` event
 
-## Exercise 2
+## Exercise 2 / Optional with hooks
 
 Refactor the previous exercise, this time using a functional component and the `useState` hook. Take a look at `useState` in the "Hooks" block of React part. 
 
