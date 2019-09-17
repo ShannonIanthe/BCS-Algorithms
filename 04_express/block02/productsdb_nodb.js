@@ -2,7 +2,7 @@ PRODUCTS DB
 
 Create a products DB that stores our products and divides them by categories.
 You should be able to create a CRUD (Create, Read, Update, Delete) app for adding categories as well as products. 
-all movies should have at least name , price , color and description, they should be editables.
+all products should have at least name , price , color and description, they should be editables.
 all data must be passed through the body using postman instead of params through the url.
 
 API:
