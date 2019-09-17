@@ -14,7 +14,10 @@ EXERCISE 1
         > /JP こんにちは世界
         > /AR مرحبا بالعالم
         > /EN Hello world
-        > / NL: Hello world, HI: नमस्ते दुनिया, ..., EN: Hello world.
+        example :
+        if you go to /NL your output should be Hallo Wereld 
+        if you go to /EN your output should be Hello world 
+        if you go to /FR your output should be Bonjour le monde
     Set Up Steps:
     npm init
     npm install --save express (you might need to do sudo)
