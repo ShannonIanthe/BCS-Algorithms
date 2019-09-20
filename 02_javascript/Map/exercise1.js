@@ -1,1 +1,5 @@
-module.exports = function ()  {}
+function objToMap () {
+	
+}
+
+module.exports = { objToMap }

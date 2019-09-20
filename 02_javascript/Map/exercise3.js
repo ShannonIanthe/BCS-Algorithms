@@ -1,2 +1,7 @@
-module.exports = function () {
+function mostTimes() {
+	
+}
+
+module.exports = {
+	mostTimes
 }

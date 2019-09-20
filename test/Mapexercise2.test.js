@@ -1,8 +1,5 @@
-var assert                      = require('chai').assert,
-find_expensive_items            = require('../02_javascript/Map/exercise2');
-
-    
-
+var assert           = require('chai').assert,
+find_expensive_items = require('../02_javascript/Map/exercise2').find_expensive_items;
 
 describe("#test1", function(){
     it ('find_expensive_items should be  a function', function(){

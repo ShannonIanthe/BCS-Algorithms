@@ -1,8 +1,5 @@
-var assert                      = require('chai').assert,
-    howManyGifts                = require('../02_javascript/Map/exercise4');
-
-    
-
+var assert       = require('chai').assert,
+    howManyGifts = require('../02_javascript/Map/exercise4').howManyGifts;
 
 describe("#test1", function(){
     it ('howManyGifts should be  a function', function(){

@@ -1,8 +1,5 @@
-var assert                      = require('chai').assert,
-    mostTimes                   = require('../02_javascript/Map/exercise3');
-
-    
-
+var assert    = require('chai').assert,
+    mostTimes = require('../02_javascript/Map/exercise3').mostTimes;
 
 describe("#test1", function(){
     it ('mostTimes should be  a function', function(){

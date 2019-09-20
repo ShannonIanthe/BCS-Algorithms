@@ -1,3 +1,7 @@
-module.exports = function (){
+function howManyGifts() {
 
+}
+
+module.exports = {
+    howManyGifts
 }

@@ -1,8 +1,5 @@
-var assert                      = require('chai').assert,
-objToMap                        = require('../02_javascript/Map/exercise1');
-
-    
-
+var assert = require('chai').assert,
+objToMap   = require('../02_javascript/Map/exercise1').objToMap;
 
 describe("#test1", function(){
     it ('objToMap should be  a function', function(){
