@@ -106,8 +106,8 @@ EXERCISE 11:
 // it needs to check if the string is inside the array and returns true if it is and false if it's not.
 //=========================Example=========================
 var arr = ['green','red','black','blue','brown','yellow','purple']
-isThere('red')     // expected output =====> true
-isThere('banana')  // expected output =====> false
+isThere(arr, 'red')     // expected output =====> true
+isThere(arr, 'banana')  // expected output =====> false
 
 
 EXERCISE 12:
@@ -115,8 +115,8 @@ EXERCISE 12:
 // color is there and true if it's not!
 //=========================Example=========================
 var arr = ['green','red','black','blue','brown','yellow','purple']
-isThere('red')     // expected output =====> false
-isThere('banana')  // expected output =====> true
+isThere(arr, 'red')     // expected output =====> false
+isThere(arr, 'banana')  // expected output =====> true
 
 
 EXERCISE 13:
