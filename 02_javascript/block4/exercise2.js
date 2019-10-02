@@ -1,5 +1,4 @@
 
-
 module.exports = {
-    is_an_even_number
+	is_an_even_number
 }
