@@ -57,6 +57,7 @@ var arr = ['one','two','three','four']
 
 EXERCISE 5
 // write a function called isString which takes an array as argument.
+// such as var anyArr = [‘one’, 5, ‘two’, 6, ‘three’, true, ‘four’]
 // inside it write a forEach loop that loops through this example array and checks if the type of each element is a string, 
 // every time it finds a string it pushes it into an array.
 // return that array
