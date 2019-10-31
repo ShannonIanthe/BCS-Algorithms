@@ -8,13 +8,13 @@ describe("#test0", function(){
 })
 describe("#test1", function(){
     it ("filter should be ['sdads', 'sadsasadasddsaddsadadsasd']", function(){
-        assert.equal(filter(['sdads','sadsasadasddsaddsadadsasd',44, [1,5,5,5,5,5,5,5,5,5,5,5]], 'object', 3),
+        assert.deepEqual(filter(['sdads','sadsasadasddsaddsadadsasd',44, [1,5,5,5,5,5,5,5,5,5,5,5]], 'object', 3),
         ["sdads", "sadsasadasddsaddsadadsasd"])
     })
 })
 describe("#test2", function(){
     it ("filter should be  ['sdads', 'sadsasadasddsaddsadadsasd']", function(){
-        assert.equal(filter(['sdads','sadsasadasddsaddsadadsasd',44, [1,5,5,5,5,5,5,5,5,5,5,5]], 'object', 3),
+        assert.deepEqual(filter(['sdads','sadsasadasddsaddsadadsasd',44, [1,5,5,5,5,5,5,5,5,5,5,5]], 'object', 3),
         ["sdads", "sadsasadasddsaddsadadsasd"])
     })
 })
