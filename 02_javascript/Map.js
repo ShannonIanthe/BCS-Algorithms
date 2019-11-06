@@ -1,3 +1,5 @@
+OPTIONAL!!!
+
 // ===== EXERCISE 1 ====
 
 // Create a function called objToMap that takes 2 objects as arguments: one object to take propreties from and a schema object,  and returns a new map with all propreties from one the objects which meet our conditions.
