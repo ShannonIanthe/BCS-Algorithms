@@ -1,4 +1,4 @@
 
 module.exports = {
-    addCurrency, findcurrency, converter, tellConversion
+    addCurrency, findCurrency, converter, tellConversion
 }

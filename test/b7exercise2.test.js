@@ -1,7 +1,7 @@
 var assert                      = require('chai').assert,
     addCurrency                 = require('../02_javascript/block7/exercise2.js').addCurrency,
     converter                   = require('../02_javascript/block7/exercise2.js').converter,
-    findcurrency                = require('../02_javascript/block7/exercise2.js').findcurrency,
+    findCurrency                = require('../02_javascript/block7/exercise2.js').findCurrency,
     tellConversion              = require('../02_javascript/block7/exercise2.js').tellConversion;
 var crypt                       = [];
 
@@ -9,7 +9,7 @@ describe("#test1", function(){
     it ('You should have declared all required functions', function(){
         assert.typeOf(addCurrency,    'function')
         assert.typeOf(converter,      'function')
-        assert.typeOf(findcurrency,   'function')
+        assert.typeOf(findCurrency,   'function')
         assert.typeOf(tellConversion, 'function')
     })
 })

@@ -17,7 +17,7 @@ DB = [
             }
         ]},
         {
-        genre:'commedy', 
+        genre:'comedy', 
         movies:[
             {
                 title:'pinapple express', release_date:2008
