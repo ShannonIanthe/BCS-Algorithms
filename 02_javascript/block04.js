@@ -189,8 +189,10 @@ var arr = [
             3 , 3 , 3 , 4 , 5 , 6 , 54 , 
             "antonello", "33", "£", "66"
 ]
+
+uniqueElements(arr, 9)
 //expected output :
-//[10, 44, 55, 66, 77, 54]
+//'old array 10, 44, 55 ,66 , 77 , 55 , 44 , 3 , 3 , 3 , 4 , 5 , 6 , 54 ,  "antonello", "33", "£", "66", new array 10, 44, 55, 66, 77, 54'
 
 
 
