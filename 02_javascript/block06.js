@@ -215,7 +215,7 @@ EXERCISE 11
 schema = {id: "number", name: "string", age: "number", married: "boolean"}
 DB = []
 
-model("add", {id: 1, name: "Joe", age: "32", address: "Muntaner 262, Barcelona", married: "to Mary"})
+model("add", {id: 1, name: "Joe", age: "32", address: "Muntaner 262, Barcelona", married: "to Mary"}, schema)
 DB // [{id: 1, name: "Joe"}] => married and age not added because of the wrong type (why?)
 
 
