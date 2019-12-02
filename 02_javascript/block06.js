@@ -237,6 +237,7 @@ schema = {
     age: {type: "number"},
     married: {type: "boolean", default: false}
     }
+    
 DB = []
  
 model("add", {id: 1, name: "pedro", age: "32", address: "Muntaner 262, Barcelona, Spain"}, schema)
