@@ -65,6 +65,7 @@ EXERCISE 7:
 // using push take all elements from the array  and push them to a new variable called arr2 avoiding 
 // having nested arrays
 // then return arr2
+// hint==> take a look at spread operator: ...
 //=========================Example=========================
 var arr = ["one","two","three","four"]
 pusher(arr)
