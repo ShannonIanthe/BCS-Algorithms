@@ -165,7 +165,7 @@ EXERCISE 8
 // var originalArray = ['mike','jason','peter','robert','mike','jason','jenny','jane']
 
 // example return:
-// old array: ['mike','jason','peter','robert','mike','jason','jenny','jane'], new array: ['mike','jason','peter','robert','jenny','jane']
+// old array mike,jason,peter,robert,mike,jason,jenny,jane new array mike,jason,peter,robert,jenny,jane
 
 
 

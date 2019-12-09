@@ -147,11 +147,6 @@ EXERCISE 11
 
 
 
-
-
-
-
-
 EXERCISE 12
 // write a function called reverser which takes one sting as an argument and returns the same string in reverse.
 // you must use
