@@ -18,7 +18,7 @@ Create a brand new React application with 'React create App'. This app needs to 
 
 - Every product should display: product_name, price, image, 'on sale' label (if any).
 
-- For the products structure you can use the follow one:
+- For the products structure you can use the following one or fetch it from https://api.myjson.com/bins/g0jwc:
 
   ```jsx
    const products = [
