@@ -1,6 +1,6 @@
 var checkAgeTest = (m, d) =>{
 	if(m > 12 || d > 31 || m < 1 || d < 1) return "Error invalid data provided"
-    if (new Date(`${m}/${d}/${2020}`).toDateString() == new Date().toDateString())return "Happy birhtday!"
+    if (new Date(`${m}/${d}/${new Date().getFullYear()}`).toDateString() == new Date().toDateString())return "Happy birhtday!"
     
 
 	var diff =  new Date(`${m}/${d}/${new Date().getFullYear()}`) - new Date() 
