@@ -1,6 +1,6 @@
 var apple= 5, apple2 = 10;
-function total (apple, apple2){
-// your code goes here
+function total (num, num2){
+// you code goes here
     return sum; 
 }
 
