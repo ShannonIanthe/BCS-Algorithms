@@ -18,7 +18,7 @@ Create a brand new React application with 'React create App'. This app needs to 
 
 - Every product should display: product_name, price, image, 'on sale' label (if any).
 
-- For the products structure you can use the following one or fetch it from https://api.myjson.com/bins/g0jwc:
+- For the products structure you can use the following one:
 
   ```jsx
    const products = [
@@ -48,6 +48,20 @@ Create a brand new React application with 'React create App'. This app needs to 
                       }
    ]
    ```
+Or fetch it from https://api.myjson.com/bins/g0jwc with 
+
+```
+fetch('https://api.myjson.com/bins/g0jwc')
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data);
+  })
+.catch((error) => {
+  console.error('Error:', error);
+})
+```
 
 Use this page as an example: https://www.chalkd.co.nz/collections/all but don't repeat their layout mistakes such as overlapping elements, etc. 
 
