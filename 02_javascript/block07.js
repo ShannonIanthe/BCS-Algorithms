@@ -142,19 +142,3 @@ shuffle(arr)
 shuffle(arr)
 (4) ["three", "two", "four", "one"]
 
-
-
-
-
-
-EXERCISE 6 
-
-/* Family affairs*/
-
-
-
-
-
-EXERCISE 7 
-
-/* Humans invasion */
