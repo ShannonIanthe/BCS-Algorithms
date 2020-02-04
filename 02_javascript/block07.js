@@ -9,23 +9,23 @@ Exercise1
 // 'the movie the < YOUR_MOVIE_GOES_HERE > is already in the database!'
 
 DB = [
+{
+    genre:'thriller', 
+    movies:[
     {
-        genre:'thriller', 
-        movies:[
-            {
-                title:'the usual suspects', release_date:1999
-            }
-        ]},
-        {
+        title:'the usual suspects', release_date:1999
+    }
+    ]},
+    {
         genre:'comedy', 
         movies:[
-            {
-                title:'pinapple express', release_date:2008
-            }
+        {
+            title:'pinapple express', release_date:2008
+        }
         ]}
-]
+        ]
 
-EXERCISE 2
+        EXERCISE 2
 // To practice passing data between functions let's create a crypto converter…
 // You need to create several functions, each will be responsible for its own tasks and to call the next function.
 // addCurrency
@@ -88,7 +88,7 @@ EXERCISE 3
 
 
 
-EXERCISE 4
+    EXERCISE 4
 
 
     // Implement a representation of the universe where matter and energy is conserved. To do so implement one object called Universe that contains two objects within: matter and energy. If matter is destroyed; that is say we call Universe.matter.destroy(5), then the amount of energy in the universe needs to be increased so that if we call Universe.energy.total() we should obtain a total value of energy that has increased +5 compared to the energy value previous to calling Universe.matter.destroy(5). Of course the total amount of matter obtained by calling Universe.matter.total()has been reduced by 5 compared to the initial value.
@@ -126,7 +126,7 @@ EXERCISE 4
 
 
 
-EXERCISE 5
+    EXERCISE 5
 
 // Without Googling how to shuffle elements inside an array in javascript create a function called shuffle and implement in it your own algorithm to shuffle the elements inside of the given array.
 
@@ -142,3 +142,149 @@ shuffle(arr)
 shuffle(arr)
 (4) ["three", "two", "four", "one"]
 
+
+
+
+
+
+EXERCISE 6 
+
+/* Family affairs*/
+
+
+/*
+Jenny from perfectFamily is unhappy and is looking for a new family, help her! 
+
+First, she is looking for a family without a mother so she would fit there easily, if such family is not available, then her second choice would be to find a family without any kids. If she has some bad luck with that, then her choice would be a family with the oldest kid(s) possible. 
+
+Function name is familyAffairs, first argument is a perfect family, second argument is an array with other families.
+
+Test case 1 with a family without mother:
+
+let perfectFamily = {
+    father:{ name:'Mike', age:44, height:179 },
+    mother:{ name:'Jenny', age:40, height:168 },
+    son:{ name:'Pablo', age:16, height:165 }
+}
+
+let otherFamilies = [
+{Smiths:{
+    father:{ name:'Jake', age:38, height:182 },
+    mother:{ name:'Viola', age:36, height:172 },
+    son:{ name:'Donny', age:14, height:180 }
+    }
+},
+{Morenos:{
+    father:{ name:'Juan', age:42, height:188 },
+    daughter:{ name:'Julia', age:10, height:149 }
+        }
+},
+{Tanakas:{
+    father:{ name:'Kioto', age:39, height:172 },
+    mother:{ name:'Junko', age:42, height:164 },
+    son:{ name:'Bundo', age:24, height:164 }
+        }
+}
+]
+
+Expected output: Yay! Jenny moved to Morenos
+
+
+Test case 2 with all families with mothers but one without kids:
+
+let perfectFamily = {
+    father:{ name:'Mike', age:44, height:179 },
+    mother:{ name:'Jenny', age:40, height:168 },
+    son:{ name:'Pablo', age:16, height:165 }
+}
+
+let otherFamilies = [
+{Smiths:{
+    father:{ name:'Jake', age:38, height:182 },
+    mother:{ name:'Viola', age:36, height:172 }
+    }
+},
+{Morenos:{
+    father:{ name:'Juan', age:42, height:188 },
+    daughter:{ name:'Julia', age:10, height:149 },
+    mother:{ name:'Kate', age:36, height:172 }
+        }
+},
+{Tanakas:{
+    father:{ name:'Kioto', age:39, height:172 },
+    mother:{ name:'Junko', age:42, height:164 },
+    son:{ name:'Bundo', age:24, height:164 }
+        }
+}
+]
+
+Expected output: Yay! Jenny moved to Smiths
+
+
+
+Test case 3 with all families with mothers and kids:
+
+
+let perfectFamily = {
+    father:{ name:'Mike', age:44, height:179 },
+    mother:{ name:'Jenny', age:40, height:168 },
+    son:{ name:'Pablo', age:16, height:165 }
+}
+
+let otherFamilies = [
+{Smiths:{
+    father:{ name:'Jake', age:38, height:182 },
+    mother:{ name:'Viola', age:36, height:172 },
+    son:{ name:'Donny', age:14, height:180 }
+    }
+},
+{Morenos:{
+    father:{ name:'Juan', age:42, height:188 },
+    daughter:{ name:'Julia', age:10, height:149 },
+    mother:{ name:'Kate', age:36, height:172 }
+        }
+},
+{Tanakas:{
+    father:{ name:'Kioto', age:39, height:172 },
+    mother:{ name:'Junko', age:42, height:164 },
+    son:{ name:'Bundo', age:24, height:164 }
+        }
+}
+]
+
+
+Expected output: Yay! Jenny moved to Tanakas
+
+*/
+
+
+EXERCISE 7 
+
+/* Humans invasion */
+// No tests for this one since it will be using a random choice for the battle 🤪
+
+/*
+As we run out or resources on Earth we are planning an invasion on planet Otatop which seems to have very suitable atmosphere for us. But there is a tiny problem -- it is already inhibitit by some local creatures. And they are willing to protect it from us (how dare they!).
+So we assemled an army of stormtroopers willing to defeat and conquer. 
+First battle is happening on Otatop, if we defeat them there -- war is over!!!
+If not, next battle is half-way, on the Moon! From there, if those annoying aliens will defeat us, the battle is on Earth. Loosing on Earth means end of game for us. If we won on Earth, moving back to the Moon and so on. 
+So the race loosing the battle on their home planet lose the game and seize to exist. 
+Alternatively, the army first ti perish completely also means kaput for the player and end game. If unit is perished completely, it can't go to the next battle, duh.
+
+Example data:
+
+let humans = [
+{unit:'karateMasters', qty: 3000000, strength: 5, rateOfFire: 20, stamina: 10},
+{unit:'teslaTanks', qty: 500, strength: 100, rateOfFire: 5, stamina: 100}
+{unit:'bostonDynamicsSpot', qty: 200, strength: 50, rateOfFire: 15, stamina: 60}
+]
+
+let aliens = [
+{unit:'motherLord', qty: 1, strength: 500, rateOfFire: 50, stamina: 300},
+{unit:'yellowCreature', qty: 250, strength: 200, rateOfFire: 6, stamina: 90}
+{unit:'slimyThing', qty: 2500000, strength: 3, rateOfFire: 30, stamina: 7}
+]
+
+let locations = ['Earth','Moon','Otatop']
+
+*/
