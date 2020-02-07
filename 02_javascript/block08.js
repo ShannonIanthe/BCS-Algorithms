@@ -171,11 +171,9 @@ EXERCISE 6
 
 Challenge
 
-// Create a calculator with a graphical interface similar to that shown on the picture 
-// below,(or better...).
-// This calculator needs to work with the basic operations (add, subtract, multiply and divide). Also add a clear button to clear the display on click. For the layout you may consider using the bootstrap grid system
-    
-// https://d2mxuefqeaa7sj.cloudfront.net/s_2DBAB7755F46B144CA2C8E6AE35D3FCDF36D0DB9BBEEEBF1654201DF0011FFDB_1509884234526_image.png
+// Create a simple calculator with a graphical interface
+// This calculator needs to work with the basic operations (add, subtract, multiply and divide). 
+// Also add a clear button to clear the display on click. 
 
 ***Your solution goes to UI_Calculator folder***
 
