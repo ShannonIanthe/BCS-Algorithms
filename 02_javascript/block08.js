@@ -169,13 +169,6 @@ EXERCISE 6
 
 
 
-Challenge
-
-// Create a simple calculator with a graphical interface
-// This calculator needs to work with the basic operations (add, subtract, multiply and divide). 
-// Also add a clear button to clear the display on click. 
-
-***Your solution goes to UI_Calculator folder***
 
 
 

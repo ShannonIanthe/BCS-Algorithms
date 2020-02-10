@@ -28,3 +28,14 @@ When the button (also a separate component) is clicked then you should alert the
 ## ToDo app (of course!)
 
 Please find the description in the todo_app folder of block03
+
+## Extra challenge: UI Calculator
+
+Challenge
+
+// Create a simple calculator with a graphical interface
+// This calculator needs to work with the basic operations (add, subtract, multiply and divide). 
+// Also add a clear button to clear the display on click. 
+
+***Your solution goes to UI_Calculator folder***
+
