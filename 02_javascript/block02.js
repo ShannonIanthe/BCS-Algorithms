@@ -97,9 +97,9 @@ EXERCISE 10:
 // the index of the given element.
 //=========================Example=========================
 var arr = ['glass','car','watch','sofa','macbook']
-findPosition('car')   // expected output =====> 1
-findPosition('sofa')  // expected output =====> 3
-findPosition('glass') // expected output =====> 0
+findPosition(arr, 'car')   // expected output =====> 1
+findPosition(arr, 'sofa')  // expected output =====> 3
+findPosition(arr, 'glass') // expected output =====> 0
 
 
 EXERCISE 11:
