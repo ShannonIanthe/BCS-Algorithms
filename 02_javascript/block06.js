@@ -186,10 +186,11 @@ schema = ["id", "name", "age"]
 
 // Please note the schema is only an example here, I may be calling a different one from the test...
 // Define you DB array inside the function to avoid issues.
+var DB = []
 // your function should take three arguments
     // an action, an object and a schema.
     // the action should be "add" or no changes should be done.
-var DB = []
+
 
 model("add", {id: 1, name: "Joe", age: 32, address: "Muntaner 262, Barcelona"}, schema)
 DB // [{id: 1, name: "Joe", age: 32}] => Address was not added because not allowed by the schema 
