@@ -104,22 +104,22 @@ EXERCISE 3
     // Example:
 
     var universe = new Universe(10, 'matter')
-    Universe.matter.total // 10 
-    Universe.energy.total // 0 
+    universe.matter.total // 10 
+    universe.energy.total // 0 
 
     // or with no initial amount 
     var universe = new Universe()
-    Universe.matter.total // 0 
-    Universe.energy.total // 0 
-    Universe.matter.destroy(5) // 0 
-    Universe.eatter.total // -5 
-    Universe.energy.total // 5 
-    Universe.energy.destroy(-5) // 0 
-    Universe.matter.total // -10 
-    Universe.energy.total // 10 
-    Universe.energy.create(5) // 0 
-    Universe.matter.total // -15 
-    Universe.energy.total // 15 
+    universe.matter.total // 0 
+    universe.energy.total // 0 
+    universe.matter.destroy(5) // 0 
+    universe.matter.total // -5 
+    universe.energy.total // 5 
+    universe.energy.destroy(-5) // 0 
+    universe.matter.total // -10 
+    universe.energy.total // 10 
+    universe.energy.create(5) // 0 
+    universe.matter.total // -15 
+    universe.energy.total // 15 
 
     // Notes: Initially make your universe contain 0 matter and energy. Destroying a negative amount of energy of matter is equal to creating a positive amount of each and vice versa for creating matter or energy.
 
