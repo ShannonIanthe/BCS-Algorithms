@@ -25,6 +25,9 @@ DB = [
         ]}
         ]
 
+
+
+
         EXERCISE 2
 // To practice passing data between functions let's create a crypto converter…
 // You need to create several functions, each will be responsible for its own tasks and to call the next function.
@@ -47,7 +50,7 @@ DB = [
 addCurrency({coin:'bitcoin', rate:8000}, 2, crypt)
 // Here {coin:'bitcoin', rate:8000} is your coin, 2 is a value/amount, crypt is the name of your DB
 // First time you run it should return "New coin Bitcoin added to Database"
-// Second time you run it the return should be "You will receive 16000 usd for your 2 bitcoins"
+// Second time you run it the return should be "You will receive 16000 usd for your 2 Bitcoins"
 
 // addCurrency should first check if the coin already exists in the DB and if it doesn't it should add it on and return the following:
 // "New coin {YOUR_NEW_ADDED_COIN_GOES_HERE} added to Database"
