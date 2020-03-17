@@ -138,7 +138,7 @@ EXERCISE 10
 EXERCISE 11
 // write a function called lowerCaseLetters which takes a string as argument.
 // the string will contain some upper case letters and some numbers, 
-// then create a new variable which needs to contain all the lowercase letters of the original string
+// then create a new variable which needs to contain this string without numbers all in lowercase and with spaces between words
 // once done return the resulted string 
 
 // original sentence = An2323t2323one32llo123455Likes567323Play323ing567243G2323a3mes345
