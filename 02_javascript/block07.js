@@ -272,7 +272,9 @@ So we assemled an army of stormtroopers willing to defeat and conquer.
 First battle is happening on Otatop, if we defeat them there -- war is over!!!
 If not, next battle is half-way, on the Moon! From there, if those annoying aliens will defeat us, the battle is on Earth. Loosing on Earth means end of game for us. If we won on Earth, moving back to the Moon and so on. 
 So the race loosing the battle on their home planet lose the game and seize to exist. 
-Alternatively, the army first ti perish completely also means kaput for the player and end game. If unit is perished completely, it can't go to the next battle, duh.
+Alternatively, the army first to perish completely also means kaput for the player and end game. If unit is perished completely, it can't go to the next battle, duh.
+
+For every battle for simplicty we randomly pick units from both armies and throw them into the fight, the unit winning determines the results fo the battle, also tbased on the damage causeed we count how many opposite units are dead. 
 
 Example data:
 
