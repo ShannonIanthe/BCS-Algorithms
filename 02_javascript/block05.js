@@ -73,13 +73,13 @@ EXERCISE 4
 //========================EXAMPLES========================
 // assuming today is April 11, 2018
 tellAge(8,2,1982)
-//you are 35 years old
+//You are 35 years old
 
 tellAge(4,3,1982)
-//you are 36 years old
+//You are 36 years old
 
 tellAge(4,9,2018)
-//you are 2 days old
+//You are 2 days old
 
 
 
