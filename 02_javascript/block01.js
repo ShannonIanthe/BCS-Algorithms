@@ -20,21 +20,21 @@
 
 //npm run test-single -- test/b2exercise3.test.js
 
-EXERCISE 1:
+'EXERCISE 1:'
 
 // create a variable called apple and assign to it a value of 5
 // then create another variable called apple2 and give to it a value of 15.
 // and finally sum the together and return their sum.
 
 //======================  EXAMPLE  ========================
-// total(15,5)
-// 20
-// total(20,20)
-// 40
+total(15,5)
+20 // <======  EXPECTED OUTPUT
+total(20,20)
+40 // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-EXERCISE 2:
+'EXERCISE 2:'
 
 // create 2 variables:
 // a , b
@@ -42,14 +42,14 @@ EXERCISE 2:
 // return the total of the multiplication of a and b
 
 //======================  EXAMPLE  ========================
-// multy(10,5)
-// 50
-// multy(20,20)
-// 400
+multy(10,5)
+50 // <======  EXPECTED OUTPUT
+multy(20,20)
+400 // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-EXERCISE 3:
+'EXERCISE 3:'
 
 // Age calculator
 // Want to find out how old you'll be? Calculate it!
@@ -58,14 +58,14 @@ EXERCISE 3:
 // Output the age!
 
 //======================  EXAMPLE  ========================
-// ageCalc(1982,2018)
-// 36
-// ageCalc(2000,2018)
-// 18
+ageCalc(1982,2018)
+36 // <======  EXPECTED OUTPUT
+ageCalc(2000,2018)
+18 // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-EXERCISE 4:
+'EXERCISE 4:'
 
 // Ever wondered how much a "lifetime supply of Tea you will need?"
 // let's find out!!!
@@ -76,97 +76,98 @@ EXERCISE 4:
 // Output the result!
 
 //======================  EXAMPLE  ========================
-// howManyTeas(35,70, 2)
-// 25550
-// howManyTeas(35,36, 2)
-// 730
+howManyTeas(35,70, 2)
+25550 // <======  EXPECTED OUTPUT
+howManyTeas(35,36, 2)
+730 // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-EXERCISE 5:
+'EXERCISE 5:'
 
 // Define a function called compare which takes 2 arguments, and returns true if the first is bigger than the second and false if is not.
 
 //======================  EXAMPLE  ========================
-// compare(100, 50)
-// true
-// compare(1, 100)
-// false
+compare(100, 50)
+true // <======  EXPECTED OUTPUT
+compare(1, 100)
+false // <======  EXPECTED OUTPUT
 //=========================================================
 
-EXERCISE 6:
+
+'EXERCISE 6:'
 
 // Define a function called compare which takes 2 arguments, and returns true if the first is equal to the second and false 
 // if is not (strict equality).
 
 //======================  EXAMPLE  ========================
-// compare(10, 34)
-// false
-// compare(100, 100)
-// true
-// compare(100, '100')
-// false
+compare(10, 34)
+false // <======  EXPECTED OUTPUT
+compare(100, 100)
+true // <======  EXPECTED OUTPUT
+compare(100, '100')
+false // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-EXERCISE 7:
+'EXERCISE 7:'
 
 // create a function called isEven which takes 1 arg: a,  and return true if the argument passed is even and false if is odd.
 
 //======================  EXAMPLE  ========================
-// isEven(7)
-// false
-// isEven(2)
-// true
+isEven(7)
+false // <======  EXPECTED OUTPUT
+isEven(2)
+true // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-EXERCISE 8:
+'EXERCISE 8:'
 
 // knowing that the minimum age for driving a 50cc scooter is 15 define a variable called age
 // and then return true if you are old enough to drive a scooter and false if you are not
 
 //======================  EXAMPLE  ========================
-// checkAge(21, 15)
-// true
-// checkAge(12,15)
-// false
-// checkAge(100, 60)
-// true
+checkAge(21, 15)
+true // <======  EXPECTED OUTPUT
+checkAge(12,15)
+false // <======  EXPECTED OUTPUT
+checkAge(100, 60)
+true // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-EXERCISE 9:
+'EXERCISE 9:'
 
 // define the name of the user
 // define the year of birth of the user
 // return his name and current age in a sentence like in the example:
 
 //======================  EXAMPLE  ========================
-// getAge(1982, 2018, 'Antonello')
-// `Hello Antonello you are 36 years old`
-// getAge(1960, 1970, 'Mike')
-// `Hello Mike you are 10 years old`
-// getAge(1200, 2000, 'Ottaviano')
-// `Hello Ottaviano you are 800 years old`
+getAge(1982, 2018, 'Antonello')
+`Hello Antonello you are 36 years old` // <======  EXPECTED OUTPUT
+getAge(1960, 1970, 'Mike')
+`Hello Mike you are 10 years old` // <======  EXPECTED OUTPUT
+getAge(1200, 2000, 'Ottaviano')
+`Hello Ottaviano you are 800 years old` // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-EXERCISE 10:
+'EXERCISE 10:'
 
 // define the user year of birth
 // assign the current year to a variable.
 // then return the following message, replacing the word *'DAYS'* with the actual value
 
 //======================  EXAMPLE  ========================
-// howManyDays(2016, 2018)
-// `you have lived for 730 days already!`
-// howManyDays(1982, 2018)
-// `you have lived for 13140 days already!`
+howManyDays(2016, 2018)
+`you have lived for 730 days already!` // <======  EXPECTED OUTPUT
+howManyDays(1982, 2018)
+`you have lived for 13140 days already!` // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-EXERCISE 11:
+'EXERCISE 11:'
 
 // It's hot out! Let's make a converter based on the steps here:
 // http://www.mathsisfun.com/temperature-conversion.html
@@ -177,17 +178,12 @@ EXERCISE 11:
 // Convert it to celsius and output the result.
 
 //======================  EXAMPLE  ========================
-// toCelsius(102)
-// 39
-// toFahr(39)
-// 102
-// toCelsius(68)
-// 20
-// toFahr(57)\
-// 135
+toCelsius(102)
+39 // <======  EXPECTED OUTPUT
+toFahr(39)
+102 // <======  EXPECTED OUTPUT
+toCelsius(68)
+20 // <======  EXPECTED OUTPUT
+toFahr(57)
+135 // <======  EXPECTED OUTPUT
 //=========================================================
-
-
-
-
-
