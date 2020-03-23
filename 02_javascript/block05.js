@@ -88,7 +88,7 @@ tellAge(4,9,2018)
 EXERCISE 5
 
 // Write a function called  checkAge that checks how many days there are between now and the next birthday. 
-// this function will take 3 arguments month, day and year
+// this function will take 2 arguments month and day
     // if the date of birth is today it should return 
         // Happy birthday! 
     // if the date of birth is passed it should return
@@ -102,13 +102,13 @@ EXERCISE 5
 // Please bare in mind that these examples are not up to date (literally)...
 // The output should be "There is / there are ## month / months and ## day / days until your birthday"
 
-checkAge(2,8,1982)
+checkAge(2,8)
 // There are 6 days until your birthday
 
-checkAge(2,9,1982)
+checkAge(2,9)
 // There is 1 month and 6 days until your birthday
 
-checkAge(2,25,1982)
+checkAge(2,25)
 // Sorry your birthday is passed for this year
 
 

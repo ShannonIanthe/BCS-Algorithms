@@ -16,7 +16,7 @@ EXERCISE 2
 addToObj('jason', 'bourne')
 
 //expected output
-// { jason :  bourne }
+// { jason :  'bourne' }
 
 
 
@@ -63,7 +63,7 @@ var movies = ['matrix','the dark knight','a beautiful mind','american pie']
 //Example:
 
 //addToList(movies)
-//returns ['{title:matrix, id:0}','{title:the dark knight, id:1}','{title:a beautiful mind, id:2}','{title:american pie, id:3}']
+//returns ['{title:'matrix', id:0}','{title:'the dark knight', id:1}','{title:'a beautiful mind', id:2}','{title:'american pie', id:3}']
 
 
 
