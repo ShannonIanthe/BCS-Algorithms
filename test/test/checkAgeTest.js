@@ -20,10 +20,10 @@ var checkAgeTest = (m, d) =>{
     }
     months = Math.floor(months)
     days   = Math.floor(days)
-    if(months < 1) return `${isPlural(days, 'there are', 'there is')} ${isPlural(days, 'days','day')} until your next birthday`
+    if(months < 1) return `${isPlural(days, 'There are', 'There is')} ${isPlural(days, 'days','day')} until your next birthday`
     if(days < 1  ) return `${isPlural(months,'There are','There is')} ${isPlural(months, 'months','month')} until your next birthday`
     else{
-        return `${isPlural(months,'There are','There is')} ${months} ${isPlural(months, 'months','month')} and ${days} ${isPlural(days, 'days','day')} until your birthday`
+        return `${isPlural(months,'There are','There is')} ${months} ${isPlural(months, 'months','month')} and ${days} ${isPlural(days, 'days','day')} until your next birthday`
     }
     
 

@@ -49,16 +49,7 @@ filter(['sdads','sadsasadasddsaddsadadsasd',44, [1,5,5,5,5,5,5,5,5,5,5,5]], 'obj
 //=========================================================
 
 
-
-
-
-
-
-
-
-
-
-EXERCISE 4
+'EXERCISE 4:'
 
 // write a function called tellAge that tells you how old you are based on the date of birth passed.
 // this function will take 3 arguments month, day and year
@@ -68,22 +59,20 @@ EXERCISE 4
 // Info on Date object: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 
 
-//========================EXAMPLES========================
+//======================  EXAMPLE  ========================
 // assuming today is April 11, 2018
 tellAge(8,2,1982)
-//You are 35 years old
-
+'You are 35 years old' // <======  EXPECTED OUTPUT
 tellAge(4,3,1982)
-//You are 36 years old
-
+'You are 36 years old' // <======  EXPECTED OUTPUT
 tellAge(4,9,2018)
-//You are 2 days old
+'You are 2 days old' // <======  EXPECTED OUTPUT
+tellAge(4,12,2018)
+"You can't be born in the future!" // <======  EXPECTED OUTPUT
+//=========================================================
 
 
-
-
-
-EXERCISE 5
+'EXERCISE 5:'
 
 // Write a function called  checkAge that checks how many days there are between now and the next birthday. 
 // this function will take 2 arguments month and day
@@ -100,24 +89,19 @@ EXERCISE 5
 // Please bare in mind that these examples are not up to date (literally)...
 // The output should be "There is / there are ## month / months and ## day / days until your birthday"
 
+//======================  EXAMPLE  ========================
 checkAge(2,8)
-// There are 6 days until your birthday
-
+'There are 6 days until your next birthday' // <======  EXPECTED OUTPUT
 checkAge(2,9)
-// There is 1 month and 6 days until your birthday
-
+'There is 1 month and 6 days until your next birthday' // <======  EXPECTED OUTPUT
 checkAge(2,25)
-// Sorry your birthday is passed for this year
+'Sorry your birthday is passed for this year' // <======  EXPECTED OUTPUT
+//=========================================================
 
 
+'EXERCISE 6:'
 
-
-
-
-
-
-EXERCISE 6
-//Let's make a currency converter!
+// Let's make a currency converter!
 // it should be a flexible function which reacts differently to different inputs.
 // Outside the function declare an array called currenciesDB which will hold your currencies.
 // write a function called dinamicConverter which takes three arguments.
@@ -134,64 +118,58 @@ EXERCISE 6
 // PLease make sure that currency is added only once not to overload your DB!
 // Should the currency already present you should return "invalid data provided!"
 // It should return the result of the conversion.
-   
 
-//examples:
+//======================  EXAMPLE  ========================
 dinamicConverter('add', ['euro',1.2])
-    //1
+1 // <======  EXPECTED OUTPUT
 dinamicConverter('add', ['euro',1.2])
-    //'invalid data provided!' (because the item is already present)
+'invalid data provided!' // <======  EXPECTED OUTPUT (because the item is already present)
 dinamicConverter('add', ['gbp',1.5])
-    //1
+1 // <======  EXPECTED OUTPUT
 dinamicConverter('add', ['gbp',1.5])
-    //"invalid data provided!"
+"invalid data provided!" // <======  EXPECTED OUTPUT
 dinamicConverter('convert', ['euro',100], 'gbp')
-    //80
+80 // <======  EXPECTED OUTPUT
 dinamicConverter('convert', ['euro',100], 'hmmm'),
-    //"invalid data provided!"
+"invalid data provided!" // <======  EXPECTED OUTPUT
+//=========================================================
 
 
+'EXERCISE 7:'
 
-EXERCISE 7
+// Write a function called stringChop that chops a string into chunks of a given length. The function takes 2 arguments, 
+// the first one being the string to chop, and the second one a number that will be the size of you chunks.
 
-// Write a function called stringChop that chops a string into chunks of a given length. The function takes 2 arguments, the first one being the string to chop, and the second one a number that will be the size of you chunks.
-
-// Example:
-
-stringChop('BarcelonaCodeSchool'); //#=> ["BarcelonaCodeSchool"]
-stringChop('BarcelonaCodeSchool',0); //#=> ["BarcelonaCodeSchool"]
-stringChop('BarcelonaCodeSchool',2); //#=> ["Ba", "rc", "el", "on", "aC", "od", "eS", "ch", "oo", "l"] 
-stringChop('BarcelonaCodeSchool',3); //#=> ["Bar", "cel", "ona", "Cod", "eSc", "hoo", "l"]
-
-
-
-
-
-
-
-EXERCISE 8
-
-// Write a function called strCut that takes 3 arguments, the string and 2 indexes, it will then return a string after removing the letters of the 2 given indexes.
-
-// Example:
-
-strCut('Antonello', 0,8)
-//"ntonell"
-strCut('Antonello', 3,5)
-//"Antnllo"
-strCut('Antonello', 2,8)
-//"Anonell"
+//======================  EXAMPLE  ========================
+stringChop('BarcelonaCodeSchool')
+['BarcelonaCodeSchool'] // <======  EXPECTED OUTPUT
+stringChop('BarcelonaCodeSchool',0)
+['BarcelonaCodeSchool'] // <======  EXPECTED OUTPUT
+stringChop('BarcelonaCodeSchool',2)
+["Ba", "rc", "el", "on", "aC", "od", "eS", "ch", "oo", "l"] // <======  EXPECTED OUTPUT
+stringChop('BarcelonaCodeSchool',3)
+["Bar", "cel", "ona", "Cod", "eSc", "hoo", "l"] // <======  EXPECTED OUTPUT
+//=========================================================
 
 
+'EXERCISE 8:'
+
+// Write a function called strCut that takes 3 arguments, the string and 2 indexes, it will then return a string after removing 
+// the letters of the 2 given indexes.
+
+//======================  EXAMPLE  ========================
+strCut('BarcelonaCodeSchool',0, 1)
+"rcelonaCodeSchool" // <======  EXPECTED OUTPUT
+strCut('BarcelonaCodeSchool',0, 5)
+"arceonaCodeSchool" // <======  EXPECTED OUTPUT
+strCut('BarcelonaCodeSchool',5, 7)
+"BarceoaCodeSchool" // <======  EXPECTED OUTPUT
+strCut('Gennaro')
+"Gennaro" // <======  EXPECTED OUTPUT
+//=========================================================
 
 
-
-
-
-
-
-
-EXTRA CHALLENGE:
+'EXTRA CHALLENGE:'
 
 // Rock-paper-scissors
 
@@ -205,11 +183,5 @@ EXTRA CHALLENGE:
 
 // ----------
 
-// ***Your solution goes to Rock_paper_scissors folder
-// if you are going to add UI ***
-
-
-
-
-
-
+// =============   Your solution goes to Rock_paper_scissors folder   ==============
+// =============   if you are going to add UI   ====================================
