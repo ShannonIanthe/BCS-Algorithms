@@ -1,56 +1,54 @@
-EXERCISE 1
+'EXERCISE 1:'
 
-//write a function called calc that takes 3 arguments the first 2 are numbers and the third is an arithmetic operator, 
+// write a function called calc that takes 3 arguments the first 2 are numbers and the third is an arithmetic operator, 
 // so it is either + , -, *, /
 // and it executes the appropriate operation according to the provided arithmetic operator.
 // make sure you test your function with all 4 arithmetic operations
 // should the operator be missing, the function should 
 // return 'wrong data provided'
 
-//Example:
-
-calc(10,2,'/')
-//5
-
-calc(10,2,'+')
-//12
-
-calc(10,2,'-')
-//8
-
-calc(10,2,'*')
-//20
-
+//======================  EXAMPLE  ========================
+calc(5,15,'+')
+20 // <======  EXPECTED OUTPUT
+calc(50,15,'-')
+35 // <======  EXPECTED OUTPUT
+calc(50,2,'*')
+100 // <======  EXPECTED OUTPUT
+calc(500,2,'/')
+250 // <======  EXPECTED OUTPUT
+calc(500,2)
+'wrong data provided' // <======  EXPECTED OUTPUT
+//=========================================================
 
 
-
-
-
-
-
-EXERCISE 2
+'EXERCISE 2:'
 
 // extend our awesome calc function by adding some conditions...
 // in case the third arguments is  / or * and the second argument is not provided, the second argument should default to one.
 // in case the third arguments is +  or  - and the second argument is not provided, the second argument should default to zero.
 
-//Example:
-
-calc(10,"/")  //10
-calc (30,"*") //30
-calc (2,"+")  //2
-calc (3,"-")  //3
-
-
-
-
+//======================  EXAMPLE  ========================
+calc(5,15,'+')
+20 // <======  EXPECTED OUTPUT
+calc(500,'+')
+500 // <======  EXPECTED OUTPUT
+calc(10,'/')
+10 // <======  EXPECTED OUTPUT
+//=========================================================
 
 
+'EXERCISE 3:'
 
-
-EXERCISE 3
 // write a function called Filter that takes 3 arguments, an array, a data type and a minLength.
-// it will loop through the array and return a new array where the elements are NOT of the type of passed data type and they have a length equal to or bigger than minLength
+// it will loop through the array and return a new array where the elements are NOT of the type of passed data type 
+// and they have a length equal to or bigger than minLength
+
+//======================  EXAMPLE  ========================
+filter(['sdads','sadsasadasddsaddsadadsasd',44, [1,5,5,5,5,5,5,5,5,5,5,5]], 'object', 3)
+["sdads", "sadsasadasddsaddsadadsasd"] // <======  EXPECTED OUTPUT
+//=========================================================
+
+
 
 
 

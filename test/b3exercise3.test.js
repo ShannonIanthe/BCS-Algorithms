@@ -9,17 +9,17 @@ describe("#test1", function(){
 })
 
 describe("#test2", function(){
-    it ('i should be an 3', function(){
+    it ('i should be 3', function(){
         assert.equal(isEven([2,4,8,7]), 3)
     })
 })
 describe("#test3", function(){
-    it ('i should be an 1', function(){
+    it ('i should be 1', function(){
         assert.equal(isEven([1,9,66,"banana"]), 1)
     })
 })
 describe("#test4", function(){
-    it ('i should be an 5', function(){
+    it ('i should be 5', function(){
         assert.equal(isEven([1,9,66,"banana",44,22,12,66]), 5)
     })
 })

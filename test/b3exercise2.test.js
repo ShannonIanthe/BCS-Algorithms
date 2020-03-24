@@ -18,7 +18,7 @@ describe("#test3", function(){
     })
 })
 describe("#test4", function(){
-    it ('i should be an 0', function(){
+    it ('i should be 0', function(){
         assert.equal(firstLoopReverse(), 0)
     })
 })

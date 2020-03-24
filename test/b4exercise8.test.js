@@ -7,13 +7,13 @@ describe("#test0", function(){
     })
 })
 describe("#test1", function(){
-    it ("uniqueElements should be old array mike,jason,peter,robert,mike,jason,jenny,jane new array mike,jason,peter,robert,jenny,jane", function(){
+    it ("uniqueElements should be old array mike,jason,peter,robert,mike,jason,jenny,jane, new array mike,jason,peter,robert,jenny,jane", function(){
         assert.equal(uniqueElements(['mike','jason','peter','robert','mike','jason','jenny','jane']),
         "old array mike,jason,peter,robert,mike,jason,jenny,jane, new array mike,jason,peter,robert,jenny,jane")
     })
 })
 describe("#test2", function(){
-    it ("uniqueElements should be old array mike,jason,peter,robert,mike,jason,jenny,jane new array mike,jason,peter,robert,jenny,jane", function(){
+    it ("uniqueElements should be old array 3,5,5,5,56, new array 3,5,56", function(){
         assert.equal(uniqueElements([3,5,5,5,56]),
         "old array 3,5,5,5,56, new array 3,5,56")
     })
