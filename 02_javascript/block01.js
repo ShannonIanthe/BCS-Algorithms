@@ -20,8 +20,9 @@
 
 //npm run test-single -- test/b2exercise3.test.js
 
-'EXERCISE 1:'
-
+'========================================================================'
+'=============================  EXERCISE 1  ============================='
+'========================================================================'
 // create a variable called apple and assign to it a value of 5
 // then create another variable called apple2 and give to it a value of 15.
 // and finally sum the together and return their sum.
@@ -34,7 +35,9 @@ total(20,20)
 //=========================================================
 
 
-'EXERCISE 2:'
+'========================================================================'
+'=============================  EXERCISE 2  ============================='
+'========================================================================'
 
 // create 2 variables:
 // a , b
@@ -49,7 +52,9 @@ multy(20,20)
 //=========================================================
 
 
-'EXERCISE 3:'
+'========================================================================'
+'=============================  EXERCISE 3  ============================='
+'========================================================================'
 
 // Age calculator
 // Want to find out how old you'll be? Calculate it!
@@ -65,7 +70,9 @@ ageCalc(2000,2018)
 //=========================================================
 
 
-'EXERCISE 4:'
+'========================================================================'
+'=============================  EXERCISE 4  ============================='
+'========================================================================'
 
 // Ever wondered how much a "lifetime supply of Tea you will need?"
 // let's find out!!!
@@ -83,9 +90,12 @@ howManyTeas(35,36, 2)
 //=========================================================
 
 
-'EXERCISE 5:'
+'========================================================================'
+'=============================  EXERCISE 5  ============================='
+'========================================================================'
 
-// Define a function called compare which takes 2 arguments, and returns true if the first is bigger than the second and false if is not.
+// Define a function called compare which takes 2 arguments, and returns 
+// true if the first is bigger than the second and false if is not.
 
 //======================  EXAMPLE  ========================
 compare(100, 50)
@@ -95,10 +105,12 @@ false // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-'EXERCISE 6:'
+'========================================================================'
+'=============================  EXERCISE 6  ============================='
+'========================================================================'
 
-// Define a function called compare which takes 2 arguments, and returns true if the first is equal to the second and false 
-// if is not (strict equality).
+// Define a function called compare which takes 2 arguments, and returns 
+// true if the first is equal to the second and false if is not (strict equality).
 
 //======================  EXAMPLE  ========================
 compare(10, 34)
@@ -110,9 +122,12 @@ false // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-'EXERCISE 7:'
+'========================================================================'
+'=============================  EXERCISE 7  ============================='
+'========================================================================'
 
-// create a function called isEven which takes 1 arg: a,  and return true if the argument passed is even and false if is odd.
+// create a function called isEven which takes 1 arg: a,  and return true 
+// if the argument passed is even and false if is odd.
 
 //======================  EXAMPLE  ========================
 isEven(7)
@@ -122,7 +137,9 @@ true // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-'EXERCISE 8:'
+'========================================================================'
+'=============================  EXERCISE 8  ============================='
+'========================================================================'
 
 // knowing that the minimum age for driving a 50cc scooter is 15 define a variable called age
 // and then return true if you are old enough to drive a scooter and false if you are not
@@ -137,7 +154,9 @@ true // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-'EXERCISE 9:'
+'========================================================================'
+'=============================  EXERCISE 9  ============================='
+'========================================================================'
 
 // define the name of the user
 // define the year of birth of the user
@@ -153,7 +172,9 @@ getAge(1200, 2000, 'Ottaviano')
 //=========================================================
 
 
-'EXERCISE 10:'
+'========================================================================'
+'=============================  EXERCISE 10  ============================'
+'========================================================================'
 
 // define the user year of birth
 // assign the current year to a variable.
@@ -167,7 +188,9 @@ howManyDays(1982, 2018)
 //=========================================================
 
 
-'EXERCISE 11:'
+'========================================================================'
+'=============================  EXERCISE 11  ============================'
+'========================================================================'
 
 // It's hot out! Let's make a converter based on the steps here:
 // http://www.mathsisfun.com/temperature-conversion.html

@@ -7,12 +7,12 @@ describe("#test1", function(){
     })
 })
 describe("#test2", function(){
-    it (`addToObj should be 22 `, function(){
+    it (`addToObj should be {age:22} `, function(){
         assert.equal(addToObj('age',22)['age'], 22 )
     })
 })
 describe("#test3", function(){
-    it (`addToObj should be Jason `, function(){
+    it (`addToObj should be {name:'Jason'} `, function(){
         assert.equal(addToObj('name','Jason')['name'], 'Jason')
     })
 })

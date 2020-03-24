@@ -1,7 +1,9 @@
-'EXERCISE 1:'
+"========================================================================"
+"=============================  EXERCISE 1  ============================="
+"========================================================================"
 
-// write a function called calc that takes 3 arguments the first 2 are numbers and the third is an arithmetic operator, 
-// so it is either + , -, *, /
+// write a function called calc that takes 3 arguments the first 2 are numbers 
+// and the third is an arithmetic operator, so it is either + , -, *, /
 // and it executes the appropriate operation according to the provided arithmetic operator.
 // make sure you test your function with all 4 arithmetic operations
 // should the operator be missing, the function should 
@@ -21,11 +23,15 @@ calc(500,2)
 //=========================================================
 
 
-'EXERCISE 2:'
+"========================================================================"
+"=============================  EXERCISE 2  ============================="
+"========================================================================"
 
 // extend our awesome calc function by adding some conditions...
-// in case the third arguments is  / or * and the second argument is not provided, the second argument should default to one.
-// in case the third arguments is +  or  - and the second argument is not provided, the second argument should default to zero.
+// in case the third arguments is  / or * and the second argument is not provided, 
+// the second argument should default to one.
+// in case the third arguments is +  or  - and the second argument is not provided, 
+// the second argument should default to zero.
 
 //======================  EXAMPLE  ========================
 calc(5,15,'+')
@@ -37,10 +43,14 @@ calc(10,'/')
 //=========================================================
 
 
-'EXERCISE 3:'
+"========================================================================"
+"=============================  EXERCISE 3  ============================="
+"========================================================================"
 
-// write a function called Filter that takes 3 arguments, an array, a data type and a minLength.
-// it will loop through the array and return a new array where the elements are NOT of the type of passed data type 
+// write a function called Filter that takes 3 arguments, an array, a data 
+// type and a minLength.
+// it will loop through the array and return a new array where the elements 
+// are NOT of the type of passed data type 
 // and they have a length equal to or bigger than minLength
 
 //======================  EXAMPLE  ========================
@@ -49,7 +59,9 @@ filter(['sdads','sadsasadasddsaddsadadsasd',44, [1,5,5,5,5,5,5,5,5,5,5,5]], 'obj
 //=========================================================
 
 
-'EXERCISE 4:'
+"========================================================================"
+"=============================  EXERCISE 4  ============================="
+"========================================================================"
 
 // write a function called tellAge that tells you how old you are based on the date of birth passed.
 // this function will take 3 arguments month, day and year
@@ -72,7 +84,9 @@ tellAge(4,12,2018)
 //=========================================================
 
 
-'EXERCISE 5:'
+"========================================================================"
+"=============================  EXERCISE 5  ============================="
+"========================================================================"
 
 // Write a function called  checkAge that checks how many days there are between now and the next birthday. 
 // this function will take 2 arguments month and day
@@ -99,7 +113,9 @@ checkAge(2,25)
 //=========================================================
 
 
-'EXERCISE 6:'
+"========================================================================"
+"=============================  EXERCISE 6  ============================="
+"========================================================================"
 
 // Let's make a currency converter!
 // it should be a flexible function which reacts differently to different inputs.
@@ -112,8 +128,8 @@ checkAge(2,25)
     //if the first argument is "convert" then the second is:
         // an array which contains the currency and the amount that you wish to convert.
         // the third argument will be the currency that you want to convert your money to.
-        // if the currency is not present or any of the arguments is missing it should return an error message:
-        //"invalid data provided!"
+        // if the currency is not present or any of the arguments is missing it should return 
+        // an error message:  "invalid data provided!"
 
 // PLease make sure that currency is added only once not to overload your DB!
 // Should the currency already present you should return "invalid data provided!"
@@ -135,9 +151,12 @@ dinamicConverter('convert', ['euro',100], 'hmmm'),
 //=========================================================
 
 
-'EXERCISE 7:'
+"========================================================================"
+"=============================  EXERCISE 7  ============================="
+"========================================================================"
 
-// Write a function called stringChop that chops a string into chunks of a given length. The function takes 2 arguments, 
+// Write a function called stringChop that chops a string into chunks of a given length. 
+// The function takes 2 arguments, 
 // the first one being the string to chop, and the second one a number that will be the size of you chunks.
 
 //======================  EXAMPLE  ========================
@@ -152,9 +171,12 @@ stringChop('BarcelonaCodeSchool',3)
 //=========================================================
 
 
-'EXERCISE 8:'
+"========================================================================"
+"=============================  EXERCISE 8  ============================="
+"========================================================================"
 
-// Write a function called strCut that takes 3 arguments, the string and 2 indexes, it will then return a string after removing 
+// Write a function called strCut that takes 3 arguments, the string and 2 indexes, 
+// it will then return a string after removing 
 // the letters of the 2 given indexes.
 
 //======================  EXAMPLE  ========================
@@ -169,7 +191,9 @@ strCut('Gennaro')
 //=========================================================
 
 
-'EXTRA CHALLENGE:'
+"========================================================================"
+"===========================  EXTRA CHALLENGE  =========================="
+"========================================================================"
 
 // Rock-paper-scissors
 
@@ -181,7 +205,6 @@ strCut('Gennaro')
 // - there need to be a score keeper to  show the current score of the player and the computer.
 // - In case both select the same option then is a draw and no points should be given out.
 
-// ----------
 
 // =============   Your solution goes to Rock_paper_scissors folder   ==============
 // =============   if you are going to add UI   ====================================

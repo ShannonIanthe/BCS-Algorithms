@@ -7,7 +7,7 @@ describe("#test1", function(){
     })
 })
 describe("#test2", function(){
-    it ('last should be a {c:0}', function(){
+    it ('last should be {c:0}', function(){
         assert.equal(last({a: 20, b: 26, c: 0}).c , 0)
     })
 })

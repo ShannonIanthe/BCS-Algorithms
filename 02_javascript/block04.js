@@ -1,4 +1,6 @@
-'EXERCISE 0:'
+"========================================================================"
+"=============================  EXERCISE 0  ============================="
+"========================================================================"
 
 // create a function called isTrue
 // it should check if the data passed into it is NOT:
@@ -9,7 +11,8 @@
 // null
 // 0
 
-// your function should take one argument and return true if it is not one of the falsy above and false if it is
+// your function should take one argument and return true if it is not one of the falsy 
+// above and false if it is
 
 //======================  EXAMPLE  ========================
 isTrue("I exist!")
@@ -19,11 +22,14 @@ false // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-'EXERCISE 1:'
+"========================================================================"
+"=============================  EXERCISE 1  ============================="
+"========================================================================"
 
 // write a function called check_who_is_older, it takes 4 arguments (name, age, name2, age2)
-// it checks who is older and returns a sentence saying "{{name}} age {{age}} is older than {{name2}} age {{age2}} "
-// should they be of the same age it should return "they are of the same age".
+// it checks who is older and returns a sentence saying 
+// "{{name}} age {{age}} is older than {{name2}} age {{age2}}"
+// if they are of the same age it should return "they are of the same age".
 
 //======================  EXAMPLE  ========================
 check_who_is_older('stefano', 27, 'antonello', 35)
@@ -33,7 +39,9 @@ check_who_is_older('John', 57, 'Peter', 95)
 //=========================================================
 
 
-'EXERCISE 2:'
+"========================================================================"
+"=============================  EXERCISE 2  ============================="
+"========================================================================"
 
 // write a function  called is_an_even_number that takes an array as argument, 
 // it loops through it and checks if the elements are numbers (or a string that can be converted to a number) 
@@ -50,7 +58,9 @@ is_an_even_number(["100", 33, "Hello"])
 //=========================================================
 
 
-'EXERCISE 3:'
+"========================================================================"
+"=============================  EXERCISE 3  ============================="
+"========================================================================"
 
 // write a function called check_types it takes an array as argument, it loops through it and checks the typeof each element
 // it needs to find out how many different data types there are.
@@ -64,11 +74,15 @@ check_types([{},"hello", 55,22,333, "66"])
 //=========================================================
 
 
-'EXERCISE 4:'
+"========================================================================"
+"=============================  EXERCISE 4  ============================="
+"========================================================================"
 
-// Create a function called checker that loops through a string and checks how many occurrences of commas and question marks there are in it.
+// Create a function called checker that loops through a string and checks how 
+// many occurrences of commas and question marks there are in it.
 // it then returns a string with the numbers of commas and question marks
-// please make sure to use the appropriate form, so if for instance there are more than one commas / question marks you should use plural 
+// please make sure to use the appropriate form, so if for instance there are 
+// more than one commas / question marks you should use plural 
 // like commas / question marks, otherwise singular: comma / question mark.
 
 //======================  EXAMPLE  ========================
@@ -79,10 +93,13 @@ checker('do you line banana?')
 //=========================================================
 
 
-'EXERCISE 5:'
+"========================================================================"
+"=============================  EXERCISE 5  ============================="
+"========================================================================"
 
 // write a function called howManyCaps which counts the capitals in the word, 
-// it then returns a sentence saying how which letters are capital and how many capitals there are in total.
+// it then returns a sentence saying how which letters are capital and how many 
+// capitals there are in total.
 
 //======================  EXAMPLE  ========================
 howManyCaps('Antonello Sanna Likes videoGames')
@@ -90,7 +107,9 @@ howManyCaps('Antonello Sanna Likes videoGames')
 //=========================================================
 
         
-'EXERCISE 6:'
+"========================================================================"
+"=============================  EXERCISE 6  ============================="
+"========================================================================"
 
 // write a function called numberConverter which takes an array as an argument 
 // then it loops through the array and checks if each element can be converted to a number 
@@ -113,11 +132,15 @@ numberConverter([22,55,66])
 //=========================================================
 
 
-'EXERCISE 7:'
+"========================================================================"
+"=============================  EXERCISE 7  ============================="
+"========================================================================"
 
-// write a function called booleanChecker, it takes two arguments, one array and one maxCapacity which is a number
+// write a function called booleanChecker, it takes two arguments, one array 
+// and one maxCapacity which is a number
 // create an empty array called bool inside your function
-// loop through the provided array and every time you find a boolean push it to our bool array until you reach the maxCapacity:
+// loop through the provided array and every time you find a boolean push it 
+// to our bool array until you reach the maxCapacity:
 // if the maxCapacity argument is missing it should default to unlimited;
 
 //======================  EXAMPLE  ========================
@@ -133,7 +156,9 @@ booleanChecker(["12", "55", true, false, true, true, true],1)
 // `${how many booleans goes here} booleans were found ${your booleans go here}`
 
 
-'EXERCISE 8:'
+"========================================================================"
+"=============================  EXERCISE 8  ============================="
+"========================================================================"
 
 // create a function called uniqueElements which takes an array as argument.
 // you need one array with the unique elements so loop through and get rid of duplicates.
@@ -149,10 +174,12 @@ uniqueElements(["a","b","b",44,55,4,4])
 //=========================================================
 
 
-'EXERCISE 9:'
+"========================================================================"
+"=============================  EXERCISE 9  ============================="
+"========================================================================"
 
-// extend the previous exercise by making sure to return only the unique elements of the array only this time
-// the function takes a second argument, max.
+// extend the previous exercise by making sure to return only the unique elements 
+// of the array only this time the function takes a second argument, max.
 // all items of the newarray  must be numbers and bigger or equal than max. (no conversion to numbers)
 
 //======================  EXAMPLE  ========================
@@ -165,14 +192,17 @@ uniqueElements(["a","b","b","44",55,4,4],25)
 //=========================================================
 
 
-'EXERCISE 10: Guess My Number game'
+"========================================================================"
+"===============  'EXERCISE 10: Guess My Number game'  =================="
+"========================================================================"
 {/*
 
 You are going to try to build a Guess My Number game with JavaScript
 
 ----------
 
-The essence of this game is that computer randomly guesses some number and a player has to guess it with limited number of guesses. 
+The essence of this game is that computer randomly guesses some number and a player 
+// has to guess it with limited number of guesses. 
 
 ----------
 Requirements:
@@ -182,8 +212,10 @@ Requirements:
 - after each guess game should tell:
 - number is too big (if the number from user is greater than the guessed number)
 - number is too small (if the number is smaller than the guessed number)
-- If player could guess the number than the game should give a message about that and render text/image confirming the win
-- if player couldn’t guess the number with given amount of guesses then the game stops and tells the number which was guessed
+- If player could guess the number than the game should give a message about that and 
+  render text/image confirming the win
+- if player couldn’t guess the number with given amount of guesses then the game stops 
+  and tells the number which was guessed
 ----------
 Help
 - Use built-in JavaScript method to create a random number
