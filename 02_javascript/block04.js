@@ -1,8 +1,8 @@
-EXERCISE 0
+'EXERCISE 0:'
 
-//=======================EXERCISE0======================================//
 // create a function called isTrue
 // it should check if the data passed into it is NOT:
+
 // undefined
 // an empty string
 // false
@@ -11,109 +11,86 @@ EXERCISE 0
 
 // your function should take one argument and return true if it is not one of the falsy above and false if it is
 
+//======================  EXAMPLE  ========================
+isTrue("I exist!")
+true // <======  EXPECTED OUTPUT
+isTrue("")
+false // <======  EXPECTED OUTPUT
+//=========================================================
 
 
+'EXERCISE 1:'
 
-
-
-
-
-EXERCISE 1
 // write a function called check_who_is_older, it takes 4 arguments (name, age, name2, age2)
 // it checks who is older and returns a sentence saying "{{name}} age {{age}} is older than {{name2}} age {{age2}} "
 // should they be of the same age it should return "they are of the same age".
 
+//======================  EXAMPLE  ========================
+check_who_is_older('stefano', 27, 'antonello', 35)
+"antonello age 35 is older than stefano age 27" // <======  EXPECTED OUTPUT
+check_who_is_older('John', 57, 'Peter', 95)
+"Peter age 95 is older than John age 57" // <======  EXPECTED OUTPUT
+//=========================================================
 
 
-
-
-
-
-
-EXERCISE 2
+'EXERCISE 2:'
 
 // write a function  called is_an_even_number that takes an array as argument, 
 // it loops through it and checks if the elements are numbers (or a string that can be converted to a number) 
 // and if they are even.
-// you should also keep track of the even numbers by increasing the value of a variable called count, which you should return at the end of the function.
+// you should also keep track of the even numbers by increasing the value of a variable called count, which you should 
+// return at the end of the function.
 // for this exercise we treat number 0  as an even number, but only if it is provided as a zero
-// array 
-var arr = [0,1,5,9,33,65,122,66,['banana']]
-// should return 3
-var arr = ["100", [], {}, '', 33, "Hello"]
-// should return 1
+
+//======================  EXAMPLE  ========================
+is_an_even_number([1,5,9,33,65,[],'',122,66,['banana']])
+2 // <======  EXPECTED OUTPUT
+is_an_even_number(["100", 33, "Hello"])
+1 // <======  EXPECTED OUTPUT
+//=========================================================
 
 
-
-
-
-
-
-
-
-EXERCISE 3
+'EXERCISE 3:'
 
 // write a function called check_types it takes an array as argument, it loops through it and checks the typeof each element
 // it needs to find out how many different data types there are.
 // it should at the end return the number of data types.
 
-// example
-// check_types([12,12, 12, [], [] ])
-// returns 2 because we have 2 data types (numbers and arrays)
-
-// check_types([12,45,66,88])
-// returns 1 because we have only one data type (number)
-
-
+//======================  EXAMPLE  ========================
+check_types([1,5,9,33,65,122,66,['banana']])
+2 // <======  EXPECTED OUTPUT
+check_types([{},"hello", 55,22,333, "66"])
+3 // <======  EXPECTED OUTPUT
+//=========================================================
 
 
-
-
-
-
-
-EXERCISE 4
+'EXERCISE 4:'
 
 // Create a function called checker that loops through a string and checks how many occurrences of commas and question marks there are in it.
 // it then returns a string with the numbers of commas and question marks
-// please make sure to use the appropriate form, so if for instance there are more than one commas / question marks you should use plural like commas / question marks, otherwise singular: comma / question mark.
+// please make sure to use the appropriate form, so if for instance there are more than one commas / question marks you should use plural 
+// like commas / question marks, otherwise singular: comma / question mark.
 
-// example :
-var str = 'hello, how are you today? I am not bad and you?'
-// 1 comma, 2 question marks
-
-
-
-
-
-
+//======================  EXAMPLE  ========================
+checker('hello, how are you today? I am not bad and you?')
+'1 comma, 2 question marks' // <======  EXPECTED OUTPUT
+checker('do you line banana?')
+'0 comma, 1 question mark' // <======  EXPECTED OUTPUT
+//=========================================================
 
 
+'EXERCISE 5:'
 
-
-
-
-
-
-
-EXERCISE 5
 // write a function called howManyCaps which counts the capitals in the word, 
 // it then returns a sentence saying how which letters are capital and how many capitals there are in total.
 
-var str = 'Antonello Sanna Likes videoGames'
+//======================  EXAMPLE  ========================
+howManyCaps('Antonello Sanna Likes videoGames')
+'There are 4 capitals and these are A,S,L,G' // <======  EXPECTED OUTPUT
+//=========================================================
 
-//expected output
-
-// There are 4 capitals and these are A,S,L,G"
-
-
-
-
-
-
-
-
-EXERCISE 6
+        
+'EXERCISE 6:'
 
 // write a function called numberConverter which takes an array as an argument 
 // then it loops through the array and checks if each element can be converted to a number 
@@ -128,76 +105,69 @@ EXERCISE 6
 // if all arguments are numbers then the function should return instead the following message:
 // no need for conversion
 
-// example:
-numberConverter([1,2,3,'4','5', {}, 33])
+//======================  EXAMPLE  ========================
+numberConverter(["12", "55","hello"])
+"2 were converted to numbers: 12,55, 1 couldn't be converted" // <======  EXPECTED OUTPUT
+numberConverter([22,55,66])
+"no need for conversion" // <======  EXPECTED OUTPUT
+//=========================================================
 
-// should return:
-"2 were converted to numbers: 4,5, 1 couldn't be converted"
 
+'EXERCISE 7:'
 
-
-
-EXERCISE 7
 // write a function called booleanChecker, it takes two arguments, one array and one maxCapacity which is a number
 // create an empty array called bool inside your function
 // loop through the provided array and every time you find a boolean push it to our bool array until you reach the maxCapacity:
 // if the maxCapacity argument is missing it should default to unlimited;
 
-var arr  = ['mike','john',true, false,12,true,false, false,true,false,true,false]
+//======================  EXAMPLE  ========================
+booleanChecker(["12", "55","hello"],3)
+"0 booleans were found " // <======  EXPECTED OUTPUT
+booleanChecker(["12", "55",true, false, true, true, true],3)
+"3 booleans were found true,false,true" // <======  EXPECTED OUTPUT
+booleanChecker(["12", "55", true, false, true, true, true],1)
+"1 booleans were found true" // <======  EXPECTED OUTPUT
+//=========================================================
 
-//once done you should return a string as below:
-`{how many booleans goes here} booleans were found {your booleans go here}`
+//  once done you should return a string as below:
+// `${how many booleans goes here} booleans were found ${your booleans go here}`
 
 
+'EXERCISE 8:'
 
-
-
-
-
-
-EXERCISE 8
 // create a function called uniqueElements which takes an array as argument.
 // you need one array with the unique elements so loop through and get rid of duplicates.
 // (also these who were double before removing the duplicates)
 // you should return an array only with the unique elements, without duplicates
 // the original array should be left untouched..
 
-// var originalArray = ['mike','jason','peter','robert','mike','jason','jenny','jane']
-
-// example return:
-// old array mike,jason,peter,robert,mike,jason,jenny,jane new array mike,jason,peter,robert,jenny,jane
-
-
-
-
+//======================  EXAMPLE  ========================
+uniqueElements(['mike','jason','peter','robert','mike','jason','jenny','jane'])
+"old array mike,jason,peter,robert,mike,jason,jenny,jane, new array mike,jason,peter,robert,jenny,jane" // <======  EXPECTED OUTPUT
+uniqueElements(["a","b","b",44,55,4,4])
+"old array a,b,b,44,55,4,4, new array a,b,44,55,4" // <======  EXPECTED OUTPUT
+//=========================================================
 
 
-
-
-
-
-EXERCISE 9
-
+'EXERCISE 9:'
 
 // extend the previous exercise by making sure to return only the unique elements of the array only this time
 // the function takes a second argument, max.
 // all items of the newarray  must be numbers and bigger or equal than max. (no conversion to numbers)
 
-// Example
-var arr = [ 
-            10, 44, 55 ,66 , 77 , 55 , 44 ,
-            3 , 3 , 3 , 4 , 5 , 6 , 54 , 
-            "antonello", "33", "£", "66"
-]
-
-uniqueElements(arr, 9)
-//expected output :
-//'old array 10, 44, 55 ,66 , 77 , 55 , 44 , 3 , 3 , 3 , 4 , 5 , 6 , 54 ,  "antonello", "33", "£", "66", new array 10, 44, 55, 66, 77, 54'
+//======================  EXAMPLE  ========================
+uniqueElements(['mike','jason','peter','robert','mike','jason','jenny','jane'])
+"old array mike,jason,peter,robert,mike,jason,jenny,jane, new array " // <======  EXPECTED OUTPUT
+uniqueElements([3,5,5,5,56], 10)
+"old array 3,5,5,5,56, new array 56" // <======  EXPECTED OUTPUT
+uniqueElements(["a","b","b","44",55,4,4],25)
+"old array a,b,b,44,55,4,4, new array 55" // <======  EXPECTED OUTPUT
+//=========================================================
 
 
+'EXERCISE 10: Guess My Number game'
+{/*
 
-
-EXERCISE 10: Guess My Number game
 You are going to try to build a Guess My Number game with JavaScript
 
 ----------
@@ -223,10 +193,4 @@ Help
 - the range, 0 - 10, if you put 100 it will be 1 - 100
 ----------
 
-
-
-
-
-
-
-
+*/}
