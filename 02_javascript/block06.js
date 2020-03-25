@@ -1,4 +1,6 @@
-'EXERCISE 1:'
+"========================================================================"
+"=============================  EXERCISE 1  ============================="
+"========================================================================"
 
 var obj = {
         name:antonello
@@ -7,10 +9,12 @@ var obj = {
 //FIX THE ABOVE CODE SO THAT IT DOESN'T THROW AN ERROR!
 
 
-'EXERCISE 2:'
+"========================================================================"
+"=============================  EXERCISE 2  ============================="
+"========================================================================"
 
-// write a function called addToObj which takes two arguments and returns an object which has the first argument as a key and 
-// the second as value.
+// write a function called addToObj which takes two arguments and returns 
+// an object which has the first argument as a key and the second as value.
 
 //======================  EXAMPLE  ========================
 addToObj('age',22)
@@ -20,7 +24,9 @@ addToObj('name','Jason')
 //=========================================================
 
 
-'EXERCISE 3:'
+"========================================================================"
+"=============================  EXERCISE 3  ============================="
+"========================================================================"
 
 // Write a function called modifyObject that takes 3 arguments. 
 // the first argument is the object to which you are adding new data
@@ -37,7 +43,9 @@ modifyObject(obj, 'c', 3)
 //========================================================= 
 
 
-'EXERCISE 4:'
+"========================================================================"
+"=============================  EXERCISE 4  ============================="
+"========================================================================"
 
 // Write a function called addToList that takes one argument, an array of movie titles
 // then create a new empty array called movieList.
@@ -51,18 +59,21 @@ modifyObject(obj, 'c', 3)
 //======================  EXAMPLE  ========================
 var movies = ['matrix','the dark knight','a beautiful mind','american pie']
 modifyObject(obj, 'a', 1)
-[   // <======  EXPECTED OUTPUT
+[   
     {title:'matrix',_id:0},
     {title:'the dark knight',_id:1},
     {title:'a beautiful mind',_id:2},
     {title:'american pie',_id:3}
-] 
+] // <======  EXPECTED OUTPUT
 //========================================================= 
 
 
-'EXERCISE 5:'
+"========================================================================"
+"=============================  EXERCISE 5  ============================="
+"========================================================================"
 
-// Write a function called swap that takes one argument, an object, and returns another object where the key/value pairs have been swapped. 
+// Write a function called swap that takes one argument, an object, and returns 
+// another object where the key/value pairs have been swapped. 
 // The original object should not be modified.
 
 //======================  EXAMPLE  ========================
@@ -73,7 +84,9 @@ swap({'age': 55})
 //========================================================= 
 
 
-'EXERCISE 6:'
+"========================================================================"
+"=============================  EXERCISE 6  ============================="
+"========================================================================"
 
 // write a function called getIndex which finds the index of an element in an array of objects, 
 // the objects have multiple key/value pairs so your function need to be flexible enough to find by any of them.
@@ -94,7 +107,9 @@ getIndex([{name:'Antonello'}, {name:'George'}, {name:'Golda'}],'name', 'Peter')
 //=========================================================  
 
 
-'EXERCISE 7:'
+"========================================================================"
+"=============================  EXERCISE 7  ============================="
+"========================================================================"
 
 // Write a function called runOnRange that takes one argument, an object.
 // this object will contain three properties, a start, and end and a a step.
@@ -121,7 +136,9 @@ runOnRange({start:0, end: 10, step: 4})
 //=========================================================  
 
 
-'EXERCISE 8:'
+"========================================================================"
+"=============================  EXERCISE 8  ============================="
+"========================================================================"
 
 // Write a function called last that takes one argument, an object, and returns an object containing 
 // only the last 
@@ -135,7 +152,9 @@ last(obj)
 //=========================================================  
 
 
-'EXERCISE 9:'
+"========================================================================"
+"=============================  EXERCISE 9  ============================="
+"========================================================================"
 
 // Write a function called sumAll that takes one argument, an object, and sums all it's values. 
 // If no object is provided or if the object is empty sumAll should return 0.
@@ -152,7 +171,9 @@ sumAll()
 //=========================================================  
 
 
-'EXERCISE 10:'
+"========================================================================"
+"=============================  EXERCISE 10  ============================"
+"========================================================================"
 
 // Create a function called model. The model function allows you to control how you interact with a 
 // collection of objects that we call collection that are stored in the DB. Model imposes conditions 
@@ -182,7 +203,9 @@ DB // [{id: 1, age: 32}] => Address was not added because not allowed by the sch
 //========================================================= 
 
 
- 'EXERCISE 11:'
+"========================================================================"
+"=============================  EXERCISE 11  ============================"
+"========================================================================"
 
 // Continuing the previous exercise, add the possibility to force the type of the value that can 
 // be set on a given property. In this case schema is an object and no longer an array. The allowed 
@@ -198,7 +221,9 @@ DB // [{id: 1, name: "Joe"}] => married and age not added because of the wrong t
 //========================================================= 
 
 
-'EXERCISE 12:'
+"========================================================================"
+"=============================  EXERCISE 12  ============================"
+"========================================================================"
 
 // Schema force with Default
 // We will now make sure that missing values are defaulted to a certain value. From now on, 
@@ -229,7 +254,9 @@ DB /* [
 //========================================================= 
 
 
-'EXERCISE 13:'
+"========================================================================"
+"=============================  EXERCISE 13  ============================"
+"========================================================================"
 
 // Write  an object called bankAccount, and 3 functions: withdraw, deposit and balance. 
 // They keep track of the amount added and removed from a bank account when called bankAccount 
@@ -247,7 +274,9 @@ bankAccount.balance()
 //========================================================= 
 
 
-'EXERCISE 14:'
+"========================================================================"
+"=============================  EXERCISE 14  ============================"
+"========================================================================"
 
 // Write a function called Splice Which extrapolates properties from an object and uses them for a 
 // newly created object. this function can take 3 arguments: the first is an object, the second and 
@@ -276,8 +305,10 @@ var newObje = splice(obj, 0, 0)
 //========================================================= 
 
 
+"========================================================================"
+"=============================  EXERCISE 15  ============================"
+"========================================================================"
 
-'EXERCISE 15:'
 //Write a function called sort that sorts the values of an object, which should all be numbers, 
 //You should sort the object numericaly in ascending order.
 
@@ -289,7 +320,9 @@ sort({age:22, year:1999, a:99, b:3})
 //========================================================= 
 
 
-'EXERCISE 16:'
+"========================================================================"
+"=============================  EXERCISE 16  ============================"
+"========================================================================"
 
 // Extend the functionality of the previous function Sort to include the possibility of having different 
 // types of sorting according to the arguments we pass. 

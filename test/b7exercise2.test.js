@@ -21,12 +21,12 @@ describe("#test2", function(){
     })
 })
 describe("#test3", function(){
-    it ('should return You will receive  1600 usd for your 2 Bitcoins"', function(){
+    it ('should return You will receive 16000 usd for your 2 Bitcoins"', function(){
         assert.equal(crypt[1], undefined)
         assert.equal(addCurrency({coin:'bitcoin', rate:8000}, 2, crypt),"You will receive 16000 usd for your 2 Bitcoins")
         assert.equal(crypt[0].coin, 'bitcoin')
     })
-})
+})       
 describe("#test4", function(){
     it ('should return New coin Eth added to Database', function(){
         assert.equal(crypt[1], undefined)
@@ -35,7 +35,7 @@ describe("#test4", function(){
     })
 })
 describe("#test5", function(){
-    it ('should return You will receive  1600 usd for your 2 bitcoins"', function(){
+    it ('should return You will receive 16000 usd for your 2 Bitcoins"', function(){
         assert.equal(crypt[1].rate, 800)
         assert.equal(addCurrency({coin:'eth', rate:800}, 2, crypt),"You will receive 1600 usd for your 2 Eths")
         assert.equal(crypt[0].coin, 'bitcoin')
