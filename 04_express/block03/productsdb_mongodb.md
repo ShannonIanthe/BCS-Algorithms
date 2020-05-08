@@ -1,4 +1,4 @@
-EXERCISE
+## EXERCISE
 
 *   /categories/add      POST    ===>    add new category to DB
 *   /categories/remove   POST    ===>    remove category from DB
