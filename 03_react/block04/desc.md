@@ -59,6 +59,8 @@ Requirements:
 - you should be able to change the product's quantity
 - you should display a free shipping green message once the total gets to 500€ or more, otherwise not eligible for a free shipping red message.
 
+[Screenshot of cart example](https://barcelonacodeschool.com/files/pics/cur_files/reactB4E4.png)
+
 ***Your solution goes to the ex04 folder***
 
 
