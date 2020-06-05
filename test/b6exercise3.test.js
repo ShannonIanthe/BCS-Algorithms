@@ -18,9 +18,9 @@ describe("#test2", function(){
     })
 })
 describe("#test2", function(){
-    it (`modifyObject should be {b: 12} `, function(){
+    it (`modifyObject should be {b: 33} `, function(){
         var myObj =  modifyObject(obj, 'b', 33)
-         assert.equal(myObj.b , 33)
-        
+            assert.equal(myObj.b , 33)
+
+        })
     })
-})
