@@ -13,18 +13,14 @@ describe("#test1", function(){
     })
 })
 describe("#test2", function(){
-    it (`modifyObject should be {a: 1, b: 2, c:22} `, function(){
-        assert.equal(modifyObject(obj, 'c', 22)['a'], 1)
-        assert.equal(modifyObject(obj, 'c', 22).b, 2)
+    it (`modifyObject should be {c:22} `, function(){
         assert.equal(modifyObject(obj, 'c', 22).c, 22)
     })
 })
 describe("#test2", function(){
-    it (`modifyObject should be {a: 1, b: 12, c:22} `, function(){
+    it (`modifyObject should be {b: 12} `, function(){
         var myObj =  modifyObject(obj, 'b', 33)
-         assert.equal(myObj.a , 1)
          assert.equal(myObj.b , 33)
-         assert.equal(myObj.c , 22)
         
     })
 })
