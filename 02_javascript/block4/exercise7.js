@@ -1,5 +1,5 @@
 
 
 module.exports = {
-    booleanChecker
+	booleanChecker
 }
