@@ -58,12 +58,12 @@ modifyObject(obj, 'c', 3)
 
 //======================  EXAMPLE  ========================
 var movies = ['matrix','the dark knight','a beautiful mind','american pie']
-modifyObject(obj, 'a', 1)
+addToList(movies)
 [   
-    {title:'matrix',_id:0},
-    {title:'the dark knight',_id:1},
-    {title:'a beautiful mind',_id:2},
-    {title:'american pie',_id:3}
+    {title:'matrix',id:0},
+    {title:'the dark knight',id:1},
+    {title:'a beautiful mind',id:2},
+    {title:'american pie',id:3}
 ] // <======  EXPECTED OUTPUT
 //========================================================= 
 
