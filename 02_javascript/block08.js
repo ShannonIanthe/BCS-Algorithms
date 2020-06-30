@@ -32,19 +32,19 @@
 
 //======================  EXAMPLE  ========================
 var arr =[
-    {name:'mike', age:22},
-    {name:'robert', age:12},
-    {name:'roger', age:44},
-    {name:'peter', age:28},
-    {name:'Ralph', age:67}
+{name:'mike', age:22},
+{name:'robert', age:12},
+{name:'roger', age:44},
+{name:'peter', age:28},
+{name:'Ralph', age:67}
 ] 
 recursive(arr)
 [
-    [ mike, 22],
-    [ robert, 12],
-    [ roger, 44],
-    [ peter, 28],
-    [ ralph, 67]
+[ mike, 22],
+[ robert, 12],
+[ roger, 44],
+[ peter, 28],
+[ ralph, 67]
 ]// <======  EXPECTED OUTPUT
 //========================================================= 
 
@@ -77,7 +77,7 @@ tally([10,10,10,4,5])
 // the number as key and how many times it was in the array as values you should 
 // return arrays where the first elements is the number and the second is how many 
 // times it was in the array.
-    
+
 //======================  EXAMPLE  ========================
 tally([2,3,4,5,5,5,5,5,5,5,6,7,6,7,6,7,5,4,3,4,5,5,6])
 // {2: 1, 3: 2, 4: 3, 5: 10, 6: 4, 7: 3}  <======  EXPECTED OUTPUT
@@ -101,7 +101,7 @@ tally([2,3,4,5,5,5,5,5,5,5,6,7,6,7,6,7,5,4,3,4,5,5,6], 'arr')
 // the array in descending order'
 // if the second argument is passed but is not ascending nor descending it 
 // should return an error message alerting the user that he/she passed the wrong data.
-    
+
 // You can't use any built-in methods apart from console.log, alert and document.write
 // try splitting this task into smaller inner functions to avoid repetition and a 
 // gigantic unreadable if statements.
@@ -173,18 +173,18 @@ server.app.post('accounts/update/:id/:amount/:name')
 // This is the structure of your database :
 
 const database = [
-    {
-      genre: "comedy",
-      movies: [{},{}]
-    },
-    {
-      genre: "thriller",
-      movies: [{},{}]
-    },
-    {
-      genre: "horror",
-      movies: [{},{}]
-    },
+{
+  genre: "comedy",
+  movies: [{},{}]
+},
+{
+  genre: "thriller",
+  movies: [{},{}]
+},
+{
+  genre: "horror",
+  movies: [{},{}]
+},
 ]
 
 // Each new movie should have these properties ( even if the API provides you much more ) :

@@ -344,3 +344,25 @@ sort(obj,'keys','descending')
 
 // Note: should the second or the third argument be missing the function 
 // should console.log the following message: "missing argument here!".
+
+
+
+"========================================================================"
+"=============================  EXERCISE 17  ============================"
+"========================================================================"
+
+// Find the biggest numerical value in the object and return it with the key which holds it:
+
+//======================  EXAMPLE  ========================
+var obj = {a: 1, b: 20, c: 3, d: 4, e: 1, f: 4}
+biggestNumber(obj)
+{num: 20, key: "b"}  // <======  EXPECTED OUTPUT
+
+var obj = {a: 20, b: 26, c: 0}
+biggestNumber(obj)
+{num: 26, key: "b"}  // <======  EXPECTED OUTPUT
+
+//========================================================= 
+
+
+
