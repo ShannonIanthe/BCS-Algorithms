@@ -174,7 +174,7 @@ server.app.post('accounts/update/:id/:amount/:name')
 
 const database = [
     {
-      genre: "commedy",
+      genre: "comedy",
       movies: [{},{}]
     },
     {
