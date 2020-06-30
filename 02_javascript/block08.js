@@ -200,3 +200,52 @@ const database = [
 
 // If a movie has more than 1 genre, you should add it
 // to all of them. 
+
+
+"========================================================================"
+"=============================  EXERCISE 8  ============================="
+"========================================================================"
+
+// Create a function called getCurrentWeather that will get your position 
+// using the Geolocation API :
+// ( https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API/Using_the_Geolocation_API )
+// Once that you get latitude and longitude of your position, use the fetch
+// method to get the current weather from the open-weather-map API :
+// https://openweathermap.org/current
+// You can either open an account and use your own API key or use this one from
+// the school: 16909a97489bed275d13dbdea4e01f59
+
+// The function should return an object with the following structure:
+
+// {
+//   name: 'Barcelona', ==> name of the city
+//   description: 'clear sky', ==> weather description
+//   temp: 32, ==> temperature
+//   temp_min: 18, ==> temperature min 
+//   temp_max: 35, ==> temperature max
+//   wind: 1.7, ==> wind speed
+//   humidity: 87 ==> humidity
+// }
+
+
+"========================================================================"
+"=============================  EXERCISE 9  ============================="
+"========================================================================"
+
+// Extend the previous exercise, adding the forecast weather. To get the 
+// data you need to make another request to the open-weather-map API, see the
+// details here: 
+// https://openweathermap.org/api/one-call-api
+ 
+// The function should now return the same object as the previous exercise but 
+// with a new key "forecast" with a value of an array of objects (each object 
+// represent the weather of a different day of the week), each object should have 
+// the following structure:
+
+// {
+//     min: 15, ==> temperature min
+//     max: 27, ==> temperature max
+//     description: 'heavy intensity rain', ==> weather description
+//     wind_speed: 2, ==> wind speed
+//     humidity: 78 ==> humidity
+// }
