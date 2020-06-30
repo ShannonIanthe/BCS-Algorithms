@@ -7,15 +7,15 @@ describe("#test1", function(){
     })
 })
 describe("#test2", function(){
-    it ("moviesDB should be a {genre:'commedy', title:'pinapple express'}", function(){
-        moviesDB(DB, 'commedy', {title:'pinapple express'})
-        assert.equal(DB[0].genre, 'commedy')
+    it ("moviesDB should be a {genre:'comedy', title:'pinapple express'}", function(){
+        moviesDB(DB, 'comedy', {title:'pinapple express'})
+        assert.equal(DB[0].genre, 'comedy')
         assert.equal(DB[0].movies[0].title, 'pinapple express' )
     })
 })
 describe("#test3", function(){
     it ("moviesDB should be a {title:'Banana'}", function(){
-        moviesDB(DB, 'commedy', {title:'Banana'})
+        moviesDB(DB, 'comedy', {title:'Banana'})
         assert.equal(DB[1], undefined)
         assert.equal(DB[0].movies[1].title, 'Banana')
     })

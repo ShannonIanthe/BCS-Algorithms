@@ -32,7 +32,7 @@ var DB = [
 ]
 
 //======================  EXAMPLE  ========================
-moviesDB(DB, 'commedy', {title:'Banana'})
+moviesDB(DB, 'comedy', {title:'Banana'})
 {title:'Banana'} // <======  EXPECTED OUTPUT
 moviesDB(DB, 'thriller', {title:'the usual suspects'})
 'the movie the usual suspects is already in the database!' // <======  EXPECTED OUTPUT
