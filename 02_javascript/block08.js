@@ -154,3 +154,49 @@ server.app.post('accounts/update/:id/:amount/:name')
 // if the page is not found it should return the following message: '404 page not found'
 // if I try adding the same account twice it should return 'Account {ACCOUNT NAME} 
 // already present in db'
+
+
+"========================================================================"
+"=============================  EXERCISE 7  ============================="
+"========================================================================"
+
+// Create a movie database using real movies data coming from the omdbapi API. 
+// You should prompt the title of the movie to the user, then using the fetch
+// method get the movie data from the API and finally, if the movie doesn't exist,
+// insert it inside the database and return the entire database otherwise return
+// a message: Movie ${title} already exists in the database.
+
+// You can use this url to fetch the movies:
+
+`https://omdbapi.com?t=${SOME_TITLE_COMING_FROM_THE_PROMPT}&apikey=thewdb`
+
+// This is the structure of your database :
+
+const database = [
+    {
+      genre: "commedy",
+      movies: [{},{}]
+    },
+    {
+      genre: "thriller",
+      movies: [{},{}]
+    },
+    {
+      genre: "horror",
+      movies: [{},{}]
+    },
+]
+
+// Each new movie should have these properties ( even if the API provides you much more ) :
+
+// - Actors
+// - Directors
+// - Awards
+// - Genre
+// - Poster
+// - Released
+// - Title
+// - Plot
+
+// If a movie has more than 1 genre, you should add it
+// to all of them. 
