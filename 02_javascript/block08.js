@@ -215,7 +215,7 @@ const database = [
 // You can either open an account and use your own API key or use this one from
 // the school: 16909a97489bed275d13dbdea4e01f59
 
-// The function should return an object with the following structure:
+// The function should print in the console an object with the following structure:
 
 // {
 //   name: 'Barcelona', ==> name of the city
@@ -237,7 +237,7 @@ const database = [
 // details here: 
 // https://openweathermap.org/api/one-call-api
  
-// The function should now return the same object as the previous exercise but 
+// The function should now print in the console the same object as the previous exercise but 
 // with a new key "forecast" with a value of an array of objects (each object 
 // represent the weather of a different day of the week), each object should have 
 // the following structure:
