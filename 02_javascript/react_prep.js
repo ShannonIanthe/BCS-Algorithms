@@ -132,4 +132,4 @@ const products = [
 // The category should be inputed by the user, you can use a prompt to do it.
 // In case that the user type all you should display all the products,
 // if there are not products in this category you should return the following message :
-// "No products in this category", otherwise the the filtered products.
+// "No products in this category", otherwise the filtered products.
