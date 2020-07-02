@@ -4,7 +4,7 @@
 "========================================================================" 
 
 
- We have a list of products in this array:
+ // We have a list of products in this array:
 
 
 const products = [
@@ -35,7 +35,7 @@ const products = [
 ]
 
 
- Print out in console first all the products and then for bestsellers only print those having `bestSeller: true`.
+ // Print out in console first all the products and then for bestsellers only print those having bestSeller: true.
 
 
 "========================================================================"
@@ -50,7 +50,7 @@ let lastnames = ["Smith", "Simmons", "Diamond", "Coles", "Benjamin"];
 
 
 
-Expected output:
+// Expected output:
 
 Clifford Smith
 Russel Simmons
@@ -63,13 +63,13 @@ Andre Benjamin
 "============================== checkUserData ==========================="
 "========================================================================" 
 
-Create a function called checkUserData that will get a
-username and a password from a user, using the prompt.
+// Create a function called checkUserData that will get a
+// username and a password from a user, using the prompt.
 
-Then you need to check, inside an array of users, if there is 
-a user that matches username and password provided by the input.
+// Then you need to check, inside an array of users, if there is 
+// a user that matches username and password provided by the input.
 
-The array of users will have the following structure:
+// The array of users will have the following structure:
 
 
 let users = [
@@ -79,12 +79,12 @@ let users = [
 ]
 
 
-In case that there is a match you should display a welcome message : 
+// In case that there is a match you should display a welcome message : 
 `Welcome back {USERNAME}` 
-otherwise a negative one :
+// otherwise a negative one :
 `Wrong credentials provided :(`
 
-But in both cases a series of messages saying with a delay of 1 second: 
+// But in both cases a series of messages saying with a delay of 1 second: 
 
 This message will desappear in 3
 This message will desappear in 2
