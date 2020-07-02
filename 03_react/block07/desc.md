@@ -27,4 +27,4 @@ You should also create a message box that will change depending on the user inpu
 ## Requirements:
 
 - The message box should be originally not visible
-- The message should disappear after 2 seconds of being displayed
+- The message should disappear after 2 seconds of being displayed    

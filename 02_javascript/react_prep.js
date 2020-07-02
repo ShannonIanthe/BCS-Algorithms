@@ -3,9 +3,7 @@
 "============================= productsRender ==========================="
 "========================================================================" 
 
-
- // We have a list of products in this array:
-
+// We have a list of products in this array:
 
 const products = [
 {
@@ -34,29 +32,27 @@ const products = [
 }
 ]
 
-
- // Print out in console first all the products and then for bestsellers only print those having bestSeller: true.
+// Print out in console first all the products and then for bestsellers 
+// only print those having bestSeller: true.
 
 
 "========================================================================"
 "============================== namePairs ==============================="
 "========================================================================" 
 
-Print out maitching pairs of first/lastnames in the console by using only one loop:
-
+// Print out maitching pairs of first/lastnames in the console by using 
+// only one loop:
 
 let firstnames = ["Clifford", "Russel", "Michael", "Dennis", "Andre"];
 let lastnames = ["Smith", "Simmons", "Diamond", "Coles", "Benjamin"];
 
-
-
 // Expected output:
 
-Clifford Smith
-Russel Simmons
-Michael Diamond
-Dennis Coles
-Andre Benjamin
+// Clifford Smith
+// Russel   Simmons
+// Michael  Diamond
+// Dennis   Coles
+// Andre    Benjamin
 
 
 "========================================================================"
@@ -86,7 +82,34 @@ let users = [
 
 // But in both cases a series of messages saying with a delay of 1 second: 
 
-This message will desappear in 3
-This message will desappear in 2
-This message will desappear in 1
+// This message will desappear in 3
+// This message will desappear in 2
+// This message will desappear in 1
+
+
+"========================================================================"
+"============================== localCart ==============================="
+"========================================================================" 
+
+// The idea is to create a cart and store it in the localStorage, we can
+// use an array of objects as a products reference
+const products = [
+	{name:'product1',price:20,color:'red'},
+	{name:'product2',price:30,color:'green'},
+	{name:'product3',price:40,color:'yellow'}
+]
+// Create a function called cart, which is going to take 2 arguments, the 
+// first one is an action, the second one is the name of a product. 
+// Depending on the action we are going to interact differently with cart,
+// the options are: 
+// create    => is going to create a new element inside the cart, if the 
+//              element is already there it should increase the quantity 
+//              by 1
+// delete    => is going to delete an element from the cart
+// increase  => is going to increase by 1 the quantity of an element 
+// decrease  => is going to decrease by 1 the quantity of an element
+
+// The element that we are going to manipulate is the second argument of
+// the function.
+
 
