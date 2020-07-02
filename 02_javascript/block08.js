@@ -249,3 +249,21 @@ const database = [
 //     wind_speed: 2, ==> wind speed
 //     humidity: 78 ==> humidity
 // }
+
+"========================================================================"
+"=============================  EXERCISE 10  ============================="
+"========================================================================"
+
+// Create a euro to dollar (and viceversa) convertor. It needs to take the input from the user and return the converted value.
+
+// Use an external API to get real exchanges rates, you can use this one: https://currencylayer.com/
+// (they will ask you to register and will give you a free plan and an api key)
+
+// Use js fetch to get the data from the API: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+
+fetch(`http://www.apilayer.net/api/live?access_key=${your_api_key_here}`)
+.then( res => res.json())
+.then( response => console.log(response))
+.catch( error => console.log(error))
+
