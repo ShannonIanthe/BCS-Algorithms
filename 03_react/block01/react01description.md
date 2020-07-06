@@ -65,11 +65,3 @@ fetch('https://barcelonacodeschool.com/files/reactB1products.json')
 
 Use this page as an example: https://www.chalkd.co.nz/collections/all but don't repeat their layout mistakes such as overlapping elements, etc. 
 
-
-
-
-$2b$10$KTHkAjJrIjN/r30UPnpkLuDkTv.Qz/D.38TAUEZpWRJRbbjLxp5qa
-
-
-
-
