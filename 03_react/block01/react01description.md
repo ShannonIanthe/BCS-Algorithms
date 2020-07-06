@@ -27,7 +27,7 @@ Create a brand new React application with 'React create App'. This app needs to 
                         price      :  27.50,
                         category   : 't-shirts',
                         bestSeller :  false,
-                        image      : 'https://www.juniba.pk/wp-content/uploads/2018/02/the-flash-distressed-logo-t-shirt-black.png',
+                        image      : 'https://images-na.ssl-images-amazon.com/images/I/61ZipyCaAKL._AC_UX385_.jpg',
                         onSale     :  true
                       },
                       {
@@ -48,10 +48,10 @@ Create a brand new React application with 'React create App'. This app needs to 
                       }
    ]
    ```
-Or fetch it from https://api.myjson.com/bins/g0jwc with 
+Or fetch it from https://barcelonacodeschool.com/files/reactB1products.json with 
 
 ```
-fetch('https://api.myjson.com/bins/g0jwc')
+fetch('https://barcelonacodeschool.com/files/reactB1products.json')
   .then((response) => {
     return response.json();
   })
@@ -68,7 +68,7 @@ Use this page as an example: https://www.chalkd.co.nz/collections/all but don't 
 
 
 
-
+$2b$10$KTHkAjJrIjN/r30UPnpkLuDkTv.Qz/D.38TAUEZpWRJRbbjLxp5qa
 
 
 
