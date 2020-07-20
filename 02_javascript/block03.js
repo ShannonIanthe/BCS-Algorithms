@@ -134,7 +134,7 @@ multy([15,4,2])
 
 // write a function called timesTwo which takes an array as an argument.
 // inside it use the forEach loop and push the numbers of the array to a 
-// new array and multiply them by two on the way!
+// new array and multiply them by two on the way then return the new array
 
 //======================  EXAMPLE  ========================
 timesTwo([10,10,10])
