@@ -48,6 +48,22 @@ recursive(arr)
 ]// <======  EXPECTED OUTPUT
 //========================================================= 
 
+"========================================================================"
+"=============================  EXERCISE 2.5  ==========================="
+"========================================================================"
+
+// write a recursive function incByStep which will take several arguments,
+// but the first one is a number, second one is a step and a third one is
+// a maximum. 
+
+// It should return an array of numbers from the initial number untill the maximum number reached with a given step:
+
+// if initial number is 1, step is 3 and maximum is 10 the results should be
+// [1, 4, 7] 
+
+// if initial number is 5, step is 10 and maximum is 100 the results should be
+// [5, 15, 25, 35, 45, 55, 65, 75, 85, 95]
+
 
 "========================================================================"
 "=============================  EXERCISE 3  ============================="
