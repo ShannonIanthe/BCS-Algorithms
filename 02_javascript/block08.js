@@ -56,7 +56,8 @@ recursive(arr)
 // but the first one is a number, second one is a step and a third one is
 // a maximum. 
 
-// It should return an array of numbers from the initial number untill the maximum number reached with a given step:
+// It should return an array of numbers from the initial number until the 
+// maximum number reached with a given step:
 
 // if initial number is 1, step is 3 and maximum is 10 the results should be
 // [1, 4, 7] 

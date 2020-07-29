@@ -8,4 +8,3 @@ function total (num, num2){
 module.exports = {
     apple, apple2, total
 }
-

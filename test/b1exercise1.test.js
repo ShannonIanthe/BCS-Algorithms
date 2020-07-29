@@ -1,8 +1,9 @@
 var assert       = require('chai').assert
-var apple        = require('../02_javascript/block1/exercise1').apple
-var apple2       = require('../02_javascript/block1/exercise1').apple2
-var basket       = require('../02_javascript/block1/exercise1').basket
-var total        = require('../02_javascript/block1/exercise1').total
+var {
+    apple, 
+    apple2, 
+    basket, 
+    total}       = require('../02_javascript/block1/exercise1')
 
 describe("#test1", function(){
     it ('apple should be a number', function(){

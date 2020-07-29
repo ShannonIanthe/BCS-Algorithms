@@ -1,10 +1,10 @@
-ex1 https://www.codewars.com/kata/the-if-function/train/javascript
+ex 1 https://www.codewars.com/kata/the-if-function/train/javascript
 
-ex2 https://www.codewars.com/kata/day-of-the-week/train/javascript
+ex 2 https://www.codewars.com/kata/day-of-the-week/train/javascript
 
-ex3 https://www.codewars.com/kata/maximum-product/train/javascript
+ex 3 https://www.codewars.com/kata/maximum-product/train/javascript
 
-ex4 https://www.codewars.com/kata/whos-online/train/javascript
+ex 4 https://www.codewars.com/kata/whos-online/train/javascript
 
 ex 4 https://www.codewars.com/kata/simple-beads-count/train/javascript
 
