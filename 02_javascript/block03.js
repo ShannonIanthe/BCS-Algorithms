@@ -88,9 +88,9 @@ var anyArr = ['one', 5, 'two', 6, 'three', true, 'four']
 
 //======================  EXAMPLE  ========================
 isString([3,55,66,"hello"])
-1 // <======  EXPECTED OUTPUT
+["hello"] // <======  EXPECTED OUTPUT
 isString([3,55,66,"hello","beer",12,{},[],()=>{},"[]"])
-3 // <======  EXPECTED OUTPUT
+["hello","beer","[]"]  // <======  EXPECTED OUTPUT
 //=========================================================
 
 

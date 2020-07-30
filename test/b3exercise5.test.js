@@ -7,17 +7,17 @@ describe("#test1", function(){
     })
 })
 describe("#test2", function(){
-    it ('i should be 1', function(){
+    it ('Length of returned array should 1', function(){
         assert.equal(isString([3,55,66,"hello"]).length, 1)
     })
 })
 describe("#test3", function(){
-    it ('i should be 3', function(){
+    it ('Length of returned array should 3', function(){
         assert.equal(isString([3,55,66,"hello","beer",12,{},[],()=>{},"[]"]).length, 3)
     })
 })
 describe("#test4", function(){
-    it ('i should be 3', function(){
+    it ('Length of returned array should 3', function(){
         assert.equal(isString(["","","",15]).length, 3)
     })
 })
