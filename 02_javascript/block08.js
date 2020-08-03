@@ -148,7 +148,7 @@ sorter([11111,9,10,12,3,321],'whatever')
 // more than once.
 // all operation to delete, update, withdraw and deposit should be done using a 
 // numeric id which you are in charge to generate and make sure is unique.
-// Also make sure delete that the id doesn't shift if one item is removed.
+// Also make sure that when deleting the ids of remainig accountss are not changing.
 // ONLY the Server constructor function should be defined, I will call a new 
 // instance if it as below
 

@@ -327,3 +327,43 @@ let aliens = [
   {unit:'yellowCreature', qty: 100, strength: 150, rateOfFire: 6, stamina: 400},
   {unit:'slimyThing', qty: 2500, strength: 12, rateOfFire: 20, stamina: 100}
 ]
+
+
+"========================================================================"
+"===================  EXERCISE 8 - Managing store  ======================"
+"========================================================================"
+
+// You have been hired by an ecommerce startup and your job is to prepare the core code 
+// to add categories and products, rename the catergories without affecting the products
+// and display every product inside every category. 
+
+// Declare these 2 variables with the following sample content, in the categories we will have objects for every category with it's name and id. If we will rename a category the id should stay the same.
+
+// In the products array we have objects for every product and each product has a name, it's id and id of category from the categories array. 
+
+let categories = [
+    {id: 1, catName: 'shoes'},
+    {id: 2, catName: 'hats'}
+];
+let products = [
+    {name:'black shoes', catID:1},
+    {name:'black hat', catID:2}
+    ];
+
+//======================  EXAMPLE  ========================
+addNewProduct('yellow hat', 'hats')
+`Product yellow hat was added under hats category!` // <======  EXPECTED OUTPUT
+addNewProduct('yellow hat', 'hats')
+`Product is already there.` // <======  EXPECTED OUTPUT
+addNewProduct('blue jeans', 'pants')
+`New category pants was created and product blue jeans was added succesfully.` // <======  EXPECTED OUTPUT
+renameCat('pants', 'jeans')
+categories = [...] // <======  EXPECTED OUTPUT
+renameCat('shirts', 'streetwear')
+`Category shirts doesn't exist.`
+displayAll('shoes')
+`Category shoes contains black shoes.` // <======  EXPECTED OUTPUT
+displayAll()
+`Category shoes contains black shoes. Category headwear contains black hat, yellow hat. Category pants contains blue jeans.`
+//========================================================= 
+

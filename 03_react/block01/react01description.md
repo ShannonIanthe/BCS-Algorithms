@@ -48,7 +48,7 @@ Create a brand new React application with 'React create App'. This app needs to 
                       }
    ]
    ```
-Or fetch it from https://barcelonacodeschool.com/files/reactB1products.json with 
+Or if by chance you can already manage state then you can fetch it from https://barcelonacodeschool.com/files/reactB1products.json with 
 
 ```
 fetch('https://barcelonacodeschool.com/files/reactB1products.json')
