@@ -4,7 +4,7 @@ Create a child component called Counter that will only update if the number of c
 
 You are going to need a button, and a text that displays the counter from the state increasing when the number of clicks is odd:
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_B129F1F5CCCDE7FA1BDACCD2F4F756ABC4E298094B0A789416A13B24C0A2AC85_1505311683294_image.png)
+https://barcelonacodeschool.com/files/pics/reactb4e1counter.gif
 
 ***Your solution goes to the ex01 folder***
 
