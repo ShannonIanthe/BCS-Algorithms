@@ -13,7 +13,7 @@ all data must be passed through the body using postman instead of params through
 | POST   | /category/delete    | Remove category                            |
 | POST   | /category/update    | Update category                            |
 | GET    | /category/categories| Display all categories                     |
-| GET    | /category/products  | display the categories with all products   |
+| GET    | /category/products  | display all categories with all products   |
 | GET    | /category/:category | display one category with all its products |
 | POST   | /product/add        | Add product                                |
 | POST   | /product/delete     | Delete product                             |

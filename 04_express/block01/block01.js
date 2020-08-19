@@ -70,7 +70,7 @@ EXERCISE 4
         > /DE Hello World in DE not found
         > /DE/HalloWelt DE added with message "HalloWelt"
         > /DE HalloWelt
-        > /DE/Hallo_Welt Action fobidden, DE is already present in the system
+        > /DE/Hallo_Welt Action forbidden, DE is already present in the system
         > /DE/update/Hallo_Welt DE updated from "HalloWelt" to "Hallo Welt"
     Note:
     By completing this exercise you will have your first CRUD app! Congratulations!
