@@ -23,9 +23,9 @@
 '========================================================================'
 '=============================  EXERCISE 1  ============================='
 '========================================================================'
-// create a variable called apple and assign to it a value of 5
-// then create another variable called apple2 and give to it a value of 15.
-// and finally sum the together and return their sum.
+// outisde of a function create a variable called apple and assign to it a value of 5 and another variable called apple2 and give to it a value of 15.
+
+// Modify your sum function so that it will return the sum of two arguments num and num2
 
 //======================  EXAMPLE  ========================
 total(15,5)
@@ -39,10 +39,11 @@ total(20,20)
 '=============================  EXERCISE 2  ============================='
 '========================================================================'
 
-// create 2 variables:
+// Outside the function create 2 variables:
 // a , b
 // assign 10 to a and 24 to b
-// return the total of the multiplication of a and b
+
+// Modify your function so that it will return the total of the multiplication of it's arguments a and b
 
 //======================  EXAMPLE  ========================
 multy(10,5)
@@ -58,9 +59,8 @@ multy(20,20)
 
 // Age calculator
 // Want to find out how old you'll be? Calculate it!
-// Store your birth year in a variable.
-// Store a future year in a variable.
-// Output the age!
+// Outside your function store your birth year in a variable and date_of_birth and a future year in a variable future_year.
+// Finish the function so that it will return the current age.
 
 //======================  EXAMPLE  ========================
 ageCalc(1982,2018)

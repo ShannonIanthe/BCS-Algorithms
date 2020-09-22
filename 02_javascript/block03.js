@@ -276,3 +276,19 @@ var expenses = [
 budgetTracker(expenses)
 310 // <======  EXPECTED OUTPUT
 //=========================================================
+
+
+"========================================================================"
+"=============================  EXERCISE 15  ============================"
+"========================================================================"
+
+// write a function called longestString which takes an array and minLength as the arguments 
+// and returns the last element from the array with length bigger than minLength:
+
+//======================  EXAMPLE  ========================
+
+let fruits = ['banana','kiwi','orange','apple','watermelon','pear']
+longestString(fruits, 5)
+'watermelon' // <======  EXPECTED OUTPUT
+
+//=========================================================
