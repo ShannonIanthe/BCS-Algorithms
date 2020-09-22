@@ -1,5 +1,5 @@
 var assert                  = require('chai').assert
-var longestString             = require('../02_javascript/block2/exercise15').longestString
+var longestString             = require('../02_javascript/block3/exercise15').longestString
 
 
 

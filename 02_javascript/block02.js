@@ -171,7 +171,8 @@ concatenator(arr)
 "========================================================================"
 "=============================  EXERCISE 10  ============================"
 "========================================================================"
-
+// declare an array with these items:
+var arr = ["glass", "car", "watch", "sofa", "macbook"];
 // create a function called findPosition which takes two arguments, an array and an element and it return
 // the index of the given element.
 
@@ -252,17 +253,3 @@ true; // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 15  ============================"
-"========================================================================"
-
-// write a function called longestString which takes an array and minLength as the arguments 
-// and returns the last element from the array with length bigger than minLength:
-
-//======================  EXAMPLE  ========================
-
-let fruits = ['banana','kiwi','orange','apple','watermelon','pear']
-longestString(fruits, 5)
-'watermelon' // <======  EXPECTED OUTPUT
-
-//=========================================================
