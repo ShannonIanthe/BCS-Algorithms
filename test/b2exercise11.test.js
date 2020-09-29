@@ -1,5 +1,5 @@
 var assert                  = require('chai').assert
-var arr                     = require('../02_javascript/block2/exercise11').arr
+var arr                     = ["green", "red", "black", "blue", "brown", "yellow", "purple"]
 var isThere                 = require('../02_javascript/block2/exercise11').isThere
 
 describe("#test1", function(){

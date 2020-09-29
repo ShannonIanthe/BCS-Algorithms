@@ -1,12 +1,12 @@
 var assert                  = require('chai').assert
-var arr                     = require('../02_javascript/block2/exercise10').arr
+// var arr                     = require('../02_javascript/block2/exercise10').arr
 var findPosition            = require('../02_javascript/block2/exercise10').findPosition
 
-describe("#test1", function(){
-    it ('arr should be an array', function(){
-        assert.typeOf(arr, 'array')
-    })
-})
+// describe("#test1", function(){
+//     it ('arr should be an array', function(){
+//         assert.typeOf(arr, 'array')
+//     })
+// })
 describe("#test2", function(){
     it ('findPosition should be an function', function(){
         assert.typeOf(findPosition, 'function')
@@ -14,7 +14,7 @@ describe("#test2", function(){
 })
 describe("#test3", function(){
     it ("findPosition should be 1", function(){
-        assert.equal(findPosition(arr, 'car'),  1)
+        assert.equal(findPosition(["glass", "car", "watch", "sofa", "macbook"], 'car'),  1)
     })
 })
 describe("#test4", function(){

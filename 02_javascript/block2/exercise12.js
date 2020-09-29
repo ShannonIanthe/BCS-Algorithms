@@ -1,4 +1,4 @@
 
 module.exports ={
-    arr, isThere
+    isThere
 }

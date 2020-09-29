@@ -1,18 +1,18 @@
 var assert       = require('chai').assert
-var arr          = require('../02_javascript/block2/exercise1').arr
+// var arr          = require('../02_javascript/block2/exercise1').arr
 var assigner     = require('../02_javascript/block2/exercise1').assigner
-var index        = require('../02_javascript/block2/exercise1').index
+// var index        = require('../02_javascript/block2/exercise1').index
 
-describe("#test0", function(){
-    it ('index should be a number', function(){
-        assert.typeOf(index, 'number')
-    })
-})
-describe("#test1", function(){
-    it ('arr should be an array', function(){
-        assert.typeOf(arr, 'array')
-    })
-})
+// describe("#test0", function(){
+//     it ('index should be a number', function(){
+//         assert.typeOf(index, 'number')
+//     })
+// })
+// describe("#test1", function(){
+//     it ('arr should be an array', function(){
+//         assert.typeOf(arr, 'array')
+//     })
+// })
 describe("#test2", function(){
     it ('assigner should be a function', function(){
         assert.typeOf(assigner, 'function')

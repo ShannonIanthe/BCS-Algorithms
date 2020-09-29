@@ -1,6 +1,6 @@
 var assert                  = require('chai').assert
 var characterRemover        = require('../02_javascript/block2/exercise13').characterRemover
-var str                     = require('../02_javascript/block2/exercise13').str
+var str                     = "I,Really,Like,Pizza"
 
 
 describe("#test1", function(){

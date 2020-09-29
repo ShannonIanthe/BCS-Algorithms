@@ -4,7 +4,8 @@
 
 
 
+
 // do not modify module.export!
     module.exports = {
-        arr, assigner, index
+        assigner
     }
