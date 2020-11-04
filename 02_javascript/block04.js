@@ -1,6 +1,4 @@
-"========================================================================"
-"=============================  EXERCISE 0  ============================="
-"========================================================================"
+"=== EXERCISE 0 ==="
 
 // create a function called isTrue
 // it should check if the data passed into it is NOT:
@@ -22,9 +20,7 @@ false // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 1  ============================="
-"========================================================================"
+"=== EXERCISE 1 ==="
 
 // write a function called check_who_is_older, it takes 4 arguments (name, age, name2, age2)
 // it checks who is older and returns a sentence saying 
@@ -39,9 +35,7 @@ check_who_is_older('John', 57, 'Peter', 95)
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 2  ============================="
-"========================================================================"
+"=== EXERCISE 2 ==="
 
 // write a function  called is_an_even_number that takes an array as argument, 
 // it loops through it and checks if the elements are numbers (or a string that can be converted to a number) 
@@ -58,9 +52,7 @@ is_an_even_number(["100", 33, "Hello"])
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 3  ============================="
-"========================================================================"
+"=== EXERCISE 3 ==="
 
 // write a function called check_types it takes an array as argument, it loops through it and checks the typeof each element
 // it needs to find out how many different data types there are.
@@ -74,9 +66,7 @@ check_types([{},"hello", 55,22,333, "66"])
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 4  ============================="
-"========================================================================"
+"=== EXERCISE 4 ==="
 
 // Create a function called checker that loops through a string and checks how 
 // many occurrences of commas and question marks there are in it.
@@ -86,16 +76,14 @@ check_types([{},"hello", 55,22,333, "66"])
 // like commas / question marks, otherwise singular: comma / question mark.
 
 //======================  EXAMPLE  ========================
-checker('hello, how are you today? I am not bad and you?')
+checker('Hello, how are you today? I am not bad and you?')
 '1 comma, 2 question marks' // <======  EXPECTED OUTPUT
-checker('do you line banana?')
+checker('Do you like bananas?')
 '0 comma, 1 question mark' // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 5  ============================="
-"========================================================================"
+"=== EXERCISE 5 ==="
 
 // write a function called howManyCaps which counts the capitals in the word, 
 // it then returns a sentence saying how which letters are capital and how many 
@@ -107,9 +95,7 @@ howManyCaps('Antonello Sanna Likes videoGames')
 //=========================================================
 
         
-"========================================================================"
-"=============================  EXERCISE 6  ============================="
-"========================================================================"
+"=== EXERCISE 6 ==="
 
 // write a function called numberConverter which takes an array as an argument 
 // then it loops through the array and checks if each element can be converted to a number 
@@ -132,9 +118,7 @@ numberConverter([22,55,66])
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 7  ============================="
-"========================================================================"
+"=== EXERCISE 7 ==="
 
 // write a function called booleanChecker, it takes two arguments, one array 
 // and one maxCapacity which is a number
@@ -156,9 +140,7 @@ booleanChecker(["12", "55", true, false, true, true, true],1)
 // `${how many booleans goes here} booleans were found ${your booleans go here}`
 
 
-"========================================================================"
-"=============================  EXERCISE 8  ============================="
-"========================================================================"
+"=== EXERCISE 8 ==="
 
 // create a function called uniqueElements which takes an array as argument.
 // you need one array with the unique elements so loop through and get rid of duplicates.
@@ -174,9 +156,7 @@ uniqueElements(["a","b","b",44,55,4,4])
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 9  ============================="
-"========================================================================"
+"=== EXERCISE 9 ==="
 
 // extend the previous exercise by making sure to return only the unique elements 
 // of the array only this time the function takes a second argument, max.
@@ -192,9 +172,7 @@ uniqueElements(["a","b","b","44",55,4,4],25)
 //=========================================================
 
 
-"========================================================================"
-"===============  'EXERCISE 10: Guess My Number game'  =================="
-"========================================================================"
+"=== EXERCISE 10: Guess My Number game' ==="
 {/*
 
 You are going to try to build a Guess My Number game with JavaScript

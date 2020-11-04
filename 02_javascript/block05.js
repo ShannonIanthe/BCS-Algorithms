@@ -96,7 +96,7 @@ tellAge(4,12,2018)
         // Sorry your birthday is passed for this year
     // if the day provided is out of range (31) or the month is out of the 12 it should return:
         // "Error invalid data provided"
-// otherwise it should console.log how many months and days there are between now and the next birthday.
+// otherwise it should return how many months and days there are between now and the next birthday.
 // in case there is less than 1 month between now and the next birthday it should ignore the month.
 // for the sake of simplicity let's assume that all months have 30 days.
 // Examples:

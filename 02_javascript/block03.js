@@ -1,6 +1,4 @@
-"========================================================================"
-"=============================  EXERCISE 1  ============================="
-"========================================================================"
+"=== EXERCISE 1 === "
 
 // create a function called firstLoop
 // outside the function declare a variable called i and give it a value of 1
@@ -13,14 +11,12 @@ firstLoop()
 //=========================================================
 
    
-"========================================================================"
-"=============================  EXERCISE 2  ============================="
-"========================================================================"
+"=== EXERCISE 2 ==="
 
 // create a function called firstLoopReverse
 // outside the function declare a variable called i and give it a value of 11
 // inside the function create a for loop that prints out the numbers from 11 to 1.
-// them return i
+// then return i
 
 //======================  EXAMPLE  ========================
 firstLoopReverse()
@@ -28,9 +24,7 @@ firstLoopReverse()
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 3  ============================="
-"========================================================================"
+"=== EXERCISE 3 ==="
 
 // write a function called isEven which takes an array as argument and check 
 // if each element is even or odd.
@@ -56,9 +50,7 @@ isEven([1,9,66,"banana"])
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 4  ============================="
-"========================================================================"
+"=== EXERCISE 4 ==="
 
 // declare the following array
 var arr = ['one','two','three','four']
@@ -74,9 +66,7 @@ looper([2,4,8,7])
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 5  ============================="
-"========================================================================"
+"=== EXERCISE 5 ==="
 
 // write a function called isString which takes an array as argument.
 var anyArr = ['one', 5, 'two', 6, 'three', true, 'four']
@@ -94,9 +84,7 @@ isString([3,55,66,"hello","beer",12,{},[],()=>{},"[]"])
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 6  ============================="
-"========================================================================"
+"=== EXERCISE 6 ==="
 
 // write a function called sum which takes an array as argument and then 
 // return the sum of all its elements.
@@ -111,9 +99,7 @@ sum([35,20,10])
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 7  ============================="
-"========================================================================"
+"=== EXERCISE 7 ==="
 
 // write a function called multy which takes an array as argument and multiply 
 // each number and then returns the result.
@@ -128,9 +114,7 @@ multy([15,4,2])
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 8  ============================="
-"========================================================================"
+"=== EXERCISE 8 ==="
 
 // write a function called timesTwo which takes an array as an argument.
 // inside it use the forEach loop and push the numbers of the array to a 
@@ -146,9 +130,7 @@ timesTwo([15, 4,2])
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 9  ============================="
-"========================================================================"
+"=== EXERCISE 9 ==="
 
 // write function called twoArrays which takes two arrays as arguments, 
 // these arrays are of the same length
@@ -169,9 +151,7 @@ twoArrays([3,5], ['3','5'])
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 10  ============================"
-"========================================================================"
+"=== EXERCISE 10 ==="
 
 // now do the same exercise only this time ignore the type.
 
@@ -187,9 +167,7 @@ twoArrays([3,5], ['3','5'])
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 11  ============================"
-"========================================================================"
+"=== EXERCISE 11 ==="
 
 // write a function called lowerCaseLetters which takes a string as argument.
 // the string will contain some upper case letters and some numbers, 
@@ -205,11 +183,9 @@ lowerCaseLetters("An2323t2323one32llo123455Likes567323Play323ing567243G2323a3mes
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 12  ============================"
-"========================================================================"
+"=== EXERCISE 12 ==="
 
-// write a function called reverser which takes one sting as an argument and returns the same 
+// write a function called reverser which takes one string as an argument and returns the same 
 // string in reverse.
 // you must use
 // a loop
@@ -224,9 +200,7 @@ reverser("reeb dloc fo tnip ecin a htiw dna oyam htiw seotatop deirf peed evol I
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 13  ============================"
-"========================================================================"
+"=== EXERCISE 13 ==="
 
 // create a function called shortener which takes a string as argument.
 // this string will be a full name like "Antonello sanna"
@@ -243,9 +217,7 @@ shortener("Antonello sanna")
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 14  ============================"
-"========================================================================"
+"=== EXERCISE 14 ==="
 
 // write a function called budgetTracker which helps you keep track of your expenses while on vacation...
 // you went on vacation to Japan and now you came back and you need to check your finance a bit and in order 
@@ -278,9 +250,7 @@ budgetTracker(expenses)
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 15  ============================"
-"========================================================================"
+"=== EXERCISE 15 ==="
 
 // write a function called longestString which takes an array and minLength as the arguments 
 // and returns the last element from the array with length bigger than minLength:

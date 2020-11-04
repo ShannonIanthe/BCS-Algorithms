@@ -1,6 +1,4 @@
-"========================================================================"
-"=============================  EXERCISE 1  ============================="
-"========================================================================"
+"=== EXERCISE 1 ==="
 
 /*
 Write a function called assigner which takes 2 arguments, an array and a number which will be used as an index in the array. It then takes one element from the provided array at the given index and 
@@ -15,9 +13,7 @@ assigner(arr, index);
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 2  ============================="
-"========================================================================"
+"=== EXERCISE 2 ==="
 
 // write a function called takeAll which takes an array as argument,
 // it then returns a new array which has all values of the original
@@ -30,12 +26,10 @@ takeAll(arr);
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 3  ============================="
-"========================================================================"
+"=== EXERCISE 3 ==="
 
 /*
-Create a function swap which takes 3 arguments -- two arrays and a number. It needs to swap two items in these arrays at the specified position/index which is the third argument -- number. Then this funstion has to return these two arrays inside another array.
+Create a function swap which takes 3 arguments -- two arrays and a number. It needs to swap two items in these arrays at the specified position/index which is the third argument -- number. Then this function has to return these two arrays inside another array.
 
 In the example we are swapping orange with playstation because the providede index is 2.
 */
@@ -49,9 +43,7 @@ swap(arr, arr2, pos)
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 4  ============================="
-"========================================================================"
+"=== EXERCISE 4 ==="
 
 // create a function called splicer which removes an element from an array and returns this modified array.
 // this function takes two arguments:
@@ -65,9 +57,7 @@ splicer(arr, 2)
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 5  ============================="
-"========================================================================"
+"=== EXERCISE 5 ==="
 
 /* 
 Write a function called removeFirstAndLast. It takes an array as an argument and returns it but without first and last items which should be removed.
@@ -80,9 +70,7 @@ removeFirstAndLast(arr)
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 6  ============================="
-"========================================================================"
+"=== EXERCISE 6 ==="
 
 // write a function called removeAll
 // it takes an array as an argument, removes all the elements from it and returns it as an empty array.
@@ -94,9 +82,7 @@ removeAll(arr)
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 7  ============================="
-"========================================================================"
+"=== EXERCISE 7 ==="
 
 /*
 Write a function called pusher which takes one argument - an array.
@@ -114,9 +100,7 @@ pusher(arr)
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 8  ============================="
-"========================================================================"
+"=== EXERCISE 8 ==="
 
 // create a function called take_and_push which takes 3 arguments, an array and two numbers.
 // the second and third arguments are representing indexes
@@ -139,9 +123,7 @@ take_and_push(arr, 2, 4)
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 9  ============================="
-"========================================================================"
+"=== EXERCISE 9 ==="
 
 // create a function called concatenator which takes two arrays as the arguments
 // and then using Array.concat combine them into a single array and return.
@@ -173,9 +155,7 @@ concatenator(arr1,arr2)
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 10  ============================"
-"========================================================================"
+"=== EXERCISE 10 ==="
 
 // create a function called findPosition which takes two arguments, an array and an element and it returns
 // the index of the given element.
@@ -191,9 +171,7 @@ findPosition(arr, "glass");
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 11  ============================"
-"========================================================================"
+"=== EXERCISE 11 ==="
 
 // create a function called isThere which takes an array as first argument and a string as second,
 // it needs to check if the string is inside the array and returns true if it is and false if it's not.
@@ -207,9 +185,7 @@ false; // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 12  ============================"
-"========================================================================"
+"=== EXERCISE 12 ==="
 
 // now do the same exercise using the method includes only this time you should return false if the
 // color is there and true if it's not!
@@ -223,9 +199,7 @@ true; // <======  EXPECTED OUTPUT
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 13  ============================"
-"========================================================================"
+"=== EXERCISE 13 ==="
 
 // write a function called characterRemover which takes two arguments, a 
 // string and a character to be removed and returns the string free of the 
@@ -240,9 +214,7 @@ characterRemover(str, ",");
 //=========================================================
 
 
-"========================================================================"
-"=============================  EXERCISE 14  ============================"
-"========================================================================"
+"=== EXERCISE 14 ==="
 
 // write a function called isArrayFunc which takes an argument and returns 
 // true if it's an array and false if it's anything else.
