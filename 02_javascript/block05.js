@@ -131,7 +131,7 @@ checkAge(2,25)
         // if the currency is not present or any of the arguments is missing it should return 
         // an error message:  "invalid data provided!"
 
-// PLease make sure that currency is added only once not to overload your DB!
+// Please make sure that currency is added only once not to overload your DB!
 // Should the currency already present you should return "invalid data provided!"
 // It should return the result of the conversion.
 

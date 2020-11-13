@@ -310,8 +310,8 @@ Alternatively, the army first to perish completely also means kaput for the play
 and end game. If unit is perished completely, it can't go to the next battle, duh.
 
 For every battle for simplicty we randomly pick units from both armies and throw them 
-into the fight, the unit winning determines the results fo the battle, also tbased on 
-the damage causeed we count how many opposite units are dead. 
+into the fight, the unit winning determines the results fo the battle, also based on 
+the damage caused we count how many opposite units are dead. 
 */ 
 
 // Example data:
@@ -328,6 +328,18 @@ let aliens = [
   {unit:'slimyThing', qty: 2500, strength: 12, rateOfFire: 20, stamina: 100}
 ]
 
+/* Example of calculating damage/loss:
+
+If we have
+ {unit:'karateMasters',qty: 3000, strength: 10, rateOfFire: 1, stamina: 2} going into battle the damage would be 3000 * 10 * 1 = 30 000 
+
+And form another army we have
+{unit:'slimyThing', qty: 2500, strength: 12, rateOfFire: 20, stamina: 100} their damage would be 2500 * 12 * 20 = 600 000 
+
+karateMaster stamina is 2, so slimyThing dealing damage of 600 000 would kill 600 000 / 2  = 300 000, 
+karateMasters they will perish completely in this battle bringing their qty to -297 000 and can’t go to the next battle
+
+Damage of 30 000 from karateMasters will kill 30 000 / 100 = 300 slimyThings bringing their qty down to 2200 so they suffered damage but still can go to the next battle in a qty of 2200
 
 "========================================================================"
 "===================  EXERCISE 8 - Managing store  ======================"
