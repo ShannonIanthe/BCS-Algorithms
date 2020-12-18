@@ -1,8 +1,8 @@
 "=== EXERCISE 1 ==="
 
 var obj = {
-        name:antonello
-        lastname:sanna
+        name:luke
+        lastname:skywalker
 }
 //FIX THE ABOVE CODE SO THAT IT DOESN'T THROW AN ERROR!
 

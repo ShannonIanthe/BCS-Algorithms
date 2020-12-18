@@ -172,9 +172,10 @@ dinamicConverter('convert', ['euro',100], 'hmmm'),
 "=============================  EXERCISE 7  ============================="
 "========================================================================"
 
-// Write a function called stringChop that chops a string into chunks of a given length. 
-// The function takes 2 arguments, 
-// the first one being the string to chop, and the second one a number that will be the size of you chunks.
+// Write a function called stringChop that chops a string into chunks of a given length and returns an array with these chunks. 
+
+// The function takes 2 arguments -- the first one being the string to chop, and the second one a number that will be the size of you chunks. If the second argument is not provided or it is 0 then your function should return the full original string inside an array.
+
 
 //======================  EXAMPLE  ========================
 stringChop('BarcelonaCodeSchool')
