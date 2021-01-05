@@ -14,7 +14,7 @@ describe("#test2", function(){
     })
 })
 describe("#test3", function(){
-    it ("biggestNumber should be ['b','c','a']", function(){
+    it ("biggestNumber should be num: 26, key: 'b'", function(){
         var obj = biggestNumber({a: 20, b: 26, c: 0})
         assert.equal(obj.num, 26);
         assert.equal(obj.key, 'b');
