@@ -84,7 +84,7 @@ EXERCISE 5
     Write a bank account app. The server needs to be able to create accounts and for a single account we should be able to deposit, 
     withdraw, get the balance and delete the account.
     If no account ID is passed nothing should be created/deposited/withdrawn
-    Working app example: https://frozen-caverns-01634.herokuapp.com/
+    Working app example: https://rocky-caverns-03417.herokuapp.com/
 
     
     API:
