@@ -8,11 +8,11 @@ describe("#test1", function(){
 })
 describe("#test2", function(){
     it (`obj should be antonello `, function(){
-        assert.equal(obj['name'], "antonello")
+        assert.equal(obj['name'], "luke")
     })
 })
 describe("#test3", function(){
     it (`obj should be sanna `, function(){
-        assert.equal(obj['lastname'], "sanna")
+        assert.equal(obj['lastname'], "skywalker")
     })
 })
