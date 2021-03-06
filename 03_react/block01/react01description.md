@@ -1,3 +1,5 @@
+> To push React exercises to GitLab: https://gitlab.com/-/snippets/2068049
+
 ## Exercise 1
 
 Create a brand new React application with 'React create App'. This app needs to display a list of product categories from an array. The categories are 't-shirts', 'hats', 'shorts', 'shirts', 'pants', 'shoes'. In order to display them you will need to use Array.map
