@@ -117,15 +117,15 @@ checkAge(2,25)
 "========================================================================"
 
 
-// And here are some extra ideas to rpactice with Date objects, there are no tsts but feel free to send your solutions to us for a check:
+// And here are some extra ideas to practice with Date objects, there are no tests but feel free to send your solutions to us for a check:
 
 // 1. Finding out the day of week you were born on
 
 // 2. Finding out the number of days left before Christmas (or some specific date)
 
-// 3. Finding out the Zodiaz sign for specific date of birth
+// 3. Finding out the Zodiac sign for specific date of birth
 
-// 4. Simple bookign system with 2 features -- add a booking and check availability
+// 4. Simple booking system with 2 features -- add a booking and check availability
 
 "========================================================================"
 

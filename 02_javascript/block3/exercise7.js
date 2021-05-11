@@ -1,4 +1,4 @@
 
 module.exports ={
-    multy
+	multy
 }
