@@ -21,7 +21,7 @@ describe("#test4", function(){
         assert.equal(sumAll({}), 0)
     })
 })
-describe("#test4", function(){
+describe("#test5", function(){
     it ('sumAll should be 0', function(){
         assert.equal(sumAll(), 0)
     })
