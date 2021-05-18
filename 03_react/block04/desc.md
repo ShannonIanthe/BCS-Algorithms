@@ -1,10 +1,11 @@
 ## Exercise 1 
 
-Create a child component called Counter that will only update if the number of click's is odd and ignore the click with even number. 
+Create a child component called Counter that will only update if the number of click's is odd and ignore the click with even number. So the counter is increasing by 1 on every click but in the page we only see the odd numbers.
 
 You are going to need a button, and a text that displays the counter from the state increasing when the number of clicks is odd:
 
 https://barcelonacodeschool.com/files/pics/reactb4e1counter.gif
+<!-- http://barcelonacodeschool.com/files/currfiles/react_block4_ex1.mp4 -->
 
 ***Your solution goes to the ex01 folder***
 
