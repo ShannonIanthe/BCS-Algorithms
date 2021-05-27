@@ -47,7 +47,7 @@ calc(10,'/')
 "=============================  EXERCISE 3  ============================="
 "========================================================================"
 
-// write a function called Filter that takes 3 arguments, an array, a data 
+// write a function called filter that takes 3 arguments, an array, a data 
 // type and a minLength.
 // it will loop through the array and return a new array where the elements 
 // are NOT of the type of passed data type 

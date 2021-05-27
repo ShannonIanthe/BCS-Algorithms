@@ -26,7 +26,7 @@ firstLoopReverse()
 
 "=== EXERCISE 3 ==="
 
-// write a function called isEven which takes an array as argument and check 
+// write a function called isEven which takes an array as argument and checks 
 // if each element is even or odd.
 // inside the function declare a variable called count which keeps track of 
 // how many even numbers there are.
