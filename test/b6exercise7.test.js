@@ -13,7 +13,7 @@ describe("#test2", function(){
 })
 describe("#test3", function(){
     it ('runOnRange should be a [ 20, 23, 26 ]', function(){
-        assert.equal(runOnRange({start: 20, end: 26, step: 3}),String([ 20, 23, 26 ]))
+        assert.equal(runOnRange({start: 20, end: 36, step: 3}),String([ 20, 23, 26, 29, 32, 35 ]))
     })
 })
 describe("#test4", function(){

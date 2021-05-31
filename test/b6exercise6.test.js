@@ -13,7 +13,7 @@ describe("#test2", function(){
 })
 describe("#test3", function(){
     it ('getIndex should be a 1', function(){
-        assert.equal(getIndex([{name:'Antonello'}, {name:'George'}, {name:'Golda'}],'name', 'George'),1)
+        assert.equal(getIndex([{name:'Antonello'}, {name:'George'}, {name:'Golda'}],'name', 'Golda'),2)
     })
 })
 describe("#test3", function(){
