@@ -302,9 +302,9 @@ is already inhibitit by some local creatures. And they are willing to protect it
 from us (how dare they!).
 So we assemled an army of stormtroopers willing to defeat and conquer. 
 First battle is happening on Otatop, if we defeat them there -- war is over!!!
-If not, next battle is half-way, on the Moon! From there, if those annoying aliens 
-will defeat us, the battle is on Earth. Losing on Earth means end of game for us. 
-If we won on Earth, moving back to the Moon and so on. 
+If not, next battle is one step closer to Earth, on the SuperNova13! From there, if those annoying aliens 
+will defeat us, the battle is moving to Z666, and so on. If we win a battle we are moving to the next battle in the opposite direction toward Otapop.
+Losing on Earth means end of game for us. 
 So the race losing the battle on their home planet lose the game and seize to exist. 
 Alternatively, the army first to perish completely also means kaput for the player 
 and end game. If unit is perished completely, it can't go to the next battle, duh.
