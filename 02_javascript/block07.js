@@ -318,14 +318,14 @@ the damage caused we count how many opposite units are dead.
 
 let locations = ['Earth','Moon','Z666','SuperNova13','Otatop']
 let humans = [
-  {unit:'karateMasters',qty: 3000, strength: 10, rateOfFire: 1, stamina: 2},
-  {unit:'teslaTanks', qty: 90, strength: 200, rateOfFire: 5, stamina: 500},
-  {unit:'bostonDynamicsSpot', qty: 150, strength: 50, rateOfFire: 15, stamina: 200}
+{unit:'karateMasters', qty: 3000, strength: 5, rateOfFire: 20, stamina: 10},
+{unit:'teslaTanks', qty: 50, strength: 100, rateOfFire: 5, stamina: 100},
+{unit:'bostonDynamicsSpot', qty: 200, strength: 50, rateOfFire: 15, stamina: 60}
 ]
 let aliens = [
-  {unit:'motherLord', qty: 1, strength: 500, rateOfFire: 50, stamina: 3000},
-  {unit:'yellowCreature', qty: 100, strength: 150, rateOfFire: 6, stamina: 400},
-  {unit:'slimyThing', qty: 2500, strength: 12, rateOfFire: 20, stamina: 100}
+{unit:'motherLord', qty: 1, strength: 500, rateOfFire: 50, stamina: 300},
+{unit:'yellowCreature', qty: 250, strength: 200, rateOfFire: 6, stamina: 90},
+{unit:'slimyThing', qty: 2500000, strength: 3, rateOfFire: 30, stamina: 7}
 ]
 
 /* Example of calculating damage/loss:
