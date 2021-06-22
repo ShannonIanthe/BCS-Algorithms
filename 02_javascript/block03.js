@@ -33,7 +33,7 @@ firstLoopReverse()
 // once done return count
 // see example below for how to use a basic if statement here.
 
-function isEven(){
+function isEven(arr){
     //declare your count
     // loop and inside it...
       if ("_your_condition_here"){
