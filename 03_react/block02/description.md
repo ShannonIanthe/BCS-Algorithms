@@ -22,7 +22,7 @@ then in List you should map through the array and for each iteration you should 
 
 ## Exercise 4
 
-Refactor the previous exercise, this time using only functional components.
+Refactor the previous exercise, this time using only function components.
 
 ## Exercise 5
 

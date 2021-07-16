@@ -8,11 +8,11 @@ If no text is provided it should display a text saying "no data provided!"
 
 ## Exercise 2 / Optional with hooks
 
-Refactor the previous exercise, this time using a functional component and the `useState` hook. Take a look at `useState` in the "Hooks" block of React part. 
+Refactor the previous exercise, this time using a function component and the `useState` hook. Take a look at `useState` in the "Hooks" block of React part. 
 
 ## Exercise 3
 
-In a functional component, create a `div` which contains 2 inputs and one button.
+In a function component, create a `div` which contains 2 inputs and one button.
 
 Each of these should be a separate child component, all rendered by a parent component called App.
 
