@@ -210,7 +210,7 @@ Make a function toFahr which takes one argument -- a temperature in Celsius (num
 Make a function toCelsius which takes one argument -- a temperature in Fahrenheit (number) --  to convert it to
  celsius and output the result.
 
-Use Math.round() to round the results before returning them. Example of Math.round: Math.round(33,3) will give back 33
+Use Math.round() to round the results before returning them. Example of Math.round: Math.round(33.3) will give back 33
 
 */
 
