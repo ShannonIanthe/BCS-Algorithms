@@ -13,6 +13,15 @@ Create a parent class component inside which you define two arrays of equal leng
 
 Create 2 children class components – one to display the firstnames and one to display the lastnames so that they are rendered side by side with matching order.
 
+To do so loop on the array of firstnames in your parent component and from this loop send the first name to your firstname component and the first lastname to your lastname component. You can access the lastnames by using indexes.
+
+Consider this example of pure JavaScript:
+```
+let firstnames = ["Clifford", "Russel", "Michael", "Dennis", "Andre"];
+let lastnames = ["Smith", "Simmons", "Diamond", "Coles", "Benjamin"];
+firstnames.map( (name,idx) => ([ name,lastnames[idx] ]) )
+```
+
 ## Exercise 3 
 
 Create 3 class components, Main, List, and Item.
