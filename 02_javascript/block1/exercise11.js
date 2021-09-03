@@ -6,8 +6,6 @@ var toFahr = function (celsius){
 }
 
 module.exports = {
-    celsius, 
-    fahrenheit, 
     toCelsius, 
     toFahr,
 }

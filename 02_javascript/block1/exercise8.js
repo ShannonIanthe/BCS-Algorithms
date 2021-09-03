@@ -5,7 +5,5 @@ var checkAge = function (age, minAge){
 }
 
 module.exports = {
-    checkAge,
-    age,
-    minAge
+    checkAge
 }

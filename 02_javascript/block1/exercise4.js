@@ -3,8 +3,5 @@ var howManyTeas = function(age, end_age, teas_day){
 }
 
 module.exports = {
-    howManyTeas,
-    age,
-    end_age,
-    teas_day
+    howManyTeas
 }

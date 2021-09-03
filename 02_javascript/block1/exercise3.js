@@ -7,7 +7,5 @@ var ageCalc = function(date_of_birth, future_year){
 }
 
 module.exports = {
-    ageCalc,
-    date_of_birth,
-    future_year,
+    ageCalc
 }

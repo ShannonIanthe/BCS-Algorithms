@@ -24,15 +24,22 @@ npm run test-single -- test/b2exercise3.test.js
 */
 
 
+'=== EXERCISE 0 ==='
+
+Declaring variables:
+Please declare a variable 'apple' and assign to it a value of 5
+Declare a variable 'apple2' and assign to it a value of 10
+Declare a variable 'basket' and assign to it sum of apple and apple2
+Declare a variable 'myName' and assign your name as a value
+
+
+
 '=== EXERCISE 1 ==='
 
 /* 
 
-Outisde of a function create a variable called apple and assign to it a value of 5 and another variable called apple2 and give to it a value of 15.
+Modify your total function so that it will return the sum of two arguments num and num2
 
-NB: for this block we ask you to define some variables outside of the functions for the sake of testing that you know how to do it. Normally, all the data is coming into the functions via arguments so please do not confuse those variables with the arguments inside your functions.
-
-Modify your sum function so that it will return the sum of two arguments num and num2
 
 */
 
@@ -46,9 +53,7 @@ total(20,20)
 
 '=== EXERCISE 2 ==='
 
-// Outside the function create 2 variables -- a , b -- and assign 10 to a and 24 to b
-
-// Modify your function so that it will return the total of the multiplication of it's arguments a and b
+Modify your function so that it will return the total of the multiplication of it's arguments a and b
 
 //======================  EXAMPLE  ========================
 multy(10,5)
@@ -65,7 +70,7 @@ Age calculator
 
 Want to find out how old you'll be? Calculate it!
 
-Outside your function store your birth year in a variable and date_of_birth and a future year in a variable future_year.
+You have a function which takes 2 arguments -- year of birth and current year.
 
 Finish the function so that it will return the correct age.
 */
@@ -83,11 +88,10 @@ ageCalc(2000,2018)
 /* 
 Ever wondered how much a "lifetime supply of Tea you will need?"
 Let's find out!!!
-Store your current age in a variable
-Store your estimated end age in a variable
-Store how many teas you drink per day on average
-Calculate how many you will need until the end!
-Output the result!
+
+You have a function called howManyTeas. It takes 3 arguments -- current age, expected end of life age, number of teas per day.
+Calculate how many teas you will need until the end of life.
+Return the number of teas as a result.
 */
 
 //======================  EXAMPLE  ========================
@@ -101,7 +105,8 @@ howManyTeas(35,36, 2)
 '=== EXERCISE 5 ==='
 
 /* 
-Define a function called compare which takes 2 arguments, and returns true if the first is bigger than the second and false if is not.
+You have a function called compare which takes 2 arguments, which are numbers, and returns true if the first one is
+ bigger than the second on and false if is not.
 */
 
 //======================  EXAMPLE  ========================
@@ -164,9 +169,9 @@ true // <======  EXPECTED OUTPUT
 '=== EXERCISE 9 ==='
 
 /*
-Define the name of the user
-Define the year of birth of the user
-Make a function which returns their name and current age in a sentence like in the example:
+You have a function 'getAge' which takes 3 arguments: year of birth, current year, name and returns a phrase "Hello
+ USER_NAME you are NUMBER years old" where USER_NAME is the third argument and NUMBER is the user's age calculated from the first and the second arguments.
+
 */
 
 //======================  EXAMPLE  ========================
@@ -182,9 +187,7 @@ getAge(1200, 2000, 'Ottaviano')
 '=== EXERCISE 10 ==='
 
 /*
-Define the user year of birth in a variable dob
-Assign the current year to a variable now
-Make a function which takes 2 arguments, yeard of birth and current year and returns the following message, replacing the word *'DAYS'* with the actual value
+Make a function which takes 2 arguments, year of birth and current year and returns the following message, replacing the word *'DAYS'* with the actual value
 */
 
 //======================  EXAMPLE  ========================
@@ -201,10 +204,14 @@ howManyDays(1982, 2018)
 It's hot out! Let's make a converter based on the steps here:
 http://www.mathsisfun.com/temperature-conversion.html
 
-Store a celsius temperature into a variable.
-Make a function toFahr to convert it to fahrenheit and output the result.
-Now store a fahrenheit temperature into a variable.
-Make a function toCelsius to convert it to celsius and output the result.
+Make a function toFahr which takes one argument -- a temperature in Celsius (number) -- to convert it to
+ fahrenheit and output the result.
+
+Make a function toCelsius which takes one argument -- a temperature in Fahrenheit (number) --  to convert it to
+ celsius and output the result.
+
+Use Math.round() to round the results before returning them. Example of Math.round: Math.round(33,3) will give back 33
+
 */
 
 //======================  EXAMPLE  ========================

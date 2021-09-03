@@ -2,6 +2,4 @@
         return 
     }
 
-    module.exports = {
-        name, birth_year, getAge
-    }
+    module.exports = {getAge}
