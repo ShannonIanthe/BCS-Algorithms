@@ -346,7 +346,7 @@ Damage of 30 000 from karateMasters will kill 30 000 / 100 = 300 slimyThings bri
 "========================================================================"
 
 // You have been hired by an ecommerce startup and your job is to prepare the core code 
-// to add categories and products, rename the catergories without affecting the products
+// to add categories and products, rename the categories without affecting the products
 // and display every product inside every category. 
 
 // Declare these 2 variables with the following sample content, in the categories we will have objects for every category with it's name and id. If we will rename a category the id should stay the same.
