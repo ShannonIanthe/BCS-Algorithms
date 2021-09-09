@@ -7,14 +7,14 @@ describe("#test1", function(){
     })
 })
 describe("#test2", function(){
-    it ("sort should be ['a','c','b']", function(){
+    it ("sort should be {a: 1, c: 3, b: 20}", function(){
         var obj = sort({a: 1, b: 20, c: 3} ,'values', 'ascending')
         assert.equal(String(Object.values(obj)), String([1,3,20]))
         assert.equal(String(Object.keys(obj)), String(['a','c','b']))
     })
 })
 describe("#test3", function(){
-    it ("sort should be ['b','c','a']", function(){
+    it ("sort should be {b: 20, c: 3, a: 1}", function(){
         var obj = sort({a: 1, b: 20, c: 3} ,'values', 'descending')
         assert.equal(String(Object.values(obj)), String([20, 3,1]))
         assert.equal(String(Object.keys(obj)), String(['b','c','a']))
