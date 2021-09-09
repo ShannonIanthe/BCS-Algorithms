@@ -9,14 +9,13 @@ describe("#test1", function(){
 
 describe("#test2", function(){
     it ('sort should be {a: 1, e: 1, c: 3, d: 4, f: 4, b: 20}', function(){
-        var obj = sort({a: 1, b: 20, c: 3, d: 4, e: 1, f: 4})
-        assert.deepEqual(sort({a: 1, b: 20, c: 3, d: 4, e: 1, f: 4}), {a: 1, e: 1, c: 3, d: 4, f: 4, b: 20})
+        assert.equal(JSON.stringify(sort({a: 1, b: 20, c: 3, d: 4, e: 1, f: 4})), JSON.stringify({a: 1, e: 1, c: 3, d: 4, f: 4, b: 20}))
     })
 })
 
 describe("#test3", function(){
     it ("sort should be {b: 3, age: 22, a: 99, year: 1999}", function(){
-        var obj = sort({age:22, year:1999, a:99, b:3})
-        assert.deepEqual(sort({age:22, year:1999, a:99, b:3}), {b: 3, age: 22, a: 99, year: 1999})
+        assert.equal(JSON.stringify(sort({age:22, year:1999, a:99, b:3})), JSON.stringify({b: 3, age: 22, a: 99, year: 1999}))
     })
 })
+
