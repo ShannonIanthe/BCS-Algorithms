@@ -11,6 +11,7 @@
 // if the movie is already present it should not add it again and it should 
 // instead return the following message:
 // 'the movie the < YOUR_MOVIE_GOES_HERE > is already in the database!'
+// try to use .findIndex() to check fir the nested items like genre or movie
 
 var DB = [
     {
