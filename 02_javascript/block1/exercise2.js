@@ -1,8 +1,9 @@
-
 function multy (a, b){
-	// returning results of multiplication 
-	return 
+	return a * b;
 }
+
+console.log(multy(5,6));
+
 module.exports = {
 	multy
 }
