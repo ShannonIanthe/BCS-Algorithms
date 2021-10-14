@@ -29,7 +29,9 @@ takeAll(arr);
 "=== EXERCISE 3 ==="
 
 /*
-Create a function swap which takes 3 arguments -- two arrays and a number. It needs to swap two items in these arrays at the specified position/index which is the third argument -- number. Then this function has to return these two arrays inside another array.
+Create a function swap which takes 3 arguments -- two arrays and a number. 
+It needs to swap two items in these arrays at the specified position/index 
+which is the third argument -- number. Then this function has to return these two arrays inside another array.
 
 In the example we are swapping orange with playstation because the providede index is 2.
 */

@@ -1,12 +1,9 @@
 // now you write your own functions here
 // do not forget return :)
 var arr = ["milk", "cheese", "car", "lime"];
-arr.splice(0,1);
-arr.splice(1,1);
-arr.splice(3,1);
 
-function assigner(arr){
-    return arr.splice();
+function assigner(arr,idx){
+    return arr.splice(idx,1);
 }
 
 assigner(arr);

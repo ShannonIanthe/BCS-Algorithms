@@ -1,8 +1,7 @@
 var arr = ["cheese", "salame", "bread", "water", "pizza"];
-arr.splice(2,1);
 
-function splicer(arr) {
-    return arr.splice(2,1);
+function splicer(arr,idx) {
+    return arr.splice(arr,2);
 }; 
 
 splicer(arr);
