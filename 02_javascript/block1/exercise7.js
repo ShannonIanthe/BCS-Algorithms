@@ -1,8 +1,10 @@
-var isEven = function(arg) {
-	return n % 2 == 0;
+
+var num = 7;
+function isEven(num) {
+	return num % 2 == 0;
 }
-n=2;
-console.log(isEven);
+
+isEven(num);
 
 
 //I'm still working on this one... not sure

@@ -1,7 +1,7 @@
 var arr = ["car", "soap", "banana", "tv", "toothbrush"];
 
 function removeFirstAndLast(arr){
-    return arr.splice(1,-1);
+    return arr.slice(1,-1);
 }
 removeFirstAndLast(arr);
 

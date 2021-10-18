@@ -34,13 +34,13 @@ firstLoopReverse()
 // see example below for how to use a basic if statement here.
 
 function isEven(arr){
-    //declare your count
-    // loop and inside it...
-      if ("_your_condition_here"){
-            count++
+        //declare your count
+        // loop and inside it...
+          if ("_your_condition_here"){
+                count++
+        }
+        return count
     }
-    return count
-}
 
 //======================  EXAMPLE  ========================
 isEven([2,4,8,7])

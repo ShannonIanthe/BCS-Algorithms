@@ -9,8 +9,11 @@ var arr = [
     "Office"
   ];
 
-  function take_and_push(arr) {
-      return take_and_push(arr, 2, 4);
+  function take_and_push(arr, num1, num2) {
+    var arr2 = [ ]  
+    arr2.push(arr[num1]);
+    arr2.push(arr[num2]);
+    return arr2;
   }
   
   take_and_push(arr);

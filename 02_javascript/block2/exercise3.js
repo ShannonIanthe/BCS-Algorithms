@@ -1,15 +1,11 @@
 var arr = ["banana", "apple", "orange"];
 var arr2 = ["tv", "dvd-player", "playstation"];
+var pos = 2;
 
-function swap (arr, arr2, pos) {
-    var x = arr1[pos];
-    var y = arr2[pos];
-    
-    arr[pos] = 2;
-    arr2[pos] = 2;
-    
-    return [arr, arr2];
+function swap(arr, arr2, pos) {
+return arr.replace("orange", "playstation");
 }
+swap(arr);
 
 
 module.exports ={ 

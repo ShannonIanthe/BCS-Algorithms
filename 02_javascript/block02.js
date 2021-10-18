@@ -31,9 +31,11 @@ takeAll(arr);
 /*
 Create a function swap which takes 3 arguments -- two arrays and a number. 
 It needs to swap two items in these arrays at the specified position/index 
-which is the third argument -- number. Then this function has to return these two arrays inside another array.
+which is the third argument -- number. Then this function has to return 
+these two arrays inside another array.
 
-In the example we are swapping orange with playstation because the providede index is 2.
+In the example we are swapping orange with playstation because the providede 
+index is 2.
 */
 
 //======================  EXAMPLE  ========================
@@ -75,7 +77,9 @@ removeFirstAndLast(arr)
 "=== EXERCISE 6 ==="
 
 // write a function called removeAll
-// it takes an array as an argument, removes all the elements from it and returns it as an empty array.
+// it takes an array as an argument, 
+// removes all the elements from it and returns it as 
+// an empty array.
 
 //======================  EXAMPLE  ========================
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 3, 4, 523, 44, 3454];
@@ -89,10 +93,12 @@ removeAll(arr)
 /*
 Write a function called pusher which takes one argument - an array.
 
-Using .push() method take all the elements from the array and push them to a new variable called arr2 avoiding
+Using .push() method take all the elements from the array 
+and push them to a new variable called arr2 avoiding
 having nested arrays. Then return arr2.
 
-hint==> take a look at spread operator: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+hint==> take a look at spread operator: 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 */
 
 //======================  EXAMPLE  ========================
@@ -104,9 +110,11 @@ pusher(arr)
 
 "=== EXERCISE 8 ==="
 
-// create a function called take_and_push which takes 3 arguments, an array and two numbers.
+// create a function called take_and_push which takes 3 arguments, 
+// in an array and two numbers.
 // the second and third arguments are representing indexes
-// you need to take the elements in the array that are at the given indexes and push them to a new array.
+// you need to take the elements in the array that are at the 
+// given indexes and push them to a new array.
 // then return this new array.
 
 //======================  EXAMPLE  ========================
@@ -127,8 +135,7 @@ take_and_push(arr, 2, 4)
 
 "=== EXERCISE 9 ==="
 
-// create a function called concatenator which takes two arrays as the arguments
-// and then using Array.concat combine them into a single array and return.
+// create a function called concatenator which takes two arrays as the arguments and then using Array.concat combine them into a single array and return.
 
 //======================  EXAMPLE  ========================
 var arr1 = [
@@ -159,7 +166,8 @@ concatenator(arr1,arr2)
 
 "=== EXERCISE 10 ==="
 
-// create a function called findPosition which takes two arguments, an array and an element and it returns
+// create a function called findPosition which takes two arguments, 
+// an array and an element and it returns
 // the index of the given element.
 
 //======================  EXAMPLE  ========================
@@ -175,8 +183,10 @@ findPosition(arr, "glass");
 
 "=== EXERCISE 11 ==="
 
-// create a function called isThere which takes an array as first argument and a string as second,
-// it needs to check if the string is inside the array and returns true if it is and false if it's not.
+// create a function called isThere which takes an array as 
+// first argument and a string as second,
+// it needs to check if the string is inside the array and 
+// returns true if it is and false if it's not.
 
 //======================  EXAMPLE  ========================
 var arr = ["green", "red", "black", "blue", "brown", "yellow", "purple"];

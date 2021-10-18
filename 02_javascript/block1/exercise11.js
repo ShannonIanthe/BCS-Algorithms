@@ -1,13 +1,13 @@
-var toCelsius = function (fahrenheit){
-    return ((fahrenheit - 32) * 5/9);
+function toCelsius(toFahr){
+    return ((toFahr - 32) * 5/9);
 }
-console.log(toCelsius(82));
+Math.round(toFahr(39));
 
-var toFahr = function (celsius){
-    return ((celsius * 1.8) + 32);
+function toFahr(toCelsius){
+    return ((toCelsius * 1.8) + 32);
 }
 
-console.log(toFahr(15));
+Math.round(toCelsius(102));
 
 module.exports = {
     toCelsius, 

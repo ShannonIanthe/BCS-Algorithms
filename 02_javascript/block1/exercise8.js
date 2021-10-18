@@ -1,11 +1,9 @@
 
-var checkAge = function (age, minAge){
-return function(age) {
-    return age > minAge; 
-    }
+function checkAge(age, minAge){
+return age > minAge;
 }
 
-console.log(checkAge(18,22))
+checkAge(21, 15);
 
 
 

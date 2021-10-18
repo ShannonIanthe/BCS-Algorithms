@@ -1,7 +1,11 @@
+    var name ="Shannon";
+    var birth_year= 1990;
+    
     var getAge  = function (birth_year, now, name) {
-        return now - birth_year;
+        var currentAge = now - birth_year;
+        return "Hello" + " " + name + " you are " + currentAge + " years old";
     }
     
-    console.log(getAge(1990, 2021, 'Shannon'));
+    getAge(1990, 2021, "Shannon");
 
     module.exports = {getAge}

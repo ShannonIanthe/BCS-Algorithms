@@ -1,7 +1,8 @@
-function firstLoopReverse() {
-    for (var i = 1; i < 11; i--);
-};
-firstLoopReverse(i);
+
+    for (var i = 11; i > 0; i--){
+        console.log(i);
+    }
+
 
 
 module.exports = {

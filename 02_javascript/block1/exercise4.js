@@ -1,8 +1,9 @@
-var howManyTeas = function(age, end_age, teas_day){
-    return  ((end_age - age) * teas_day);
+ function howManyTeas(age, end_age, teas_day){
+    return  ((end_age - age) * teas_day)*365;
 }
-console.log(howManyTeas(18, 60,2));
+
+howManyTeas(35, 70, 2);
 
 module.exports = {
-    howManyTeas
+    howManyTeas,
 }
