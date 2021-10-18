@@ -1,7 +1,9 @@
 var str = "I,Really,Like,Pizza";
 
 function characterRemover(str) {
-    str.replace(",", " ");
+    str.split(",");
+    String.prototype.join(" ");
+    return str;
 };
 
 characterRemover(str);

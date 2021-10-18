@@ -1,7 +1,7 @@
 var arr = ["mike", "jason", "peter"]
 
-function findPosition(arr){
-    return arr.indexOf("jason");
+function findPosition(arr, string){
+    return Array.prototype.indexOf("mike");
 };
 
 findPosition(arr);

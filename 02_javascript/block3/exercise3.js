@@ -1,14 +1,13 @@
 
 function isEven(arr){
-    while(arr % 2 == 0) {
-            return true;
-    }
-    };
-          if (true){
-                count++
+var count = 0;
+for (let i = 0; i < arr.length; i++){
+        if (arr[i] % 2 === 0) {
+                count ++;
         }
-        return count(arr);
-
+}
+return count;
+}
 
 
 module.exports ={

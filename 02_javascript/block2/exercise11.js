@@ -1,8 +1,8 @@
 var arr = ["green", "red", "black", "blue", "brown", "yellow", "purple"];
 
 
-function isThere(arr) {
-    return arr.includes("red");
+function isThere(arr, string[]) {
+    return Array.prototype.indexOf.includes("red");
 }
 
 isThere(arr);

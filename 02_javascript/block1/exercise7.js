@@ -7,8 +7,6 @@ function isEven(num) {
 isEven(num);
 
 
-//I'm still working on this one... not sure
-
 module.exports = {
     isEven
 }
