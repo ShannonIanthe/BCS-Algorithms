@@ -1,11 +1,11 @@
 var arr = ['one','two','three','four']
 
 function looper(arr) {
-    var count =0;
-    arr.forEach(function(a,b,c){
-    console.log(a,b,c);
-    count ++;
-    }) 
+    var count;
+    arr.forEach(a, b => {
+        console.log(arr)
+        count ++;
+    });
     return looper
 };
 

@@ -204,3 +204,38 @@ Help
 ----------
 
 */}
+
+function getRandomInclusive(min,max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random () * (max- min +1 )+ min);
+} 
+
+function guessMyNumber() {
+  var lowerRange = Number(prompt("Enter a lower range"))
+  var upperRange = Number(prompt("Enter an upper range"))
+  var randomNumber = getRandomIntInclusive(lowerRange, upperRange) // generated random number
+  var numberOfGuesses = Number(prompt("Enter number of guesses")) 
+  var guessedCounted = 0
+
+  var myString = `The range is ${lowerRange} to ${upperRange} and you have ${numberOfGuesses} turns to guess it`
+  console.log(myString)
+  
+  
+  while (guessedCounted< numberOfGuesses){
+  var guessedNumber = Number(prompt(`Make your guess number ${guessedCounted}`))
+  if (guessedNumber > randomNumber) {
+    console.log("Number is too big")
+  }
+  else if (guessedNumber < randomNumber){
+    console.log("Number is too small")
+}
+  else if (guessedNumber === randomNumber) {
+   console.log("You won, Your guess is correct!")
+   break
+}
+guessCounter++
+}
+if(guessedCounted > numberOfGuesses)
+console.log(`You have lost, the correct number is ${randomNumber}`)
+}
