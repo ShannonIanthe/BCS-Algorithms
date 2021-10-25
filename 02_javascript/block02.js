@@ -5,6 +5,8 @@ Write a function called assigner which takes 2 arguments, an array and a number 
 places it in a new array then returns it.
 */
 
+
+
 //======================  EXAMPLE  ========================
 var arr = ["milk", "cheese", "car", "lime"];
 var index = 2;
@@ -18,6 +20,7 @@ assigner(arr, index);
 // write a function called takeAll which takes an array as argument,
 // it then returns a new array which has all values of the original
 // array but in reverse order.
+
 
 //======================  EXAMPLE  ========================
 var arr = ["milk", "cheese", "car", "lime"];
@@ -38,6 +41,7 @@ In the example we are swapping orange with playstation because the providede
 index is 2.
 */
 
+
 //======================  EXAMPLE  ========================
 var arr = ["banana", "apple", "orange"];
 var arr2 = ["tv", "dvd-player", "playstation"];
@@ -54,6 +58,8 @@ swap(arr, arr2, pos)
 // 1) the array
 // 2) the position/index of the element in the array to be removed
 
+
+
 //======================  EXAMPLE  ========================
 var arr = ["cheese", "salame", "bread", "water", "pizza"];
 splicer(arr, 2)
@@ -66,6 +72,7 @@ splicer(arr, 2)
 /* 
 Write a function called removeFirstAndLast. It takes an array as an argument and returns it but without first and last items which should be removed.
 */
+
 
 //======================  EXAMPLE  ========================
 var arr = ["car", "soap", "banana", "tv", "toothbrush"];
@@ -80,6 +87,7 @@ removeFirstAndLast(arr)
 // it takes an array as an argument, 
 // removes all the elements from it and returns it as 
 // an empty array.
+
 
 //======================  EXAMPLE  ========================
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 3, 4, 523, 44, 3454];
@@ -116,6 +124,11 @@ pusher(arr)
 // you need to take the elements in the array that are at the 
 // given indexes and push them to a new array.
 // then return this new array.
+
+function take_and_push(arr, index1, index2)
+  newArray =[]
+  newArray.push(arr, index1, index2)
+  return newArray
 
 //======================  EXAMPLE  ========================
 var arr = [

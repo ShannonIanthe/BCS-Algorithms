@@ -1,11 +1,10 @@
 var arr = ["one", "two", "three", "four"];
 
-function pusher(arr) { 
-arr2 = [];
-arr2.push(...arr)
-return arr2;
-}
-
+function pusher(arr){
+	newArray = []
+	newArray.push(...arr)
+	return newArray
+  }
 
 module.exports = { 
 	pusher 

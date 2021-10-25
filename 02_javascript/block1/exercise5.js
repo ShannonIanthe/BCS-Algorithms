@@ -1,10 +1,10 @@
-var compare = function(a, b) {
-	return (a > b);
+function compare(a, b){
+    return a>b;
 }
 
-compare(100, 50);
-compare(1, 100);
 
+//======================  EXAMPLE  ========================
+compare(100, 50)
 
 module.exports = {
     compare,

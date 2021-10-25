@@ -1,7 +1,9 @@
-var ageCalc = function(date_of_birth, future_year){
-return future_year - date_of_birth;}
+function ageCalc(birth, currentyr){
+    return currentyr - birth
+}
 
-console.log(ageCalc(1990, 2021));
+ageCalc(1982,2018)
+
 
 module.exports = {
     ageCalc

@@ -1,11 +1,11 @@
-function howManyDays(dob, now){
-    return ((now - dob) * 365);
-};
+function howManyDays(birthYear, currentYear){
+    days = ((currentYear - birthYear) * 365)
+    return `you have lived for ${days} days already!`
+}
 
+//======================  EXAMPLE  ========================
 howManyDays(2016, 2018)
-("You have lived for " + howManyDays(1982, 2018) + " days already!");
-("You have lived for " + howManyDays(2016, 2018) + " days already!");
 
 module.exports = {
-    howManyDays,
+    howManyDays
 }

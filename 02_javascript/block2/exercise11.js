@@ -1,11 +1,10 @@
 var arr = ["green", "red", "black", "blue", "brown", "yellow", "purple"];
 
-
-function isThere(arr, string[]) {
-    return Array.prototype.indexOf.includes("red");
+function isThere(arr, string) {
+    return arr.includes(string);
 }
 
-isThere(arr);
+isThere(arr, "red");
 
 
 

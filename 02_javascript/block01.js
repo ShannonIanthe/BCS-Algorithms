@@ -26,12 +26,11 @@ npm run test-single -- test/b2exercise3.test.js
 
 '=== EXERCISE 0 ==='
 
-Declaring variables:
+//Declaring variables:
 Please declare a variable 'apple' and assign to it a value of 5
 Declare a variable 'apple2' and assign to it a value of 10
 Declare a variable 'basket' and assign to it sum of apple and apple2
 Declare a variable 'myName' and assign your name as a value
-
 
 
 '=== EXERCISE 1 ==='
@@ -53,7 +52,7 @@ total(20,20)
 
 '=== EXERCISE 2 ==='
 
-Modify your function so that it will return the total of the multiplication of it's arguments a and b
+//Modify your function so that it will return the total of the multiplication of it's arguments a and b
 
 //======================  EXAMPLE  ========================
 multy(10,5)
@@ -67,13 +66,11 @@ multy(20,20)
 
 /*
 Age calculator
-
 Want to find out how old you'll be? Calculate it!
-
 You have a function which takes 2 arguments -- year of birth and current year.
-
 Finish the function so that it will return the correct age.
 */
+
 
 //======================  EXAMPLE  ========================
 ageCalc(1982,2018)
@@ -94,6 +91,7 @@ Calculate how many teas you will need until the end of life.
 Return the number of teas as a result.
 */
 
+
 //======================  EXAMPLE  ========================
 howManyTeas(35,70, 2)
 25550 // <======  EXPECTED OUTPUT
@@ -108,6 +106,7 @@ howManyTeas(35,36, 2)
 You have a function called compare which takes 2 arguments, which are numbers, and returns true if the first one is
  bigger than the second on and false if is not.
 */
+
 
 //======================  EXAMPLE  ========================
 compare(100, 50)
@@ -140,6 +139,7 @@ false // <======  EXPECTED OUTPUT
 Create a function called isEven which takes 1 argument and returns true if the argument passed is even and false if is odd.
 */
 
+
 //======================  EXAMPLE  ========================
 isEven(7)
 false // <======  EXPECTED OUTPUT
@@ -155,6 +155,7 @@ Make a function which takes age of a user and minimum age for driving a scooter 
 
 Define variables age and minAge outside your function
 */
+
 
 //======================  EXAMPLE  ========================
 checkAge(21, 15)
@@ -190,6 +191,7 @@ getAge(1200, 2000, 'Ottaviano')
 Make a function which takes 2 arguments, year of birth and current year and returns the following message, replacing the word *'DAYS'* with the actual value
 */
 
+
 //======================  EXAMPLE  ========================
 howManyDays(2016, 2018)
 `you have lived for 730 days already!` // <======  EXPECTED OUTPUT
@@ -213,6 +215,7 @@ Make a function toCelsius which takes one argument -- a temperature in Fahrenhei
 Use Math.round() to round the results before returning them. Example of Math.round: Math.round(33.3) will give back 33
 
 */
+
 
 //======================  EXAMPLE  ========================
 toCelsius(102)

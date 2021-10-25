@@ -1,10 +1,10 @@
 var arr = ["green", "red", "black", "blue", "brown", "yellow", "purple"];
 
-function isThere(arr){
-    return arr.includes("green", -2);
+function isThere(arr, string){
+    return !arr.includes(string);
 }
 
-isThere(arr);
+isThere(arr, "black");
 
 
 module.exports ={
