@@ -125,11 +125,6 @@ pusher(arr)
 // given indexes and push them to a new array.
 // then return this new array.
 
-function take_and_push(arr, index1, index2)
-  newArray =[]
-  newArray.push(arr, index1, index2)
-  return newArray
-
 //======================  EXAMPLE  ========================
 var arr = [
   "Breaking bad",
@@ -177,6 +172,7 @@ concatenator(arr1,arr2)
 //=========================================================
 
 
+
 "=== EXERCISE 10 ==="
 
 // create a function called findPosition which takes two arguments, 
@@ -211,7 +207,6 @@ false; // <======  EXPECTED OUTPUT
 
 
 "=== EXERCISE 12 ==="
-
 // now do the same exercise using the method includes only this time you should return false if the
 // color is there and true if it's not!
 
@@ -232,6 +227,7 @@ true; // <======  EXPECTED OUTPUT
 // please note: in order for the string to make sense you should replace 
 // the unwanted characters with a space so that your string will look like this:
 
+
 //======================  EXAMPLE  ========================
 var str = "I,Really,Like,Pizza";
 characterRemover(str, ",");
@@ -243,6 +239,7 @@ characterRemover(str, ",");
 
 // write a function called isArrayFunc which takes an argument and returns 
 // true if it's an array and false if it's anything else.
+
 
 //======================  EXAMPLE  ========================
 var one = { name: "antonello" };

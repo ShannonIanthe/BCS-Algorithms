@@ -7,9 +7,10 @@
 // return 'wrong data provided'
 
 calc = (num1, num2, opr) => {
-
+    return
 }
 
+alc(5,15,'+')
 
 module.exports = {
     calc

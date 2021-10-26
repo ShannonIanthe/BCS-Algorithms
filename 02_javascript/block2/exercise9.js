@@ -10,10 +10,10 @@ var arr2 = [
   "Dexter",
   "Office"
 ];
-function concatenator(arr1, arr2) {
-    return arr1.concat(arr2)
+function concatenator(arr1,arr2){
+  return arr1.concat(arr2);
 }
-concatenator(arr1,arr2);
+concatenator(arr1,arr2)
 
 module.exports = {
   concatenator,

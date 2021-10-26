@@ -18,6 +18,7 @@ firstLoop()
 // inside the function create a for loop that prints out the numbers from 11 to 1.
 // then return i
 
+
 //======================  EXAMPLE  ========================
 firstLoopReverse()
 0 // <======  EXPECTED OUTPUT
@@ -33,14 +34,6 @@ firstLoopReverse()
 // once done return count
 // see example below for how to use a basic if statement here.
 
-function isEven(arr){
-        //declare your count
-        // loop and inside it...
-          if ("_your_condition_here"){
-                count++
-        }
-        return count
-    }
 
 //======================  EXAMPLE  ========================
 isEven([2,4,8,7])
@@ -59,6 +52,7 @@ var arr = ['one','two','three','four']
 // index for every iteration.
 // Inside the function declare a variable called count, and increment it by one 
 // for each iteration then return count.
+
 
 //======================  EXAMPLE  ========================
 looper([2,4,8,7])

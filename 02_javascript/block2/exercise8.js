@@ -9,14 +9,16 @@ var arr = [
     "Office"
   ];
 
-  function take_and_push(arr, num1, num2) {
-    var arr2 = [ ]  
-    arr2.push(arr[num1]);
-    arr2.push(arr[num2]);
-    return arr2;
+  function take_and_push(arr, index1, index2){
+    var newArray = []
+    newArray.push(arr[index1])
+    newArray.push(arr[index2])
+    return newArray
   }
   
-  take_and_push(arr);
+  take_and_push(arr)
+  
+  
 
 
 module.exports = {

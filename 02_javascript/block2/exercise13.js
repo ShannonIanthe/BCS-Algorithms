@@ -8,12 +8,11 @@
 var str = "I,Really,Like,Pizza";
 
 function characterRemover(str, myStrSplit) {
-     var mySplit = str.replace(",");
-     var newStr = mySplit.join(" ")
+     var str = str.split(",").join(" ");
+     return str;
 };
 
-characterRemover(str);
-
+characterRemover(str)
 
 module.exports = {
     characterRemover
