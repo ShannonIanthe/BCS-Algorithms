@@ -6,8 +6,13 @@
 // should the operator be missing, the function should 
 // return 'wrong data provided'
 
-calc = (num1, num2, opr) => {
-    return
+calc = (num1, num2, operator) => {
+    if (operator === "+"){
+        return num1 + num2 
+    }
+    else if (operator === "-"){
+        
+    }
 }
 
 alc(5,15,'+')
