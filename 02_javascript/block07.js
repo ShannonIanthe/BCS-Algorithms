@@ -379,4 +379,3 @@ displayAll('shoes')
 displayAll()
 `Category shoes contains black shoes. Category headwear contains black hat, yellow hat. Category pants contains blue jeans.`
 //========================================================= 
-
