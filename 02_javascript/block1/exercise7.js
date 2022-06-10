@@ -1,11 +1,12 @@
 
-function isEven(arg){
-    return arg % 2 === 0
+function isEven (even) {
+    return even % 2 === 0;
 }
 
-isEven(7)
+isEven(10)
 
 
 module.exports = {
     isEven
 }
+

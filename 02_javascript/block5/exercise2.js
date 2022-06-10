@@ -17,7 +17,7 @@ function calc(a,b,c){
             if(number2){
             return number1 + number2
         }
-        else {
+        else if {
             return number1 + 0
         }
         else if(operator === "-"){
@@ -26,7 +26,7 @@ function calc(a,b,c){
         else if(operator === "*"){
             return number1 - number2
         }
-        else if(operator === "/"){
+        else(operator === "/"){
             return number1 - number2
         }
     }

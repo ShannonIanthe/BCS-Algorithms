@@ -1,9 +1,9 @@
 
-function checkAge(age, minAge){
-    return age > minAge
+function checkAge (ageOfUser, minAge) {
+    return ageOfUser >= minAge
 }
 
-//Still working on this one //
+checkAge(21, 15)
 
 module.exports = {
     checkAge

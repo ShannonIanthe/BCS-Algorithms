@@ -1,6 +1,5 @@
-function howManyDays(birthYear, currentYear){
-    days = ((currentYear - birthYear) * 365)
-    return `you have lived for ${days} days already!`
+function howManyDays (yearOfBirth, currentYear) {
+    return (`you have lived for ${(currentYear - yearOfBirth) * 365} days already!`)
 }
 
 //======================  EXAMPLE  ========================

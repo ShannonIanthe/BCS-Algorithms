@@ -1,6 +1,5 @@
-function getAge(yearBirth, currentYear, name){
-    age = currentYear - yearBirth
-    return `Hello ${name} you are ${age} years old`
+function getAge (yearOfBirth, currentYear, name) {
+    return (`Hello ${name} you are ${currentYear - yearOfBirth} years old`)
 }
 
 //======================  EXAMPLE  ========================

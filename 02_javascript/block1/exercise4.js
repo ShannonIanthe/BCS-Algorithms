@@ -1,7 +1,6 @@
-function howManyTeas(currentAge, endOfLife, numTeas){
-    return ((endOfLife - currentAge) * numTeas) * 365;
+function howManyTeas (currentAge, endOfAge, numOfTeas) {
+    return ((endOfAge - currentAge ) * numOfTeas) * 365
 }
-
 
 //======================  EXAMPLE  ========================
 howManyTeas(35,70, 2)
@@ -9,3 +8,4 @@ howManyTeas(35,70, 2)
 module.exports = {
     howManyTeas,
 }
+

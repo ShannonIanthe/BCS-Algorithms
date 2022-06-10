@@ -27,10 +27,10 @@ npm run test-single -- test/b2exercise3.test.js
 '=== EXERCISE 0 ==='
 
 //Declaring variables:
-Please declare a variable 'apple' and assign to it a value of 5
-Declare a variable 'apple2' and assign to it a value of 10
-Declare a variable 'basket' and assign to it sum of apple and apple2
-Declare a variable 'myName' and assign your name as a value
+// Please declare a variable 'apple' and assign to it a value of 5
+// Declare a variable 'apple2' and assign to it a value of 10
+// Declare a variable 'basket' and assign to it sum of apple and apple2
+// Declare a variable 'myName' and assign your name as a value
 
 
 '=== EXERCISE 1 ==='

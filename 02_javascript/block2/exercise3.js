@@ -10,13 +10,16 @@ index is 2.
 //======================  EXAMPLE  ========================
 var arr = ["banana", "apple", "orange"];
 var arr2 = ["tv", "dvd-player", "playstation"];
-var pos = 2;
+var newArray = [];
 
+function swap (arr, arr2, pos) {
+	var x = arr[pos];
+	var y = arr2[pos];
+	
+	arr[pos] = y;
+	arr2[pos] = x;
 
-function swap(arr, arr2, pos){
-	var temp = arr[pos]
-	arr2=[pos]
-	newArray = (arr,arr2)
+	return [arr, arr2];
   }
 
 swap(arr, arr2);

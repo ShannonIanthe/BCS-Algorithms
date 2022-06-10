@@ -6,7 +6,6 @@ places it in a new array then returns it.
 */
 
 
-
 //======================  EXAMPLE  ========================
 var arr = ["milk", "cheese", "car", "lime"];
 var index = 2;

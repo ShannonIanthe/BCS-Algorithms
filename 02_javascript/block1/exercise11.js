@@ -1,10 +1,10 @@
-function toFahr(celsi){
-    return Math.round( (celsi / 5) * 9 + 32);
+function toFahr (celsius) {
+    return Math.round((celsius * 1.8) + 32);
 }
 
-function toCelsius(fahr){
-    return Math.round( (fahr -32) * 5  / 9);
-}   
+function toCelsius (fahren) {
+    return Math.round((fahren - 32) * 5 / 9);
+}
 
 module.exports = {
     toCelsius, 

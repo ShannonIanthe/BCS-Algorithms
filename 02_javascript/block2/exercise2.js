@@ -1,9 +1,7 @@
-const arr = ["one", "two", "three"];
-
-function takeAll(arr){
-    return arr.reverse()
-  }
-
+function takeAll (arr) {
+  var newArry = arr.reverse();
+  return newArry
+}
 
 module.exports ={
     takeAll

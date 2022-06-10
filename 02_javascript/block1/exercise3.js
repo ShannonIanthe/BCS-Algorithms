@@ -1,8 +1,7 @@
-function ageCalc(birth, currentyr){
-    return currentyr - birth
-}
-
-ageCalc(1982,2018)
+function ageCalc (currentYear, yearOfBirth) {
+    return yearOfBirth - currentYear 
+ }
+ageCalc(1982, 2018)
 
 
 module.exports = {
