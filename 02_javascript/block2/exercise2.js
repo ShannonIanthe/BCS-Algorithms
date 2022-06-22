@@ -1,6 +1,5 @@
-function takeAll (arr) {
-  var newArry = arr.reverse();
-  return newArry
+function takeAll(arr) {
+  return arr.reverse();
 }
 
 module.exports ={

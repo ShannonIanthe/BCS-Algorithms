@@ -1,6 +1,6 @@
 
 function total (num, num2) {
-     num + num2;
+     return num + num2;
 }
 
 total(15, 5)

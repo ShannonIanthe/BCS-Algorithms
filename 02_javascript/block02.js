@@ -5,7 +5,6 @@ Write a function called assigner which takes 2 arguments, an array and a number 
 places it in a new array then returns it.
 */
 
-
 //======================  EXAMPLE  ========================
 var arr = ["milk", "cheese", "car", "lime"];
 var index = 2;
@@ -58,7 +57,6 @@ swap(arr, arr2, pos)
 // 2) the position/index of the element in the array to be removed
 
 
-
 //======================  EXAMPLE  ========================
 var arr = ["cheese", "salame", "bread", "water", "pizza"];
 splicer(arr, 2)
@@ -71,6 +69,7 @@ splicer(arr, 2)
 /* 
 Write a function called removeFirstAndLast. It takes an array as an argument and returns it but without first and last items which should be removed.
 */
+
 
 
 //======================  EXAMPLE  ========================
@@ -88,6 +87,7 @@ removeFirstAndLast(arr)
 // an empty array.
 
 
+
 //======================  EXAMPLE  ========================
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 3, 4, 523, 44, 3454];
 removeAll(arr)
@@ -99,7 +99,6 @@ removeAll(arr)
 
 /*
 Write a function called pusher which takes one argument - an array.
-
 Using .push() method take all the elements from the array 
 and push them to a new variable called arr2 avoiding
 having nested arrays. Then return arr2.
@@ -123,6 +122,7 @@ pusher(arr)
 // you need to take the elements in the array that are at the 
 // given indexes and push them to a new array.
 // then return this new array.
+
 
 //======================  EXAMPLE  ========================
 var arr = [
@@ -177,6 +177,10 @@ concatenator(arr1,arr2)
 // create a function called findPosition which takes two arguments, 
 // an array and an element and it returns
 // the index of the given element.
+
+function findPosition(arr, element) {
+  return arr.findIndex(element)
+}
 
 //======================  EXAMPLE  ========================
 var arr = ["glass", "car", "watch", "sofa", "macbook"];

@@ -1,4 +1,4 @@
-var arr1 = [
+var arr = [
   "Breaking bad",
   "WestWorld",
   "Psych",
@@ -10,10 +10,9 @@ var arr2 = [
   "Dexter",
   "Office"
 ];
-function concatenator(arr1,arr2){
-  return arr1.concat(arr2);
+function concatenator(arr, arr2) {
+  return arr.concat(arr2);
 }
-concatenator(arr1,arr2)
 
 module.exports = {
   concatenator,

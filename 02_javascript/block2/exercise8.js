@@ -9,14 +9,13 @@ var arr = [
     "Office"
   ];
 
-  function take_and_push(arr, index1, index2){
-    var newArray = []
-    newArray.push(arr[index1])
-    newArray.push(arr[index2])
-    return newArray
-  }
-  
-  take_and_push(arr)
+function take_and_push(arr, index1, index2) {
+  var newArray = []
+  newArray.push(arr[index1])
+  newArray.push(arr[index2])
+  return newArray
+}
+  take_and_push(arr, 2, 4)
   
   
 
