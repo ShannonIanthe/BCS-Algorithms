@@ -1,7 +1,7 @@
-var i =1;
+var i = 1;
 function firstLoop() {
-    for(i; i<11; i++) {
-        console.log(i);
+    for (i; i <11; i++) {
+    console.log(i)
     }
     return i;
 }

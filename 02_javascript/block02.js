@@ -178,9 +178,6 @@ concatenator(arr1,arr2)
 // an array and an element and it returns
 // the index of the given element.
 
-function findPosition(arr, element) {
-  return arr.findIndex(element)
-}
 
 //======================  EXAMPLE  ========================
 var arr = ["glass", "car", "watch", "sofa", "macbook"];

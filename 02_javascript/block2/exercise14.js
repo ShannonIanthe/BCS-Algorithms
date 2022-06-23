@@ -1,7 +1,7 @@
-var one = { name: "antonello" };
+var arr = { name: "antonello" };
 
-function isArrayFunc(one){
-    return Array.isArray(one);
+function isArrayFunc (arr) {
+    return Array.isArray(arr);
 }
 
 module.exports = {
