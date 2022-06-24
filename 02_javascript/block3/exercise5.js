@@ -1,12 +1,11 @@
 function isString(arr) {
-    var myArray=[];
+    var newArray = [];
     arr.forEach(element => {
-        if (typeof(element) === 'string')
-        {
-            myArray.push(element)
+        if (typeof(element) === 'string') {
+            newArray.push(element);
         }
-    })
-    return myArray
+    });
+    return newArray;
 }
 
 

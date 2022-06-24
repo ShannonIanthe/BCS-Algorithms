@@ -35,7 +35,6 @@ firstLoopReverse()
 // once done return count
 // see example below for how to use a basic if statement here.
 
-
 //======================  EXAMPLE  ========================
 isEven([2,4,8,7])
 3 // <======  EXPECTED OUTPUT
@@ -84,6 +83,7 @@ isString([3,55,66,"hello","beer",12,{},[],()=>{},"[]"])
 // write a function called sum which takes an array as argument and then 
 // return the sum of all its elements.
 
+
 //======================  EXAMPLE  ========================
 sum([10,10,10])
 30 // <======  EXPECTED OUTPUT
@@ -98,6 +98,8 @@ sum([35,20,10])
 
 // write a function called multy which takes an array as argument and multiply 
 // each number and then returns the result.
+
+
 
 //======================  EXAMPLE  ========================
 multy([10,10,10])
