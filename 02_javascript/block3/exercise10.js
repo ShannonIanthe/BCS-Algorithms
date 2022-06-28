@@ -12,13 +12,3 @@ function twoArrays(arr1, arr2) {
 module.exports ={
     twoArrays
 }
-
-
-function lowerCaseLetters(str) {
-    var newString = [];
-    str.forEach(element, index => {
-        if (element === "string") {
-            newString.push(str)
-        }    
-    }); return newString.split(' ')
-}

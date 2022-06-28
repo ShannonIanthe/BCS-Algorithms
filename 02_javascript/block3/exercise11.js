@@ -4,10 +4,11 @@ function lowerCaseLetters(str) {
 	for (let index = 0; index < str.length; index++) {
 		   
 			if (`${Number(str[index])}` === 'NaN'){
-					(myString = myString + str[index]).toLowerCase()
+					(myString = myString + str[index]).split('').join('');
 			}                    
 	}
-	return (myString.split()).join(' ');
+	// Unable to split and join string in order to add space between words
+	return myString.toLowerCase();;
 }
 
 
@@ -15,4 +16,5 @@ function lowerCaseLetters(str) {
 module.exports = {
 	lowerCaseLetters
 }
+
 
