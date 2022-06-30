@@ -1,5 +1,5 @@
 function shortener(str){
-   let split = str.split("");
+   let split = str.split(" ");
    console.log("split: ", split);
    let name = split[0].charAt(0).toUpperCase() + split[0].slice(1);
     let surname = split[1].charAt(0).toUpperCase();

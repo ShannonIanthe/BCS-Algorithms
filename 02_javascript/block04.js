@@ -12,6 +12,7 @@
 // your function should take one argument and return true if it is not one of the falsy 
 // above and false if it is
 
+
 //======================  EXAMPLE  ========================
 isTrue("I exist!")
 true // <======  EXPECTED OUTPUT
