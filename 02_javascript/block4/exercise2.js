@@ -5,18 +5,17 @@
 // return at the end of the function.
 // for this exercise we treat number 0  as an even number, but only if it is provided as a zero
 
-function is_an_even_number(arr){
-	var count = 0
+function is_an_even_number(arr) {
+	var count = 0;
 
 	arr.forEach(element => {
-
-			if ( element && typeof(element) !== 'object' && (typeof(element) === 'number' || !isNaN(element))	) {
-
-			if(element % 2 === 0) 
-			{count++}
-			}	
+		if ( element && typeof(element) !== 'object' && (typeof(element) === 'number' || !isNaN(element)) ) {
+			if(element % 2 === 0) {
+				count++
+			}
+		}
 	});
-	return count
+	return count;
 }
 
 

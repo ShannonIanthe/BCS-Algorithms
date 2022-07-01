@@ -5,8 +5,23 @@
 // more than one commas / question marks you should use plural 
 // like commas / question marks, otherwise singular: comma / question mark.
 
-function checker(str){
-    
+function checker(str) {
+    var comma = 0;
+    var questionMark = 0;
+	str.forEach(element => {
+		if (element === ',') {
+            comma++;
+		} if (element === '?') {
+            questionMark++;
+        } if (comma > 0) {
+            return `${comma} commas`
+        } if (questionMark > 0) {
+            return `${questionMark} question marks`
+        }
+        else {
+            return `${comma} comma, ${questionMark} question mark` 
+        }
+	}); 		
 }
 
 
