@@ -10,3 +10,5 @@ function uniqueElements (arr){
 module.exports = {
     uniqueElements
 }
+
+//The Set constructor lets you create Set objects that store unique values of any type, whether primitive values or object references.
